@@ -77,8 +77,18 @@ body textarea:required:valid {
 
 /* recomented*/
 
+/* review*/
 
+.reviews{
+	background: #f6f6f6;
+}
+
+/* review*/
 /* analitics*/
+
+.analytics{
+	background: #edeceb;
+}
 .data-p{
 	color:#ff7000;
 }
