@@ -23,3 +23,37 @@ body input:required:valid,
 body textarea:required:valid {
 	
 }
+
+
+.text-name{
+	background: red;
+	color:white;
+}
+
+.time-name{
+	background: red;
+	color:white;
+}
+
+
+
+/* recomented*/
+
+.rec-h2{
+	color:#923403;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+.img-item{
+	border: 1px solid grey;
+}
+
+
+.recommended-item-price{
+	color:#ff7000;
+}
+
+
+/* recomented*/

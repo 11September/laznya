@@ -12,9 +12,19 @@ body {
 }
 
 body h1,h2,h3{
-	font-family: font-family: 'Roboto Condensed';
+	font-family:'Roboto Condensed';
 }
 
 h2{
 	font-size: 44px;
 }
+
+h1{
+	font-size: 45pt;
+}
+
+.h2-shares{
+	color:#c0272d;
+	font-family: 'Rooboto';
+}
+
