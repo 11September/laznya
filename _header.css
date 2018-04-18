@@ -10,3 +10,11 @@ body {
 .hidden {
 	display: none;
 }
+
+body h1,h2,h3{
+	font-family: font-family: 'Roboto Condensed';
+}
+
+h2{
+	font-size: 44px;
+}
