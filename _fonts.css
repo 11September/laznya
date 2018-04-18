@@ -15,3 +15,8 @@
 	font-style: normal;
 }
 
+
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url('fonts/roboto-medium.ttf');
+}
