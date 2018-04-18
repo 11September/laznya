@@ -17,10 +17,23 @@ body h1,h2,h3{
 
 h2{
 	font-size: 44px;
+	color: #923403;
 }
 
 h1{
 	font-size: 45pt;
+}
+
+select:hover{
+	cursor: pointer;
+}
+
+form button:hover {
+    cursor: pointer;
+}
+
+a, a:hover, a:visited, a:link {
+    text-decoration: none;
 }
 
 .h2-shares{

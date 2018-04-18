@@ -35,6 +35,100 @@ body textarea:required:valid {
 	color:white;
 }
 
+/* header */
+header{
+	background: linear-gradient(to top, #792c08, #a43a00);
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+	padding: 10px 100px 15px;
+}
+
+.header img{
+	height: 100%;
+	width: auto;
+}
+
+.left{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.right{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+header h3{
+	color: #fff;
+	font-size: 20px;
+	display: inline-block;
+	margin-bottom: 0;
+	padding-left: 15px;
+	padding-right: 25px;
+}
+
+.header_delimiter{
+	padding-right: 15px;
+	color: #ff7000;
+	font-size: 30px;
+}
+
+.svg_mini{
+	height: 30px;
+	width: auto;
+}
+
+.marker_sity{
+	margin-right: 10px;
+}
+
+header select{
+	font-size: 20px;
+}
+
+.transparent_select{
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.select_sity{
+	width: 70px;
+}
+
+.transparent_select option{
+	background: transparent !important;
+}
+
+.personal_area{
+	padding-left: 25px;
+}
+/* header end */
+
+/* title_info */
+.title_info{
+	background: #564a46;
+	padding: 15px 100px 20px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+h1{
+	font-size: 30px;
+	font-family: "RobotoRegular";
+	letter-spacing: 5px;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+/* title_info end */
+
+/* main_info */
+.main_info{
+
+}
+/* main_info end */
 
 
 /* recomented*/
