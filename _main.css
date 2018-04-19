@@ -520,6 +520,7 @@ h1{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	margin-bottom: 20px;
 }
 
 .main_categories_item a{
@@ -528,8 +529,7 @@ h1{
     color: #564a46;
     margin-right: 10px;
     border: 1px solid #dadada;
-    font-size: 22px;
-    margin-bottom: 20px;
+    font-size: 22px;  
 }
 
 .main_categories_title{
