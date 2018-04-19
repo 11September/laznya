@@ -110,7 +110,7 @@ header select{
 /* title_info */
 .title_info{
 	background: #564a46;
-	padding: 15px 100px 20px;
+	padding: 10px 100px 20px;
 	color: #fff;
 	text-transform: uppercase;
 }
@@ -121,6 +121,27 @@ h1{
 	letter-spacing: 5px;
 	font-weight: 300;
 	margin-bottom: 0;
+	display: inline-block;
+}
+
+.img_eye{
+	height: 27px;
+}
+
+.svg_eye_info{
+	height: 50px;
+	position: relative;
+    margin-top: -25px;
+}
+
+.text_eye{
+	color: #ff7000;
+    font-size: 25px;
+    position: relative;
+    margin-left: -48px;
+    width: 45px;
+    margin-top: -20px;
+    text-align: center;
 }
 /* title_info end */
 
