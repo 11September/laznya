@@ -586,7 +586,7 @@ h1{
     color: #564a46;
     margin-right: 10px;
     border: 1px solid #dadada;
-    font-size: 22px;  
+    font-size: 22px;
 }
 
 .main_categories_title{
@@ -768,3 +768,151 @@ h1{
 	background: #f6f6f6;
 }
 /* news*/
+
+
+/* footer */
+.footer-top{
+	padding-top: 60px;
+	color: #ffffff;
+	background-color: #564a46;
+	display: flex;
+	align-items: center;
+}
+
+.footer-content{
+	padding: 30px 0 60px 0;
+}
+
+.wrapper-footer-callback{
+	margin-bottom: 40px;
+}
+
+.callback{
+	display: inline-block;
+	padding: 15px;
+	color: #ffffff;
+	font-size: 19px;
+	border-radius: 5px;
+	text-decoration: none;
+	background: rgba(255,145,0,1);
+	background: -moz-linear-gradient(top, rgba(255,145,0,1) 0%, rgba(255,108,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,145,0,1)), color-stop(100%, rgba(255,108,0,1)));
+	background: -webkit-linear-gradient(top, rgba(255,145,0,1) 0%, rgba(255,108,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,145,0,1) 0%, rgba(255,108,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,145,0,1) 0%, rgba(255,108,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,145,0,1) 0%, rgba(255,108,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9100', endColorstr='#ff6c00', GradientType=0 );
+}
+
+.callback:hover{
+	color: #ffffff;
+}
+
+.callback i{
+	color: #ffffff;
+	transform: rotate(320deg);
+}
+
+.footer-wrapper-languages{
+	display: flex;
+	flex-direction: row;
+	height:30px;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.footer-languages-text{
+	margin-left: 25px;
+	margin-right: 15px;
+}
+
+
+
+.footer-languages-button{
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:60px;
+	height:30px;
+	border-radius: 3px;
+}
+
+.footer-languages-button.active{
+	background: rgba(255,145,0,1);
+	background: -moz-linear-gradient(top, rgba(255,145,0,1) 0%, rgba(255,108,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,145,0,1)), color-stop(100%, rgba(255,108,0,1)));
+	background: -webkit-linear-gradient(top, rgba(255,145,0,1) 0%, rgba(255,108,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,145,0,1) 0%, rgba(255,108,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,145,0,1) 0%, rgba(255,108,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,145,0,1) 0%, rgba(255,108,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9100', endColorstr='#ff6c00', GradientType=0 );
+}
+
+.footer-languages-button a{
+	font-size: 18px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.footer-service{
+	font-size: 20px;
+}
+
+.footer-service a{
+	color: #ffffff;
+}
+
+.footer-wrapper-social{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.footer-wrapper-social p{
+	margin-right: 10px;
+}
+
+.footer-wrapper-headings{
+	min-height: 40px;
+	margin-bottom: 35px;
+}
+
+.footer-heading{
+	font-size: 24px;
+	margin-bottom: 8px;
+}
+
+.footer-wrapper-headings hr{
+	width:48px;
+	height:3px;
+	text-align: left;
+	margin: 0;
+	background-color: rgba(255,145,0,1);
+}
+
+.footer-bottom{
+	height: 45px;
+	background: rgba(164,58,0,1);
+	background: -moz-linear-gradient(top, rgba(164,58,0,1) 0%, rgba(121,44,8,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(164,58,0,1)), color-stop(100%, rgba(121,44,8,1)));
+	background: -webkit-linear-gradient(top, rgba(164,58,0,1) 0%, rgba(121,44,8,1) 100%);
+	background: -o-linear-gradient(top, rgba(164,58,0,1) 0%, rgba(121,44,8,1) 100%);
+	background: -ms-linear-gradient(top, rgba(164,58,0,1) 0%, rgba(121,44,8,1) 100%);
+	background: linear-gradient(to bottom, rgba(164,58,0,1) 0%, rgba(121,44,8,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a43a00', endColorstr='#792c08', GradientType=0 );
+}
+
+.footer-bottom .container{
+	height: 45px;
+}
+
+.copyright{
+	color: #ffffff;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	height:100%;
+	margin: 0;
+}
+/* footer end */
