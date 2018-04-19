@@ -26,15 +26,79 @@ body textarea:required:valid {
 
 
 .text-name{
-	background: red;
+	background: #c0272d;
 	color:white;
+	font-size: 40pt;
+	padding: 0 175px;
 }
 
 .time-name{
-	background: red;
+	background: #c0272d;
 	color:white;
+	font-size: 24pt;
+	display: flex;
+	margin-bottom: 0;
+	align-items: center;
+
 }
 
+.share-item{
+	display: flex;
+}
+
+
+.block-share{
+	padding-bottom: 25px;
+}
+
+
+
+.block-share-2{
+	padding-bottom: 25px;
+}
+
+
+.block-share-3{
+	padding-bottom: 25px;
+}
+
+.away-p{
+	padding-top: 20px;
+	padding: 10px 50px 40px;
+}
+.bg-row{
+	background: white;
+}
+
+.block-pt{
+	background: #c0272d;
+	margin-left: 15px;
+}
+.maps{
+	background: #f6f6f6;
+}
+#map {
+	height: 100%;
+	width: 100%;
+	padding-bottom: 50px;
+}
+.maps-h2{
+	font-size: 44pt;
+	font-family: 'Roboto Condensed';
+}
+.shares{
+	background: #edeceb;
+}
+
+.description-maps{
+	font-family: "RobotoRegular";
+	padding-bottom: 40px;
+	font-size: 20pt;
+}
+.description-maps-one{
+	font-family: "RobotoRegular";
+	font-size: 20pt;
+}
 /* header */
 header{
 	background: linear-gradient(to top, #792c08, #a43a00);
@@ -82,7 +146,16 @@ header h3{
 .marker_sity{
 	margin-right: 10px;
 }
+.left-padding{
+	padding-left: 430px;
+}
 
+.span-left{
+	display: flex;
+}
+.block-items{
+	display: flex;
+}
 header select{
 	font-size: 20px;
 }
@@ -116,6 +189,25 @@ header select{
 }
 /* header end */
 
+
+
+/*shares*/
+
+.discription-always{
+	font-size: 24pt;
+	background: white;
+	font-family: "RobotoRegular";
+}
+
+.h2-shares{
+	padding-left: 430px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+
+
+/* shares*/
 /* title_info */
 .title_info{
 	background: #564a46;
@@ -564,5 +656,9 @@ h1{
 	background: #564a46;
 	color:white;
 	border-radius: 8px;
+}
+
+.data-new{
+	padding-left: 100px;
 }
 /* analitics*/
