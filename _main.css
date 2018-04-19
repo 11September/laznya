@@ -224,6 +224,10 @@ h1{
 	background: #fff;
 }
 
+.main_content_item > .row{
+	margin: 0 !important;
+}
+
 .main_left, .main_right{
 	padding: 0;
 }
@@ -235,6 +239,7 @@ h1{
 .main_left img{
 	width: 100%;
 	height: auto;
+	border: 1px solid #b9b5b4;
 }
 
 .img_main_info{
@@ -246,6 +251,7 @@ h1{
 .img_main_info img{
 	height: 25px;
 	width: auto;
+	border: none;
 }
 
 .main_links_item{
@@ -271,6 +277,124 @@ h1{
 .main_links_info{
 	font-size: 18px;
 	color: #858383;
+}
+
+.main_right{
+	padding: 5px 0 0 55px;
+}
+
+.main_row{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin: 0 !important;
+	border-bottom: 1px solid #e6e6e6;
+	letter-spacing: 1px;
+}
+
+.main_row div{
+	padding: 0;
+}
+
+.main_row_img{
+	height: 56px;
+	width: auto;
+}
+
+.main_row_text{
+	color: #564a46;
+	font-size: 24px;
+}
+
+.telefon_panel{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 10px;
+	background: #ff7000;
+	padding: 10px 0 10px 5px !important;
+	margin-left: 30px;
+	margin-bottom: 5px;
+	width: 355px;
+	margin-top: 10px;
+}
+
+.telefon_panel_button{
+	width: 355px;
+	text-align: center;
+	background: #913404;
+	font-size: 23px;
+	margin-left: 30px;
+	border-radius: 10px;
+	padding: 15px 0 !important;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.telefon_panel_button a{
+	color: #fff;
+}
+
+.telefon_panel span{
+	font-size: 28px;
+	font-weight: 500;
+	width: 100%;
+}
+
+.telefon_panel a{
+	color: #fff;
+}
+
+.main_title{
+	color: #a29692;
+	font-size: 22px;
+	width: 105px;
+	display: inline-block;
+	padding-left: 5px;
+
+}
+
+.main_title_info{
+	color: #564a46;
+	font-size: 22px;
+}
+
+.add_padding{
+	margin-bottom: 10px;
+}
+
+.main_row_text_2{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.add_img_site a{
+	display: inline-block;
+}
+
+.img_sajt{
+	height: 20px;
+	position: relative;
+	top: -3px;
+}
+
+.img_girl{
+	height: 30px;
+}
+
+.center{
+	text-align: center;
+}
+
+.big_title {
+	width: auto;
+}
+
+.a_line{
+	text-decoration: underline !important;
+	color: #1f7ff2;
 }
 /* main_info end */
 
