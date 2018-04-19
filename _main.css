@@ -396,6 +396,22 @@ h1{
 	text-decoration: underline !important;
 	color: #1f7ff2;
 }
+
+.title_action{
+	color: #ff7000;
+	border-bottom: 1px dashed #ff7000;
+}
+
+.title_action_border{
+	background: #eeeeee;
+	border: 1px solid #dadada;
+	padding: 5px 10px !important;
+	display: inline-block;
+}
+
+.grey_color{
+ color: #858383;
+}
 /* main_info end */
 
 
