@@ -41,3 +41,7 @@ a, a:hover, a:visited, a:link {
 	font-family: 'Rooboto';
 }
 
+.title_info a:hover, h3:hover, .transparent_select:hover,
+.menu_links li:hover{
+	color: #ff7000;
+}

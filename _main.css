@@ -105,6 +105,11 @@ header select{
 .personal_area{
 	padding-left: 25px;
 }
+
+.auto_link{
+	display: flex;
+    align-items: center;
+}
 /* header end */
 
 /* title_info */
@@ -113,6 +118,10 @@ header select{
 	padding: 10px 100px 20px;
 	color: #fff;
 	text-transform: uppercase;
+}
+
+.title_info a{
+	color: #fff;
 }
 
 h1{
@@ -148,6 +157,23 @@ h1{
 /* main_info */
 .main_info{
 
+}
+
+.menu_panel{
+	padding: 50px 0 310px 100px;
+}
+
+.menu_links li{
+	list-style-type: none;
+	color: #272727;
+	font-size: 22px;
+	padding-bottom: 35px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.main_bg{
+	background: #f6f6f6;
 }
 /* main_info end */
 
