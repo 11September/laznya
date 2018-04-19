@@ -29,7 +29,11 @@ body textarea:required:valid {
 	background: #c0272d;
 	color:white;
 	font-size: 40pt;
-	padding: 0 175px;
+	padding-left: 40px;
+	font-family: "Roboto Light";
+	width: 100%;
+	display: flex;
+	align-items: center;
 }
 
 .time-name{
@@ -69,6 +73,7 @@ body textarea:required:valid {
 .away-p{
 	padding-top: 20px;
 	padding: 10px 50px 40px;
+	font-family: "Roboto Regular";
 }
 .bg-row{
 	background: white;
@@ -77,6 +82,7 @@ body textarea:required:valid {
 .block-pt{
 	background: #c0272d;
 	margin-left: 15px;
+	text-align: center;
 }
 .maps{
 	background: #f6f6f6;
@@ -94,13 +100,59 @@ body textarea:required:valid {
 	background: #edeceb;
 }
 
+.feedback{
+	display: flex;
+	align-items: center;
+
+}
+
+.radio-btn{
+	display: flex;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.report{
+	color:red;
+	display: flex;
+	padding-left: 25px;
+}
+
+.input-spn-btn{
+	display: flex;
+	align-items: center;
+
+}
+
+
+.class-like{
+	color:green;
+	display: flex;
+	padding-left: 25px;
+}
+
+.ares-class textarea{
+	width: 50%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.submit-btn{
+	padding: 15px 0px;
+	width: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #8e3304;
+	color: white;
+}
+
 .description-maps{
-	font-family: "RobotoRegular";
+	font-family: "Roboto Regular";
 	padding-bottom: 40px;
 	font-size: 20pt;
 }
 .description-maps-one{
-	font-family: "RobotoRegular";
+	font-family: "Roboto Regular";
 	font-size: 20pt;
 }
 /* header */
@@ -200,7 +252,7 @@ header select{
 .discription-always{
 	font-size: 24pt;
 	background: white;
-	font-family: "RobotoRegular";
+	font-family: "Roboto Regular";
 }
 
 .h2-shares{
@@ -227,7 +279,7 @@ header select{
 
 h1{
 	font-size: 30px;
-	font-family: "RobotoRegular";
+	font-family: "Roboto Regular";
 	letter-spacing: 5px;
 	font-weight: 300;
 	margin-bottom: 0;
@@ -571,7 +623,7 @@ h1{
 .rec-h2{
 	padding-top: 35px;
 	color:#923403;
-	font-family: "RobotoRegular";
+	font-family: "Roboto Regular";
 	text-align: center;
 	margin-bottom: 50px;
 }
@@ -624,7 +676,7 @@ h1{
 	margin-bottom: 50px;
 	display: flex;
 	font-size: 24px;
-	font-family: "RobotoRegular";
+	font-family: "Roboto Regular";
 }
 
 .special-info{
@@ -636,7 +688,7 @@ h1{
 
 .info-p-2{
 	display: flex;
-	font-family: "RobotoRegular";
+	font-family: "Roboto Regular";
 	font-size: 24px;
 
 }
@@ -679,7 +731,11 @@ h1{
 }
 
 .more-news{
-	padding: 15px 150px;
+	padding: 15px 0px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background:#8e3304;
 	color:white;
 }
