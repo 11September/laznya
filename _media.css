@@ -38,6 +38,23 @@
 	header select {
 	    font-size: 18px;
 	}
+
+	.svg_eye_info {
+	    height: 45px;
+	}
+
+	.img_eye {
+	    font-size: 30px;
+	}
+
+	h1 {
+	    font-size: 24px;
+	}
+
+	.text_eye {
+	    font-size: 20px;
+	    margin-left: -46px;
+	}
 	/* header end */
 }
 
@@ -46,6 +63,10 @@
 	/* header */
 	header {
 	    padding: 5px 50px 5px;
+	}
+
+	.title_info {
+	    padding: 10px 65px 10px;
 	}
 	/* header end */
 }
@@ -96,17 +117,81 @@
 	    position: relative;
 	    top: 1px;
 	}
+
+	.menu-list.hider{
+		display: none;
+	}
+
+	.mobile-btn i{
+		font-size: 32px;
+		color: #fff;
+	}
+
+	.menu-panel{
+		text-align: center;
+	}
+
+	.row_menu_mobile > div{
+		display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	}
+
+	.row_menu_mobile .menu-panel{
+		justify-content: center;
+		/*padding: 15px 0 0;*/
+	}
+
+	.menu-panel li{
+		list-style: none;
+		padding: 5px 0;
+		font-size: 18px;
+		font-family: 'Roboto Condensed';
+	}
+
+	.menu-panel li:first-child{
+		list-style: none;
+		padding: 15px 0 5px;
+		font-size: 18px;
+	}
+
+	.menu-panel a{
+		color: #fff;
+	}
+
+	.menu-list{
+		padding: 0;
+	}
 	/* header end */
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	/* header */
+	header {
+	    padding: 10px 0;
+	}
 
+	header h3 {
+	    padding-right: 0px;
+	    padding-left: 0px;
+	}
+
+	.header_delimiter {
+	    padding-right: 0px;
+	}
+
+	.marker_sity {
+	    margin-right: 0px;
+	}
+	/* header end */
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	.header_delimiter{
+		display: none;
+	}
 }
 
 
