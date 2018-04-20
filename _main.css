@@ -453,6 +453,14 @@ h1{
 .main_row_img{
 	height: 56px;
 	width: auto;
+	font-size: 24px;
+	position: relative;
+	top: 10px;
+	color: #564a46;
+}
+.i_dollar{
+	font-size: 24px;
+	top: 15px;
 }
 
 .main_row_text{
