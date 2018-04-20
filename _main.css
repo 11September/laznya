@@ -326,6 +326,7 @@ h1{
 	padding: 50px 0 310px 100px;
 	background: #fff;
 	box-shadow: 0 0 15px 0 rgba( 0, 0, 0, 0.15);
+	width: calc(100% - 70px);
 }
 
 .menu_links li{
@@ -339,6 +340,8 @@ h1{
 
 .main_bg{
 	padding: 10px 100px 35px 30px;
+	width: calc(100% + 70px);
+    margin-left: -70px;
 }
 
 .menu_mini_title{
