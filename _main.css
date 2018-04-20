@@ -465,9 +465,19 @@ h1{
 	top: 10px;
 	color: #564a46;
 }
+
 .i_dollar{
 	font-size: 24px;
 	top: 15px;
+}
+
+.svg_dollar{
+	top: 0;
+	font-size: 24px;
+}
+
+.svg_number_places_for_sleep{
+	height: 45px;
 }
 
 .main_row_text{
@@ -594,9 +604,9 @@ h1{
 }
 
 .main_categories_item{
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+	/*display: flex;*/
+	/*justify-content: flex-start;*/
+	/*align-items: center;*/
 	margin-bottom: 20px;
 }
 
@@ -613,6 +623,8 @@ h1{
 	color: #a29692;
 	font-size: 22px;
 	margin-right: 20px;
+	position: relative;
+    top: 5px;
 }
 
 .main_galery{
@@ -645,6 +657,20 @@ h1{
 
 .main_right i:hover{
 	color: #564a46;
+}
+
+.row_menu_mobile{
+	display: none;
+}
+
+.row_menu_mobile .auto_link{
+	display: inline-block;
+}
+
+.row_menu_mobile > div{
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* main_info end */
 
