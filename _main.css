@@ -665,12 +665,6 @@ h1{
 .row_menu_mobile .auto_link{
 	display: inline-block;
 }
-
-.row_menu_mobile > div{
-	display: flex;
-    align-items: center;
-    justify-content: center;
-}
 /* main_info end */
 
 /* about_room */
