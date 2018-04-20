@@ -464,9 +464,19 @@ h1{
 	top: 10px;
 	color: #564a46;
 }
+
 .i_dollar{
 	font-size: 24px;
 	top: 15px;
+}
+
+.svg_dollar{
+	top: 0;
+	font-size: 24px;
+}
+
+.svg_number_places_for_sleep{
+	height: 45px;
 }
 
 .main_row_text{
