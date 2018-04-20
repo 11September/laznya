@@ -393,6 +393,9 @@ h1{
 	padding: 0;
 }
 
+.special-fat{
+	justify-content: center!important;
+}
 .halls_links{
 	padding: 30px 0 0;
 }
@@ -839,6 +842,10 @@ h1{
 
 /* family banyaaa */
 
+
+.money-700{
+	color:#913404;
+}
 .h2-family-fon{
 	background: #963603;
 	color: white;
