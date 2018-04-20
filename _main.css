@@ -340,6 +340,9 @@ h1{
 
 .main_bg{
 	padding: 10px 100px 35px 30px;
+}
+
+.main_info .main_bg{
 	width: calc(100% + 70px);
     margin-left: -70px;
 }
@@ -647,7 +650,7 @@ h1{
 /* about_room */
 .about_room{
 	background: #f6f6f6;
-	padding: 45px 0 65px;
+	padding: 45px 100px 65px 0;
 }
 /* about_room end */
 
