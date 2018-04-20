@@ -625,6 +625,20 @@ h1{
 .main_galery_item{
 	margin-bottom: 20px;
 }
+
+.i_marker{
+	top: 15px;
+}
+
+.i_koordinate{
+	color: #1f7ff2;
+	top: 0;
+	height: auto;
+}
+
+.main_right i:hover{
+	color: #564a46;
+}
 /* main_info end */
 
 /* about_room */
