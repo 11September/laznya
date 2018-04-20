@@ -326,6 +326,7 @@ h1{
 	padding: 50px 0 310px 100px;
 	background: #fff;
 	box-shadow: 0 0 15px 0 rgba( 0, 0, 0, 0.15);
+	width: calc(100% - 70px);
 }
 
 .menu_links li{
@@ -339,6 +340,11 @@ h1{
 
 .main_bg{
 	padding: 10px 100px 35px 30px;
+}
+
+.main_info .main_bg{
+	width: calc(100% + 70px);
+    margin-left: -70px;
 }
 
 .menu_mini_title{
@@ -644,7 +650,7 @@ h1{
 /* about_room */
 .about_room{
 	background: #f6f6f6;
-	padding: 45px 0 65px;
+	padding: 45px 100px 65px 0;
 }
 /* about_room end */
 
