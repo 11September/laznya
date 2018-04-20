@@ -593,9 +593,9 @@ h1{
 }
 
 .main_categories_item{
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+	/*display: flex;*/
+	/*justify-content: flex-start;*/
+	/*align-items: center;*/
 	margin-bottom: 20px;
 }
 
@@ -612,6 +612,8 @@ h1{
 	color: #a29692;
 	font-size: 22px;
 	margin-right: 20px;
+	position: relative;
+    top: 5px;
 }
 
 .main_galery{
