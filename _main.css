@@ -197,6 +197,10 @@ header h3{
 .svg_mini{
 	height: 30px;
 	width: auto;
+	color: #fff;
+	font-size: 28px;
+	top: 2px;
+	position: relative;
 }
 
 .marker_sity{
@@ -288,6 +292,7 @@ h1{
 
 .img_eye{
 	height: 27px;
+	font-size: 30px;
 }
 
 .svg_eye_info{

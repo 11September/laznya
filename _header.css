@@ -36,6 +36,10 @@ a, a:hover, a:visited, a:link {
     text-decoration: none;
 }
 
+i:hover{
+	color: #ff7000;
+}
+
 .h2-shares{
 	color:#c0272d;
 	font-family: 'Rooboto';
