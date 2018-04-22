@@ -620,8 +620,8 @@ h1{
 .main_categories_item{
 	display: flex;
 	justify-content: flex-start;
-	align-items: center;
 	margin-bottom: 20px;
+    align-items: flex-start;
 }
 
 .main_categories_item a{
@@ -686,6 +686,15 @@ h1{
 .about_room{
 	background: #f6f6f6;
 	padding: 45px 100px 65px 0;
+}
+
+.div_main_categories{
+	white-space: nowrap;
+}
+
+.main_categories_item a {
+    display: inline-block;
+    margin-bottom: 5px;
 }
 /* about_room end */
 
