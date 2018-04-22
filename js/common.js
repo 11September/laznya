@@ -56,3 +56,42 @@ $(function() {
 
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
 });
+
+jQuery(document).ready(function(){
+    jQuery(function(){          
+        jQuery('#fluid_dg_wrap_4').fluid_dg({
+        	height: 'auto', 
+        	loader: 'bar', 
+        	pagination: false, 
+        	thumbnails: true, 
+        	hover: false, 
+        	opacityOnGrid: false, 
+        	imagePath: ''});
+    });
+})
+
+jQuery(document).ready(function(){
+    jQuery(function(){          
+        jQuery('#fluid_dg_wrap_3').fluid_dg({
+        	height: 'auto', 
+        	loader: 'bar', 
+        	pagination: false, 
+        	thumbnails: true, 
+        	hover: false, 
+        	opacityOnGrid: false, 
+        	imagePath: ''});
+    });
+})
+
+jQuery(document).ready(function(){
+    jQuery(function(){          
+        jQuery('#fluid_dg_wrap_2').fluid_dg({
+        	height: 'auto', 
+        	loader: 'bar', 
+        	pagination: false, 
+        	thumbnails: true, 
+        	hover: false, 
+        	opacityOnGrid: false, 
+        	imagePath: ''});
+    });
+})

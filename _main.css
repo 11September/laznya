@@ -651,7 +651,7 @@ h1{
 
 .main_galery img{
 	width: 100%;
-	height: 340px;
+    height: 340px;
 	border: 1px solid #dadada;
 }
 
@@ -696,8 +696,24 @@ h1{
     display: inline-block;
     margin-bottom: 5px;
 }
-/* about_room end */
 
+.fluid_dg_target, .fluid_dg_overlayer{
+	height: 110%;
+}
+
+.fluid_dg_bar{
+	height: 10px !important;
+	top: 540px !important;
+}
+
+.main_galery{
+	display: block;
+}
+
+.test_plagin .main_galery{
+	display: none;
+}
+/* about_room end */
 
 /* recomented*/
 
