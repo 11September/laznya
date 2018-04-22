@@ -618,9 +618,9 @@ h1{
 }
 
 .main_categories_item{
-	/*display: flex;*/
-	/*justify-content: flex-start;*/
-	/*align-items: center;*/
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 	margin-bottom: 20px;
 }
 
