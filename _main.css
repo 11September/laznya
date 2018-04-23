@@ -72,7 +72,7 @@ body textarea:required:valid {
 
 .away-p{
 	padding-top: 20px;
-	padding: 10px 50px 40px;
+	padding: 20px 50px 40px;
 	font-family: "Roboto Regular";
 }
 .bg-row{
@@ -93,7 +93,7 @@ body textarea:required:valid {
 }
 
 .area-class textarea{
-	width: 100%;
+	width: 40%;
 }
 #map iframe{
 	width: 100%;
@@ -102,6 +102,8 @@ body textarea:required:valid {
 .maps-h2{
 	font-size: 44pt;
 	font-family: 'Roboto Condensed';
+	padding-bottom: 50px;
+	font-weight: 400;
 }
 .shares{
 	background: #edeceb;
@@ -157,6 +159,53 @@ body textarea:required:valid {
 	align-items: center;
 	background: #8e3304;
 	color: white;
+	border-radius: 2px;
+	border:none;
+}
+.review-p{
+	font-family: 'Roboto Condensed';
+	font-size: 24pt;
+}
+.name{
+	padding-left: 15px;
+}
+
+.obrare{
+	display: flex;
+	padding-top: 50px;
+}
+.fa-thumbs-o-up{
+	display: flex;
+}
+.typic-thumbs{
+	display: flex!important;
+	padding-left: 30px;
+}
+.special-color{
+	color:green;
+	font-size: 40px;
+}
+.content-rev{
+	align-items: center;
+	display: flex;
+}
+.special-color-2{
+	color:red;
+	font-size: 40px;
+}
+
+textarea:hover{
+	border-color:green!important;
+}
+.fa-thumbs-up{
+	display: flex;
+}
+
+.two-reviews-h2{
+	color:black;
+	font-size: 35pt;
+	font-weight: 300;
+	font-family: "Roboto Regular";
 }
 
 .description-maps{
@@ -413,6 +462,10 @@ h1{
 .special-fat{
 	justify-content: center!important;
 }
+
+.special-fat{
+	align-items: center;
+}
 .halls_links{
 	padding: 30px 0 0;
 }
@@ -459,6 +512,58 @@ h1{
 	font-size: 18px;
 	color: #858383;
 }
+
+.radio input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	margin: 10px 0 0 7px;
+}
+.radio__text {
+	position: relative;
+	padding: 0 0 0 35px;
+	cursor: pointer;
+}
+.radio__text:before {
+	content: '';
+	position: absolute;
+	top: -3px;
+	left: 0;
+	width: 22px;
+	height: 22px;
+	border: 1px solid #CDD1DA;
+	border-radius: 50%;
+	background: #FFF;
+}
+.radio__text:after {
+	content: '';
+	position: absolute;
+	top: 1px;
+	left: 4px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #9FD468;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+	opacity: 0;
+	transition: .2s;
+}
+.radio input:checked + .radio__text:after {
+	opacity: 1;
+}
+.radio input:focus + .radio__text:before {
+	box-shadow: 0 0 0 3px rgba(255,255,0,.7);
+}
+
+
+
+
+
+
+
+
+
+
 
 .main_right{
 	padding: 5px 0 0 55px;
@@ -738,7 +843,9 @@ h1{
 .img-item{
 	border: 1px solid grey;
 	width: 100%;
-	height: 100%;
+	min-height: 225px;
+	border-bottom-color: #f97500;
+	border-bottom-width: 5px; /* Толщина линии внизу */
 }
 
 
@@ -747,14 +854,21 @@ h1{
 	font-size: 24px;
 	font-weight: 500;
 	color:#ff7000;
+	padding-bottom: 50px;
+}
+
+.recommended-item-price:hover{
+	color:#a0593e;
+	font-weight: bold;
 }
 
 .recommended-item-title{
 	font-size: 22px;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 	font-family: 'Roboto-Medium';
-	font-weight: 500;
+	font-weight: 600;
 	color:#564a46;
+	padding-top: 5px;
 }
 
 
@@ -765,8 +879,14 @@ h1{
 
 .reviews{
 	background: #f6f6f6;
+
 }
 
+.speicl-marg{
+	padding-top: 25px;
+	margin-bottom: 0;
+	padding-bottom: 100px;
+}
 /* review*/
 /* analitics*/
 
@@ -775,6 +895,7 @@ h1{
 }
 .data-p{
 	color:#ff7000;
+	padding-left: 25px;
 }
 
 .block-data {
@@ -834,6 +955,12 @@ h1{
 	font-size: 40pt;
 	padding-top: 50px;
 	padding-bottom: 40px;
+	font-weight: normal;
+}
+
+.block-news-item{
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .more-news{
@@ -845,26 +972,55 @@ h1{
 	background:#8e3304;
 	color:white;
 }
+
+.items{
+	padding-bottom: 75px;
+}
 .block-flex{
 	display: flex;
 	justify-content: space-evenly;
 }
 .date-under-news{
 	color:#923403;
-	font-size: 18pt;
+	font-size: 16pt;
+	padding-left: 15px;
 	font-family: "RobotoRegular";
 }
 .news-item img{
 	width: 100%;
 	height: 100%;
 }
+.look-more-news{
+	color:#ff7000;
+	font-family: 'Roboto Condensed';
+	font-size: 22pt;
+	letter-spacing: 0.5px;
+	padding-top: 50px;
+	text-align: center;
+	align-items: center;
+	border-bottom-style:dashed;
+	display: inline-block;
+}
+
+.everything-news{
+	text-align: center;
+}
+ .fa-angle-double-right{
+	padding-left: 15px;
+}
+
+.item-inside{
+	color:#dedbda;
+
+}
 .padding-spe{
 	padding-bottom: 100px;
 }
 .text-date-news{
 	font-family: 'Roboto-Medium';
-	font-size: 18pt;
+	font-size: 16pt;
 	color:#564a46;
+	margin-bottom: 0;
 }
 .news-item{
 	background: white;
@@ -890,12 +1046,12 @@ h1{
 	display: flex;
 	height: 60px;
 	font-family: 'Roboto Condensed';
-	align-items: center;
+
 	justify-content: space-between;
 }
 
 .service-p{
-
+	font-weight: 300;
 	padding-left: 150px;
 }
 
@@ -913,8 +1069,9 @@ h1{
 
 .h2-family-fon h2{
 	color: white!important;
-	font-family: "RobotoRegular";
-	font-size: 28pt;
+	font-family: 'Roboto Condensed';
+	font-weight: 300;
+	font-size: 26pt;
 }
 
 
@@ -967,7 +1124,7 @@ h1{
 	font-family: 'Roboto-Medium';
 	color:#564a46;
 	padding-left: 150px;
-	font-weight: 600;
+	font-weight: normal;
 }
 .hr-style{
 	background: grey;
@@ -998,6 +1155,7 @@ h1{
 .h2-price-qun{
 	padding-top: 60px;
 	padding-bottom: 60px;
+	font-weight: 400;
 }
 /* family banyaaa */
 
@@ -1099,7 +1257,13 @@ h1{
 	flex-direction: row;
 	align-items: flex-start;
 }
-
+.flex-item::before{
+	content:'';
+	border: none; /* Убираем границу */
+	background-color: gainsboro; /* Цвет линии */
+	color: red; /* Цвет линии для IE6-7 */
+	height: 2px; /* Толщина линии */
+}
 .footer-wrapper-social p{
 	margin-right: 10px;
 }

@@ -43,6 +43,13 @@
 		border: none;
 	}
 
+	.text-name{
+		font-size: 32pt;
+	}
+	.time-name{
+		font-size: 20pt;
+	}
+
 	.menu_links li {
 	    font-size: 18px;
 	    padding-bottom: 25px;
