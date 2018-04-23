@@ -128,6 +128,9 @@
 	.menu_panel {
 	    padding: 35px 0 150px 25px;
 	}
+	.left-padding{
+		padding-left: 250px!important;
+	}
 
 	.menu_links li {
 	    padding-bottom: 20px;
