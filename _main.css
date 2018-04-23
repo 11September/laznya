@@ -106,6 +106,12 @@ body textarea:required:valid {
 .shares{
 	background: #edeceb;
 }
+.padding-regt{
+	padding-right: 100px;
+}
+.text-date-news{
+	padding-left: 15px
+}
 
 .feedback{
 	display: flex;
@@ -879,14 +885,30 @@ h1{
 .h2-family-fon{
 	background: #963603;
 	color: white;
-	padding-left: 40px;
 	font-size: 24pt;
 	width: 100%;
 	display: flex;
-	height: 100px;
+	height: 60px;
 	font-family: 'Roboto Condensed';
 	align-items: center;
 	justify-content: space-between;
+}
+
+.service-p{
+
+	padding-left: 150px;
+}
+
+.cost-p{
+	padding-right: 150px;
+}
+.flex-item-number2{
+	width: 50%;
+	text-align: right;
+}
+.flex-item{
+	width: 50%;
+	text-align: left;
 }
 
 .h2-family-fon h2{
@@ -944,6 +966,7 @@ h1{
 	font-size: 24pt;
 	font-family: 'Roboto-Medium';
 	color:#564a46;
+	padding-left: 150px;
 	font-weight: 600;
 }
 .hr-style{
@@ -960,7 +983,7 @@ h1{
 	font-size: 24pt;
 	width: 100%;
 	height: 100%;
-
+	padding: 50px 50px 50px 150px;
 }
 
 .radio-all{
