@@ -1198,6 +1198,7 @@
 	.fluid_dg_bar{
 		height: 10px !important;
 		top: 330px !important;
+		display: none;
 	}
 
 	.fluid_dg_thumbs{
