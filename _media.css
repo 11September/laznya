@@ -125,6 +125,9 @@
 
 @media only screen and (max-width : 1400px) {
 	/* header */
+	.recommended-item-title{
+		font-size: 21px;
+	}
 	.menu_panel {
 	    padding: 35px 0 150px 25px;
 	}
@@ -165,6 +168,10 @@
 
 @media only screen and (max-width : 1200px) {
 	/* fluid_slider */
+
+	.submit-btn{
+		width: 25%;
+	}
 	#back_to_fluid_dg {
 	    background: rgba(2,2,2,.5);
 	    clear: both; 
@@ -532,6 +539,12 @@
 	/*  left-padding */
 }
 
+
+@media (min-width: 1000px){
+	.submit-btn{
+		width: 30%;
+	}
+}
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	/* header */
