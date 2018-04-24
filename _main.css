@@ -311,6 +311,8 @@ header select{
     outline: none;
 }
 
+
+
 .select_sity{
 	width: 70px;
 }
@@ -658,11 +660,15 @@ h1{
 	margin-bottom: 15px;
 }
 
-.telefon_panel_button a{
+.telefon_panel span{
 	color: #fff;
+	font-size: 28px;
+	font-weight: 500;
+	width: 100%;
 }
 
-.telefon_panel span{
+.telefon_panel_button a{
+	color: #fff;
 	font-size: 28px;
 	font-weight: 500;
 	width: 100%;
@@ -1334,3 +1340,29 @@ h1{
 	margin: 0;
 }
 /* footer end */
+
+/* fix merge */
+.call_me_button{
+	border: none;
+	background: #913404 !important;
+	border-color: #913404 !important;
+	outline: none;
+	color: #fff !important;
+}
+
+header select option{
+	background: #913404 !important;
+	background-color: #913404  !important;
+	color: #fff  !important;
+}
+
+header option:not(:checked) { 
+    background-color: #913404 !important;
+    color:#fff !important;
+}
+
+header option:checked{ 
+    background-color: #913404 !important;
+    color:#fff !important;
+}
+/* fix merge */
