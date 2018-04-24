@@ -1083,6 +1083,20 @@
 	.maps-h2{
 		font-size: 28pt;
 	}
+	.share-item{
+		display: flex;
+		flex-direction: column;
+
+	}
+	.block-pt{
+		background: #564a46!important;
+	}
+	.display-tek{
+		display: none;
+	}
+	.time-name{
+		background: #564a46!important;
+	}
 	.description-maps
 	{
 		font-size: 14pt;
@@ -1091,8 +1105,8 @@
 		padding-right: 25px;
 	}
 	.left-padding{
-		padding-left: 0!important;
-		padding-right: 0!important;
+		padding-left: 15px!important;
+		padding-right: 15px!important;
 	}
 	.h2-family-fon h2{
 		font-size:15pt;
@@ -1103,6 +1117,63 @@
 	}
 	.data-new{
 		padding-left: 0;
+	}
+	.text-name{
+		width: 100%;
+	}
+	.time-name{
+		width: 100%;
+		padding-left: 40px;
+	}
+	.recover-ser{
+		display: block;
+	}
+	.recover-true{
+		display: none;
+	}
+	.away-p{
+		padding: 20px 30px 40px;
+	}
+	.news-h2{
+		text-align: left;
+	}
+	.block-flex{
+		display: flex;
+	}
+	.date-under-news{
+		margin-bottom: 0;
+	}
+	.block-news-item{
+		text-align: left;
+	}
+	.betWine-under{
+		margin-bottom: 0;
+		text-align: left;
+		padding-left: 30px;
+		font-weight: bold;
+	}
+	.block-pt{
+		margin-left: 0;
+	}
+	.main_info{
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+	.h2-family-fon{
+		align-items: center;
+	}
+	.devine {
+		padding: 50px 46px 44px 30px;
+		text-align: left;
+	}
+	.service-p{
+		font-weight: 400;
+	}
+	.cost-p{
+		font-weight: 400;
+	}
+	.flex-item-number2{
+		color:#b7aeab;
 	}
 	/* header */
 	header {

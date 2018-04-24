@@ -910,6 +910,12 @@ h1{
 	background: #f6f6f6;
 
 }
+.more-news{
+	font-family: 'Roboto Condensed';
+}
+.recover-ser{
+	display: none;
+}
 
 .speicl-marg{
 	padding-top: 25px;
@@ -1080,7 +1086,6 @@ h1{
 	display: flex;
 	height: 60px;
 	font-family: 'Roboto Condensed';
-
 	justify-content: space-between;
 }
 
@@ -1148,8 +1153,24 @@ h1{
 }
 .sunrey{
 	display: flex;
+	border-bottom-color: #e6e6e6;
+	border-bottom-width: 1.5px;
+	border-bottom-style: solid;
 }
-
+.sunrey-2{
+	border-bottom-color: #e6e6e6;
+	border-bottom-width: 1.5px;
+	padding-top: 15px;
+	border-bottom-style: solid;
+}
+.flex-item-number2{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.flex-item{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
 .betWine-under{
 	background: #edeceb;
 	padding-top: 20px;
