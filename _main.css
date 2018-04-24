@@ -189,7 +189,9 @@ body textarea:required:valid {
 	font-family: 'Roboto Condensed';
 	font-size: 24pt;
 }
+.feedback{
 
+}
 
 .obrare{
 	display: flex;
