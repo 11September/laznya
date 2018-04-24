@@ -557,6 +557,133 @@
 	}
 
 
+	.h2-shares {
+		padding-left:0;!important;
+	}
+	.padding-regt{
+		padding-right: 0;
+	}
+	.left-padding{
+		padding-right: 50px!important;
+		padding-left: 50px!important;
+	}
+
+	.recommended-item-title{
+		font-size: 17px;
+	}
+	.rec-h2{
+		font-size: 38px;
+	}
+
+	.description-maps-one{
+		font-size: 16pt;
+		text-align: center;
+	}
+
+	.description-maps{
+		font-size: 16pt;
+		text-align: center;
+	}
+
+	.maps-h2{
+		font-size: 34pt;
+		width: 100%;
+		text-align: center;
+	}
+	.radio-all{
+		font-size: 18pt;
+	}
+
+	.aunder-p-1{
+		font-size: 20pt;
+	}
+
+	.aunder-p-2{
+		font-size: 20pt;
+	}
+
+	.h3-div h3 {
+		font-size: 20pt;
+	}
+	.devine{
+		font-size: 18pt;
+	}
+	.sunrey{
+		font-size:18pt;
+	}
+	.betWine-under{
+		font-size: 18pt;
+	}
+	.two-reviews-h2{
+		font-size: 30pt;
+	}
+	.cost-p{
+		font-weight: 300;
+	}
+	.obrare{
+		justify-content: center;
+	}
+	.review-p{
+		font-size: 22pt;
+		display: flex;
+		justify-content: center;
+	}
+	.speicl-marg{
+		display: flex;
+		justify-content: center;
+	}
+	.area-class{
+		display: flex;
+		justify-content: center;
+	}
+	.input-spn-btn{
+		display: flex;
+		justify-content: center;
+	}
+
+	.block-data{
+		display: flex;
+		justify-content: center;
+	}
+
+	.info-p{
+		display: flex;
+		justify-content: center;
+	}
+	.info-p-2{
+		display: flex;
+		justify-content: center;
+	}
+	.lc-block{
+		display: flex;
+		justify-content: center;
+		text-decoration: none!important;
+
+	}
+
+
+	.news-h2{
+		font-size: 34pt;
+		text-align: center;
+	}
+	.h2-shares{
+		text-align: center;
+	}
+
+	.main_info{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.h2-price-qun{
+		text-align: center;
+	}
+	.text-date-news{
+		font-size: 14pt;
+	}
+	.look-more-news{
+		font-size: 16pt;
+	}
 	.text-name{
 		font-size: 28pt;
 		width: 75%;
@@ -579,7 +706,100 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	
+
+
+	.img-item{
+		height: 150px;
+	}
+	.recommended-item-title{
+		font-size: 15px;
+	}
+
+	.two-reviews-h2 {
+	font-size: 22pt;
+	}
+	.review-p{
+		font-size: 20pt;
+	}
+	.submit-btn{
+		width: 35%;
+	}
+	.lc{
+		font-size: 20px;
+	}
+
+	.info-p{
+		font-size: 21px;
+	}
+	.info-p-2{
+		font-size: 21px;
+	}
+	.btn-back{
+		font-size: 21px;
+	}
+	.description-maps{
+		font-size: 14pt;
+	}
+	.description-maps-one{
+		font-size: 14pt;
+	}
+	.maps-h2{
+		font-size: 30pt;
+	}
+	.block-news-item{
+		font-size: 15px;
+	}
+	.block-flex{
+		display: block;
+	}
+	.more-news{
+		font-size: 14px;
+	}
+	.news-h2{
+		font-size: 30pt;
+	}
+	.text-name{
+		font-size: 20pt;
+	}
+	.time-name{
+		font-size: 16pt;
+	}
+	.away-p{
+		font-size: 14pt;
+	}
+	.h2-family-fon h2{
+		font-size: 18pt;
+	}
+	.radio-all{
+		font-size: 14pt;
+	}
+	.h3-div h3{
+		font-size: 16pt;
+	}
+	.aunder-p-1{
+		font-size: 18pt;
+	}
+	.aunder-p-2{
+		font-size: 18pt;
+	}
+	.h2-price-qun{
+		font-size: 28pt;
+	}
+	.service-p{
+		font-size: 20pt;
+	}
+	.cost-p {
+		font-size: 20pt;
+	}
+	.sunrey{
+		font-size: 16pt;
+	}
+	.sunrey-2{
+		font-size: 16pt;
+	}
+	.betWine-under{
+		font-size: 16pt;
+	}
 	/*Disable Animation on Mobile Devices*/
 	.animated {
 		/*CSS transitions*/
@@ -665,6 +885,75 @@
 }
 
 @media only screen and (max-width : 576px) {
+
+	.recommended-item-title{
+		text-align: center;
+	}
+	.recommended-item-price{
+		text-align: center;
+	}
+	.more-news{
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+	.devine{
+		padding: 50px 46px 44px 100px;
+	}
+	.block-flex{
+		text-align: center;
+	}
+	.sunrey{
+		font-size: 14pt;
+	}
+	.sunrey-2{
+		font-size: 14pt;
+	}
+	.review-p{
+		font-size: 14pt;
+	}
+	.submit-btn {
+		width: 50%;
+	}
+	.lc{
+		font-size: 16px;
+	}
+	.btn-get-back{
+		text-align: center;
+		padding: 15px 0px 50px 0px;
+	}
+	.feedback{
+		align-items: center;
+		text-align: center;
+		display: block;
+		font-size: 14px;
+	}
+	.service-p{
+		font-size: 18pt;
+		padding-left: 50px;
+	}
+	.cost-p{
+		font-size: 18pt;
+		padding-right: 50px;
+	}
+	.h2-family-fon h2{
+		font-size: 16pt;
+	}
+	.text-name{
+		font-size: 16pt;
+	}
+	.h2-price-qun {
+		font-size: 26pt;
+	}
+	.time-name{
+		font-size: 13pt;
+	}
+	.devine {
+		padding: 50px 46px 44px 50px;
+	}
+	.name{
+		padding-left: 0px;
+		padding-top: 15px;
+	}
 	/* header */
 	.img_main_info{
 		text-align: left;
@@ -673,11 +962,17 @@
 
 	.maps-h2{
 		font-size: 28pt;
+		text-align: center;
 		padding-top: 30px;
 		padding-bottom: 20px
 	}
 	.description-maps-one{
 		font-size: 16pt;
+		text-align: center;
+	}
+
+	.description-maps{
+		text-align: center;
 	}
 	.h2-family-fon h2{
 		font-size: 20pt;
@@ -741,6 +1036,74 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
+
+
+	.block-data{
+		margin-bottom: 0;
+		font-size: 20px;
+	}
+	.data-p{
+		padding-left: 15px;
+	}
+	.info-p,.info-p-2 {
+		font-size: 18px;
+	}
+	.submit-btn{
+		width: 100%;
+		border-radius: 10px;
+		font-size: 23px;
+	}
+	.lc{
+		width: 100%;
+		text-align: center;
+		align-items: center;
+	}
+	.area-class textarea{
+		width: 100%;
+		height: 150px;
+		border-radius: 10px;
+	}
+	.class-like{
+		font-weight: bold;
+	}
+	.report{
+		font-weight: bold;
+	}
+	.input-spn-btn{
+		justify-content: end;
+		font-size: 21px;
+	}
+	.description-maps-one{
+		font-size: 14pt;
+		text-align: left;
+		padding-left: 50px;
+		padding-right:25px;
+	}
+	.maps-h2{
+		font-size: 28pt;
+	}
+	.description-maps
+	{
+		font-size: 14pt;
+		text-align: left;
+		padding-left:50px;
+		padding-right: 25px;
+	}
+	.left-padding{
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+	.h2-family-fon h2{
+		font-size:15pt;
+	}
+	.betWine-under{
+		padding-left: 0;
+		text-align: center;
+	}
+	.data-new{
+		padding-left: 0;
+	}
 	/* header */
 	header {
 	    padding: 10px 0;

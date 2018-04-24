@@ -909,12 +909,17 @@ h1{
 	padding-top: 25px;
 	margin-bottom: 0;
 	padding-bottom: 100px;
+	border-bottom: thick solid #923403;
+	border-bottom-width: 6px;
 }
 /* review*/
 /* analitics*/
 
 .analytics{
 	background: #edeceb;
+}
+.lc-block{
+
 }
 .data-p{
 	color:#ff7000;
