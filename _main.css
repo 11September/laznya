@@ -93,17 +93,40 @@ body textarea:required:valid {
 }
 
 .area-class textarea{
-	width: 40%;
+	width: 50%;
 }
 #map iframe{
 	width: 100%;
 	height: 500px;
+}
+
+.btn-get-back{
+	width: 100%;
+	text-align: right;
+	padding-bottom: 50px;
+	padding-right: 50px;
 }
 .maps-h2{
 	font-size: 44pt;
 	font-family: 'Roboto Condensed';
 	padding-bottom: 50px;
 	font-weight: 400;
+}
+
+
+.area-class{
+	margin-top: 25px;
+}
+.fa-angle-up{
+
+
+	position: absolute;
+
+	padding-top: 15px;
+
+	font-size: 25px;
+	color: white;
+	padding-left: 10px;
 }
 .shares{
 	background: #edeceb;
@@ -153,7 +176,7 @@ body textarea:required:valid {
 }
 .submit-btn{
 	padding: 15px 0px;
-	width: 15%;
+	width: 18%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -194,9 +217,7 @@ body textarea:required:valid {
 	font-size: 40px;
 }
 
-textarea:hover{
-	border-color:green!important;
-}
+
 .fa-thumbs-up{
 	display: flex;
 }
@@ -843,12 +864,14 @@ h1{
 .img-item{
 	border: 1px solid grey;
 	width: 100%;
-	min-height: 225px;
+	height: 225px;
 	border-bottom-color: #f97500;
 	border-bottom-width: 5px; /* Толщина линии внизу */
 }
 
-
+.img-item:hover{
+	border-bottom-color: #923403;
+}
 .recommended-item-price{
 	font-family: 'Roboto-Medium';
 	font-size: 24px;
@@ -934,7 +957,7 @@ h1{
 }
 
 .btn-back{
-	padding: 10px 20px;
+	padding: 5px 30px;
 	font-family: 'Roboto-Medium';
 	font-size: 24px;
 	background: #564a46;
@@ -974,7 +997,7 @@ h1{
 }
 
 .items{
-	padding-bottom: 75px;
+	padding-bottom: 50px;
 }
 .block-flex{
 	display: flex;
