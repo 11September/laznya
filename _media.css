@@ -547,6 +547,12 @@
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.bloc-gre-2{
+		padding-left: 35px;
+	}
+	.submit-btn{
+		width: 40%;
+	}
 	/* header */
 	header {
 	    padding: 5px 50px 5px;
@@ -707,7 +713,9 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
-
+	.bloc-gre-2 {
+		padding-left: 50px;
+	}
 	.img-item{
 		height: 150px;
 	}
