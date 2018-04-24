@@ -43,6 +43,13 @@
 		border: none;
 	}
 
+	.text-name{
+		font-size: 32pt;
+	}
+	.time-name{
+		font-size: 20pt;
+	}
+
 	.menu_links li {
 	    font-size: 18px;
 	    padding-bottom: 25px;
@@ -120,6 +127,9 @@
 	/* header */
 	.menu_panel {
 	    padding: 35px 0 150px 25px;
+	}
+	.left-padding{
+		padding-left: 250px!important;
 	}
 
 	.menu_links li {
@@ -456,6 +466,70 @@
 	    padding: 30px 0 45px 0;
 	}
 	/* header end */
+
+	/* left-padding */
+
+	.left-padding{
+		padding-left: 250px!important;
+		padding-right: 75px;
+
+	}
+
+	.text-name{
+		font-size: 28pt;
+	}
+	.time-name{
+		font-size: 18pt;
+	}
+	.away-p{
+		font-size: 18pt;
+	}
+	.maps-h2{
+		font-size: 38pt;
+		padding-top: 30px;
+	}
+
+	.description-maps-one{
+		font-size: 18pt;
+	}
+
+	.h2-family-fon h2{
+		font-size: 21pt;
+	}
+	.radio-all{
+		font-size: 20pt;
+	}
+
+	.main_info{
+		padding-left: 250px;
+		padding-right: 75px;
+	}
+
+	.h2-family-fon h2{
+
+	}
+
+	.h2-price-qun{
+		font-size: 30pt;
+	}
+
+	.service-p{
+		font-size: 22pt;
+	}
+
+	.cost-p{
+		font-size: 22pt;
+	}
+	.betWine-under{
+		font-size: 21pt;
+	}
+	.sunrey{
+		font-size: 23pt;
+	}
+	.h2-shares{
+		padding-left: 240px;
+	}
+	/*  left-padding */
 }
 
 /* Medium Devices, Desktops */
@@ -467,6 +541,25 @@
 
 	.title_info {
 	    padding: 10px 65px 10px;
+	}
+
+
+	.text-name{
+		font-size: 28pt;
+		width: 75%;
+	}
+	.time-name{
+
+		font-size: 18pt;
+	}
+	.away-p{
+		font-size: 16pt;
+	}
+	.h2-shares{
+		padding-left: 0;
+	}
+	.text-name{
+		font-size: 22pt;
 	}
 	/* header end */
 }
@@ -563,6 +656,32 @@
 	.img_main_info{
 		text-align: left;
 		padding-bottom: 5px;
+	}
+
+	.maps-h2{
+		font-size: 28pt;
+		padding-top: 30px;
+		padding-bottom: 20px
+	}
+	.description-maps-one{
+		font-size: 16pt;
+	}
+	.h2-family-fon h2{
+		font-size: 20pt;
+	}
+	.radio-all{
+		font-size: 16pt;
+	}
+	.h3-div h3{
+		font-size: 16pt;
+	}
+
+	.aunder-p-1{
+		font-size: 18pt;
+	}
+
+	.aunder-p-2{
+		font-size: 18pt;
 	}
 
 	.main_links_color {
