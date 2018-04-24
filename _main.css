@@ -140,7 +140,7 @@ body textarea:required:valid {
 
 .feedback{
 	display: flex;
-	align-items: center;
+
 
 }
 
@@ -189,9 +189,7 @@ body textarea:required:valid {
 	font-family: 'Roboto Condensed';
 	font-size: 24pt;
 }
-.name{
-	padding-left: 15px;
-}
+
 
 .obrare{
 	display: flex;
@@ -1087,6 +1085,9 @@ h1{
 	height: 60px;
 	font-family: 'Roboto Condensed';
 	justify-content: space-between;
+}
+.bloc-gre-2{
+	padding-top: 25px;
 }
 
 .service-p{
