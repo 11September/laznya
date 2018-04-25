@@ -732,7 +732,6 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
 	.bloc-gre-2 {
 		padding-left: 50px;
 	}
@@ -885,6 +884,21 @@
 	}
 
 	#call_me_modal .modal-header button {
+	    top: -2%;
+	    left: 96%;
+	    padding: 8px 15px;
+	    font-size: 28px;
+	}
+
+	#call_me_done h3{
+		font-size: 30px;
+	}
+
+	#call_me_done h5{
+		font-size: 20px;
+	}
+
+	#call_me_done .modal-header button {
 	    top: -2%;
 	    left: 96%;
 	    padding: 8px 15px;
@@ -1322,6 +1336,15 @@
 	#call_me_modal .modal-header button {
 	    top: 1%;
 	    left: 94%;
+	}
+
+	#call_me_done .modal-header button {
+	    top: 1%;
+	    left: 94%;
+	}
+
+	#call_me_done .modal-dialog {
+	    max-width: 90%;
 	}
 
 	#call_me_modal form input {
