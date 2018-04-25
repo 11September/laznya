@@ -95,3 +95,12 @@ jQuery(document).ready(function(){
         	imagePath: ''});
     });
 })
+
+$('.roadmap_slider').slick({
+    dots: false,
+    focusOnSelect: false,
+    infinite: true,
+    rows: 1,
+    slidesToShow: 1,
+    initialSlide: 0,
+});

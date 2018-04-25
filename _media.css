@@ -1102,7 +1102,11 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
-
+	/* slick-slider */
+	.rec-h2 {
+	    text-align: left;
+	}
+	/* slick-slider  */
 
 	.block-data{
 		margin-bottom: 0;
