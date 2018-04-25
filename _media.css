@@ -1099,9 +1099,51 @@
 	/* header */
 }
 
+@media (max-width : 480px) {
+	.recommended_slider{
+		width: 100%;
+	}
+
+	.recommended_slider .draggable{
+		height: 300px !important;
+	}
+
+	.none_item{
+		display: none !important;
+	}
+
+	.none_item *{
+		display: none !important;
+	}
+
+	.recommended_slider{
+		display: block !important;
+	}
+
+	.recommended_slider .recommended-item-title,
+	.recommended_slider .recommended-item-price{
+		text-align: left !important;
+	}
+
+	.recommended_slider .slick-next{
+		right: -5px;;
+		top: 25%;
+		z-index: 2;
+		width: 35px;
+    	height: 35px;
+	}
+
+	.recommended_slider .slick-prev{
+		left: -5px;;
+		top: 25%;
+		z-index: 2;
+		width: 35px;
+    	height: 35px;
+	}
+}
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
 	/* slick-slider */
 	.rec-h2 {
 	    text-align: left;

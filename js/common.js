@@ -33,6 +33,7 @@ $(document).ready(function() {
         //анимируем переход на расстояние - top за 1500 мс
         $('body,html').animate({scrollTop: top}, 1500);
     });
+
 });
 
 
@@ -95,12 +96,3 @@ jQuery(document).ready(function(){
         	imagePath: ''});
     });
 })
-
-$('.recommended_2').slick({
-    dots: false,
-    focusOnSelect: false,
-    infinite: true,
-    rows: 1,
-    slidesToShow: 1,
-    initialSlide: 0,
-});

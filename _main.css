@@ -1487,7 +1487,16 @@ header option:checked{
 /* fix merge */
 
 /* slick-slider */
-.recommended_2 {
-    width: 100%;
+.recommended_slider{
+	width: 100%;
+}
+
+.recommended_slider .recommended-item-title,
+.recommended_slider ..recommended-item-price{
+	text-align: left !important;
+}
+
+.recommended_slider{
+	display: none;
 }
 /* slick-slider  */
