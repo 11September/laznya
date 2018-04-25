@@ -566,6 +566,11 @@
 	.submit-btn{
 		width: 40%;
 	}
+
+	.footer-bottom {
+	    height: auto;
+	    padding-top: 5px;
+	}
 	/* header */
 	header {
 	    padding: 5px 50px 5px;
@@ -852,6 +857,31 @@
 	/* header */
 	header {
 	    padding: 5px 20px 5px;
+	}
+
+	footer .row{
+		text-align: center;
+	}
+
+	.footer-wrapper-languages {
+	    display: flex;
+	    justify-content: center;
+	}
+
+	.footer-wrapper-social {
+	    justify-content: center;
+	}
+
+	.footer-wrapper-headings hr {
+	    display: none;
+	}
+
+	.footer-bottom {
+	    height: auto;
+	}
+
+	.footer-bottom .container {
+	    height: auto;
 	}
 
 	#call_me_modal h3 {

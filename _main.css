@@ -1345,7 +1345,7 @@ h1{
 }
 
 .footer-bottom{
-	height: 45px;
+	height: auto;
 	background: rgba(164,58,0,1);
 	background: -moz-linear-gradient(top, rgba(164,58,0,1) 0%, rgba(121,44,8,1) 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(164,58,0,1)), color-stop(100%, rgba(121,44,8,1)));
@@ -1357,7 +1357,7 @@ h1{
 }
 
 .footer-bottom .container{
-	height: 45px;
+	height: auto;
 }
 
 .copyright{
@@ -1566,6 +1566,10 @@ header option:checked{
 .about_room .main_title_info{
 	padding-left: 25px;
 }
+
+/*footer .container{
+	width: 1260px;
+}*/
 /* fix merge */
 
 /* slick-slider */
