@@ -932,6 +932,7 @@ h1{
 
 .img-item:hover{
 	border-bottom-color: #923403;
+	cursor: pointer;
 }
 .recommended-item-price{
 	font-family: 'Roboto-Medium';
@@ -944,6 +945,7 @@ h1{
 .recommended-item-price:hover{
 	color:#a0593e;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 .recommended-item-title{
@@ -967,6 +969,7 @@ h1{
 }
 .more-news{
 	font-family: 'Roboto Condensed';
+	border-color:#8e3304;
 }
 .recover-ser{
 	display: none;
@@ -1278,6 +1281,7 @@ h1{
 	border: none!important;
 	border-color:#ff7000!important;
 	box-shadow: none!important;
+
 }
 .btn-relocate-2{
 	background: #f63f3f;
@@ -1731,6 +1735,7 @@ header option:checked{
 .recommended_slider{
 	width: 100%;
 }
+
 
 .recommended_slider .recommended-item-title,
 .recommended_slider ..recommended-item-price{
