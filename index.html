@@ -9095,6 +9095,8 @@
     <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="stylesheet" href="_header.css">
     <link rel="stylesheet" href="_main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
 
 </head>
 
@@ -9297,20 +9299,35 @@
                                     </div>
                                 </div>
                                 <div class="row main_row call_me_modal">
-                                    <div class="telefon_panel">
-                                        <a href="#">
-                                            <span>+38 012 345 67 89</span>
-                                        </a>
-                                        <a href="#">
-                                            <span>+38 012 345 67 89</span>
-                                        </a>
-                                        <a href="#">
-                                            <span>+38 012 345 67 89</span>
-                                        </a>
-                                        <a href="#">
-                                            <span>+38 012 345 67 89</span>
-                                        </a>
+
+
+                                    <div class="btn-group telefon_panel">
+
+                                        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <p class="dropdown-p">+38 012 345 67 89</p>
+                                            <p class="dropdown-p">+38 012 345 67 89</p>
+                                            <p class="dropdown-p">+38 012 345 67 89</p>
+                                            <p class="dropdown-p">+38 012 345 67 89</p>
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <button class="dropdown-item special-drop" type="button">Мы помогли Вам заказать?</button>
+
+                                            <hr>
+                                            <div class="one-level">
+                                                <a class="dropdown-item btn-relocate" href="#"> ДА</a>
+                                                <a class="dropdown-item btn-relocate-2" href="#"> НЕТ</a>
+                                            </div>
+
+                                        </div>
+
+
                                     </div>
+
+
+                                    </div>
+
+
+
                                     <div class="call_me">
                                         <div class="telefon_panel_button">
                                             <a href="#">
@@ -9346,7 +9363,7 @@
                                       </div>
                                     </div>
                                     <!-- Modal call_me end -->
-                                </div>
+
                                 <div class="row main_row">
 
                                     <div class="center col-xl-1 col-lg-1 col-sm-1">
@@ -9436,7 +9453,7 @@
                                         </span>
                                     </div>
                                 </div>
-
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -9579,14 +9596,14 @@
                                 </div>
 
                                 <div class="form-check radio-inp">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
                                     <label class="form-check-label" for="exampleRadios1">
                                         Имеется Дубовая купель с холодной водой (две тонны);
                                     </label>
                                 </div>
 
                                 <div class="form-check radio-inp">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
                                     <label class="form-check-label" for="exampleRadios1">
                                         Качель-лежак в сенной комнате.
                                     </label>
@@ -9806,7 +9823,10 @@
 
 
                 </div>
-                <a class="more-news" href="#"> ЧИТАТЬ ПОДРОБНЕЕ   <i class="fas fa-angle-double-right"></i>   </a>
+
+                    <a class="more-news btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" href="#"> ЧИТАТЬ ПОДРОБНЕЕ   <i class="fas fa-angle-double-right"></i>   </a>
+
+
             </div>
             <div class="col-md-4">
                 <div class="news-item">
@@ -9827,7 +9847,7 @@
                         день рождения, копоратив, девичник….
                     </p>
                 </div>
-                <a class="more-news" href="#"> ЧИТАТЬ ПОДРОБНЕЕ   <i class="fas fa-angle-double-right"></i>   </a>
+                <a class="more-news btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" href="#"> ЧИТАТЬ ПОДРОБНЕЕ   <i class="fas fa-angle-double-right"></i>   </a>
             </div>
             <div class="col-md-4">
                 <div class="news-item">
@@ -9849,7 +9869,7 @@
 
                 </div>
 
-                <a class="more-news" href="#"> ЧИТАТЬ ПОДРОБНЕЕ   <i class="fas fa-angle-double-right"></i>   </a>
+                <a class="more-news btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" href="#"> ЧИТАТЬ ПОДРОБНЕЕ   <i class="fas fa-angle-double-right"></i>   </a>
             </div>
 
         </div>
@@ -10657,7 +10677,51 @@
         </div>
     </div>
 </footer>
+<!-- Button trigger modal -->
 
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLongTitle">Шикарная русская баня на дровах</h3>
+
+
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fas fa-times-circle"></i>
+                </button>
+            </div>
+            <p class="modal-pe"> 23.01.2018</p>
+            <div class="modal-header">
+
+                <img class="rec-1" src="img/rec-1.png" alt="">
+
+            </div>
+            <div class="modal-body">
+                <p>Если Вы хотите отдохнуть от мирской суеты и набраться сил в уютном доме отдыха с бассейном и русской
+                    баней на дровах или Вам нужно отпраздновать день рождения, корпоратив, мальчишник, девичник…. или
+                    просто отдохнуть с друзьями – лучшего места в городе Вам не найти!! Приезжайте к нам! Дом-баня
+                    постройка апрель 2017 года. Для строительства использовался 100% экологический чистый закарпатский
+                    лес и материалы. Наш дом/баня рассчитан до 22 человек. Прекрасный пар и возможность разгона
+                    температуры до 120 градусов.(такие ощущения и эмоции как у нас вы на найдёте в дешевых электрических
+                    саунах) Для Вашего отдыха есть всё что Вам нужно! Такого уровня вы не найдете не в ОДНОЙ БАНЕ
+                    ДНЕПРА!!!! Огромная терраса с великолепным барбекю. Будете готовить шашлык - специально для Вас мы
+                    приготовили дровишки!!(За которые не нужно доплачивать, переплачивать, считать и.т.д) Бассейн 2,5х2,5м
+                    Огромный массивный деревянный стол (сруб) за стол САДИТСЯ 22 ЧЕЛОВЕКА!
+                </p>
+
+                <p> Шикарная русская баня на дровах Камин Телевизор Кондиционер WI-FI Кухня с холодильником и
+                    микроволновой печью Танцпол с пилоном!!! Громкая музыка и ДИСКОТЕЧНЫЙ СВЕТ! 2 Туалета 2 Душа На
+                    втором этаже 6 комнат отдыха+ на первом этаже 1 комната (по 2 спальных места в каждой) 14 СПАЛЬНЫХ
+                    МЕСТ + 2 дополнительных места Прекрасный балкон Охраняемая.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 <!-- Здесь пишем код -->
 
@@ -10677,6 +10741,8 @@
         src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
 </script>
 
+
+
 <script>
 
     function loadCSS(hf) {
@@ -10694,6 +10760,10 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
       integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js'></script>
+<script src="js/bootstrap.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
 <!-- Load CSS compiled without Bootstrap & Header styles (after release) -->
 <script>var ms = document.createElement("link");
