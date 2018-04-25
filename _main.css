@@ -1247,11 +1247,12 @@ h1{
 .btn-relocate{
 	background: #1fb66d;
 	color: white;
-	width: 110px;
+	width: 100px;
 	height: 30px;
 	align-items: center;
 	display: flex;
 	font-size: 21px;
+	justify-content: center;
 
 }
 
@@ -1281,10 +1282,11 @@ h1{
 .btn-relocate-2{
 	background: #f63f3f;
 	color: white;
-	width: 110px;
+	width: 100px;
 	height: 30px;
 	align-items: center;
 	display: flex;
+	justify-content: center;
 	font-size: 21px;
 
 
@@ -1457,7 +1459,7 @@ h1{
 }
 
 .footer-bottom{
-	height: 45px;
+	height: auto;
 	background: rgba(164,58,0,1);
 	background: -moz-linear-gradient(top, rgba(164,58,0,1) 0%, rgba(121,44,8,1) 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(164,58,0,1)), color-stop(100%, rgba(121,44,8,1)));
@@ -1469,7 +1471,7 @@ h1{
 }
 
 .footer-bottom .container{
-	height: 45px;
+	height: auto;
 }
 
 .copyright{
@@ -1493,7 +1495,6 @@ h1{
 
 header select option{
 	background: #913404 !important;
-	background-color: #913404  !important;
 	color: #fff  !important;
 }
 
@@ -1502,8 +1503,10 @@ header option:not(:checked) {
     color:#fff !important;
 }
 
-header option:checked{
-    background-color: #913404 !important;
+
+header option:checked{ 
+    background-color: #ff7000 !important;
+
     color:#fff !important;
 }
 
@@ -1622,4 +1625,119 @@ header option:checked{
     color: #fff;
     font-size: 30px;
 }
+
+#call_me_done .modal-dialog{
+	max-width: 80%;
+	padding-top: 2%;
+}
+
+#call_me_done .modal-content{
+	background: url("img/main_info_modal_bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 160px 0 160px 0;
+	text-align: center;
+}
+
+#call_me_done .modal-header{
+	display: block;
+	border: none;
+}
+
+#call_me_done .modal-body{
+	border: none;
+}
+
+#call_me_done .modal-footer{
+	border: none;
+}
+
+#call_me_done h3{
+	font-size: 60px;
+	color: #564a46;
+	text-transform: uppercase;
+}
+
+#call_me_done h5{
+	font-size: 35px;
+	color: #564a46;
+	letter-spacing: 0px;
+}
+
+#call_me_done form span{
+	color: #746c69;
+	font-size: 20px;
+}
+
+#call_me_done form input{
+	margin-top: 15px;
+	border: 1px solid #e6e6e6;
+	width: 400px;
+	font-size: 20px;
+	color: #564a46;
+	height: 44px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.26) inset; 
+}
+
+#call_me_done .call_me_done{
+	text-align: center;
+	background: linear-gradient(to top, #792c08, #a43a00);
+	font-size: 23px;
+	border-radius: 10px;
+	padding: 15px 50px !important;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 15px;
+	color: #fff;
+	margin-top: 30px;
+}
+
+#call_me_done .modal-header button{
+	top: -2%;
+    position: absolute;
+    left: 98%;
+    background: linear-gradient(to top, #792c08, #a43a00);
+    border-radius: 50px;
+    padding: 12px 20px;
+    opacity: 1 !important;
+    color: #fff;
+    font-size: 30px;
+}
+
+#call_me_done .orange{
+	color: #ff7000;
+}
+
+.main_info *:hover,  .main_info *:active,
+.main_info *:visited{
+	outline: none !important;
+}
+
+.main_info button:hover,  .main_info button:active,
+.main_info button:visited{
+	outline: none !important;
+}
+
+.about_room .main_title_info{
+	padding-left: 25px;
+}
+
+/*footer .container{
+	width: 1260px;
+}*/
 /* fix merge */
+
+/* slick-slider */
+.recommended_slider{
+	width: 100%;
+}
+
+.recommended_slider .recommended-item-title,
+.recommended_slider ..recommended-item-price{
+	text-align: left !important;
+}
+
+.recommended_slider{
+	display: none;
+}
+/* slick-slider  */

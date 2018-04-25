@@ -9091,7 +9091,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
     <link rel="manifest" href="img/favicon/site.webmanifest">
-     <link rel='stylesheet' id='fluid_dg-css'  href='libs/fluid_dg/fluid_dg.css' type='text/css' media='all'> 
+    <link rel='stylesheet' id='fluid_dg-css'  href='libs/fluid_dg/fluid_dg.css' type='text/css' media='all'> 
+    <link rel="stylesheet" href="libs/slick-slide/slick.css">
+    <link rel="stylesheet" href="libs/slick-slide/slick-theme.css">
     <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="stylesheet" href="_header.css">
     <link rel="stylesheet" href="_main.css">
@@ -9321,7 +9323,7 @@
                                         </div>
 
 
-                                    </div>
+                                    <!--</div>-->
 
 
                                     </div>
@@ -9356,13 +9358,34 @@
                                                 <input type="text" name="name">
                                                 <Br>
                                                 <!-- <input type="checkbox" id="check2"> -->
-                                                <button type="button" class="call_me_done" data-toggle="modal" data-target="#call_me_modal" data-dismiss="modal" aria-label="Close" >перезвоните мне</button>
+                                                <button type="button" class="call_me_done" data-toggle="modal" data-target="#call_me_done" data-dismiss="modal" aria-label="Close" >перезвоните мне</button>
                                             </form>
                                           </div>
                                         </div>
                                       </div>
                                     </div>
                                     <!-- Modal call_me end -->
+
+
+
+                                    <!-- Modal call_me_done -->
+                                    <div class="modal fade call_me_done" id="call_me_done" tabindex="-2" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                      <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h3 class="modal-title" id="exampleModalLabel">ВАШ ЗАПРОС</h3>
+                                            <h5>
+                                                УСПЕШНО <span class="orange">ОПРАВЛЕН!</span>
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- Modal call_me_done end -->
+                                </div>
 
                                 <div class="row main_row">
 
@@ -9897,34 +9920,57 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-md-3">
-                <div class="recommended-item">
+            <div class="recommended_slider recommended_1">
+                <div class="col-xl-12 recommended-item">
                     <img class="img-item" src="img/rec-1.png" alt="">
                     <p class="recommended-item-title">Царь Баня</p>
                     <p class="recommended-item-price"> от 150грн</p>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="recommended-item">
+                <div class="col-xl-12 recommended-item">
                     <img class="img-item" src="img/rec-2.png" alt="">
                     <p class="recommended-item-title">Шикарная русская баня</p>
                     <p class="recommended-item-price">от 160грн</p>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="recommended-item">
+                <div class="col-xl-12 recommended-item">
                     <img class="img-item" src="img/rec-3.png" alt="">
                     <p class="recommended-item-title">Баня в Карпатах </p>
                     <p class="recommended-item-price">от 135грн</p>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="recommended-item">
+                <div class="col-xl-12 recommended-item">
                     <img class="img-item" src="img/rec-4.png" alt="">
                     <p class="recommended-item-title"> Русская баня</p>
                     <p class="recommended-item-price">от 150грн</p>
                 </div>
             </div>
+
+                <div class="col-md-3 none_item">
+                <div class="recommended-item">
+                        <img class="img-item" src="img/rec-1.png" alt="">
+                        <p class="recommended-item-title">Царь Баня</p>
+                        <p class="recommended-item-price"> от 150грн</p>
+                    </div>
+                </div>
+                <div class="col-md-3 none_item">
+                    <div class="recommended-item">
+                        <img class="img-item" src="img/rec-2.png" alt="">
+                        <p class="recommended-item-title">Шикарная русская баня</p>
+                        <p class="recommended-item-price">от 160грн</p>
+                    </div>
+                </div>
+                <div class="col-md-3 none_item">
+                    <div class="recommended-item">
+                        <img class="img-item" src="img/rec-3.png" alt="">
+                        <p class="recommended-item-title">Баня в Карпатах </p>
+                        <p class="recommended-item-price">от 135грн</p>
+                    </div>
+                </div>
+                <div class="col-md-3 none_item">
+                    <div class="recommended-item">
+                        <img class="img-item" src="img/rec-4.png" alt="">
+                        <p class="recommended-item-title"> Русская баня</p>
+                        <p class="recommended-item-price">от 150грн</p>
+                    </div>
+                </div>
         </div>
     </div>
 </section>
@@ -10132,34 +10178,57 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-md-3">
-                <div class="recommended-item">
+            <div class="recommended_slider recommended_1">
+                <div class="col-xl-12 recommended-item">
                     <img class="img-item" src="img/rec-1.png" alt="">
                     <p class="recommended-item-title">Царь Баня</p>
                     <p class="recommended-item-price"> от 150грн</p>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="recommended-item">
+                <div class="col-xl-12 recommended-item">
                     <img class="img-item" src="img/rec-2.png" alt="">
                     <p class="recommended-item-title">Шикарная русская баня</p>
                     <p class="recommended-item-price">от 160грн</p>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="recommended-item">
+                <div class="col-xl-12 recommended-item">
                     <img class="img-item" src="img/rec-3.png" alt="">
                     <p class="recommended-item-title">Баня в Карпатах </p>
                     <p class="recommended-item-price">от 135грн</p>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="recommended-item">
+                <div class="col-xl-12 recommended-item">
                     <img class="img-item" src="img/rec-4.png" alt="">
                     <p class="recommended-item-title"> Русская баня</p>
                     <p class="recommended-item-price">от 150грн</p>
                 </div>
             </div>
+
+                <div class="col-md-3 none_item">
+                <div class="recommended-item">
+                        <img class="img-item" src="img/rec-1.png" alt="">
+                        <p class="recommended-item-title">Царь Баня</p>
+                        <p class="recommended-item-price"> от 150грн</p>
+                    </div>
+                </div>
+                <div class="col-md-3 none_item">
+                    <div class="recommended-item">
+                        <img class="img-item" src="img/rec-2.png" alt="">
+                        <p class="recommended-item-title">Шикарная русская баня</p>
+                        <p class="recommended-item-price">от 160грн</p>
+                    </div>
+                </div>
+                <div class="col-md-3 none_item">
+                    <div class="recommended-item">
+                        <img class="img-item" src="img/rec-3.png" alt="">
+                        <p class="recommended-item-title">Баня в Карпатах </p>
+                        <p class="recommended-item-price">от 135грн</p>
+                    </div>
+                </div>
+                <div class="col-md-3 none_item">
+                    <div class="recommended-item">
+                        <img class="img-item" src="img/rec-4.png" alt="">
+                        <p class="recommended-item-title"> Русская баня</p>
+                        <p class="recommended-item-price">от 150грн</p>
+                    </div>
+                </div>
         </div>
     </div>
 </section>
@@ -10216,8 +10285,7 @@
                                     </div>
                                 </div>
 
-                            </div>
-                        </div>
+
                     </div>
                     <div class="main_categories">
                         <div class="main_categories_item">
@@ -10354,8 +10422,9 @@
                             </div>
                         </div>
                     </div>
+                    </div>
 
-                </div>
+                    </div>
             </div>
         </div>
     </div>
@@ -10399,34 +10468,57 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-md-3">
-                <div class="recommended-item">
+            <div class="recommended_slider recommended_1">
+                <div class="col-xl-12 recommended-item">
                     <img class="img-item" src="img/rec-1.png" alt="">
                     <p class="recommended-item-title">Царь Баня</p>
                     <p class="recommended-item-price"> от 150грн</p>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="recommended-item">
+                <div class="col-xl-12 recommended-item">
                     <img class="img-item" src="img/rec-2.png" alt="">
                     <p class="recommended-item-title">Шикарная русская баня</p>
                     <p class="recommended-item-price">от 160грн</p>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="recommended-item">
+                <div class="col-xl-12 recommended-item">
                     <img class="img-item" src="img/rec-3.png" alt="">
                     <p class="recommended-item-title">Баня в Карпатах </p>
                     <p class="recommended-item-price">от 135грн</p>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="recommended-item">
+                <div class="col-xl-12 recommended-item">
                     <img class="img-item" src="img/rec-4.png" alt="">
                     <p class="recommended-item-title"> Русская баня</p>
                     <p class="recommended-item-price">от 150грн</p>
                 </div>
             </div>
+
+                <div class="col-md-3 none_item">
+                <div class="recommended-item">
+                        <img class="img-item" src="img/rec-1.png" alt="">
+                        <p class="recommended-item-title">Царь Баня</p>
+                        <p class="recommended-item-price"> от 150грн</p>
+                    </div>
+                </div>
+                <div class="col-md-3 none_item">
+                    <div class="recommended-item">
+                        <img class="img-item" src="img/rec-2.png" alt="">
+                        <p class="recommended-item-title">Шикарная русская баня</p>
+                        <p class="recommended-item-price">от 160грн</p>
+                    </div>
+                </div>
+                <div class="col-md-3 none_item">
+                    <div class="recommended-item">
+                        <img class="img-item" src="img/rec-3.png" alt="">
+                        <p class="recommended-item-title">Баня в Карпатах </p>
+                        <p class="recommended-item-price">от 135грн</p>
+                    </div>
+                </div>
+                <div class="col-md-3 none_item">
+                    <div class="recommended-item">
+                        <img class="img-item" src="img/rec-4.png" alt="">
+                        <p class="recommended-item-title"> Русская баня</p>
+                        <p class="recommended-item-price">от 150грн</p>
+                    </div>
+                </div>
         </div>
     </div>
 </section>
@@ -10608,7 +10700,7 @@
 
             <div class="footer-content">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="wrapper-footer-callback">
                             <a class="callback" href=""><i class="fas fa-phone-volume"></i> ОБРАТНАЯ СВЯЗЬ</a>
                         </div>
@@ -10627,7 +10719,7 @@
                             <p><a href=""><img src="img/footer/rss.png" alt=""></a></p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="footer-wrapper-headings">
                             <h5 class="footer-heading">ПОЛЬЗОВАТЕЛЯМ</h5>
                             <hr>
@@ -10639,7 +10731,7 @@
                             <p>Личный кабинет</p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="footer-wrapper-headings">
                             <h5 class="footer-heading">ДЛЯ БАННОГО БИЗНЕСА</h5>
                             <hr>
@@ -10653,7 +10745,7 @@
                             <p>О нас</p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="footer-wrapper-headings"></div>
 
                         <div class="footer-services">
@@ -10773,6 +10865,10 @@ ms.rel = "stylesheet";
 
 
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js'></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/test.js"></script>
 <!-- Load Scripts -->
 <script>var scr = {
     "scripts": [
