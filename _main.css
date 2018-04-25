@@ -1391,7 +1391,7 @@ header option:not(:checked) {
 }
 
 header option:checked{ 
-    background-color: #913404 !important;
+    background-color: #ff7000 !important;
     color:#fff !important;
 }
 
@@ -1469,5 +1469,19 @@ header option:checked{
     opacity: 1 !important;
     color: #fff;
     font-size: 30px;
+}
+
+.main_info *:hover,  .main_info *:active,
+.main_info *:visited{
+	outline: none !important;
+}
+
+.main_info button:hover,  .main_info button:active,
+.main_info button:visited{
+	outline: none !important;
+}
+
+.about_room .main_title_info{
+	padding-left: 25px;
 }
 /* fix merge */
