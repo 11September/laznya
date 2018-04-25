@@ -96,7 +96,7 @@ jQuery(document).ready(function(){
     });
 })
 
-$('.roadmap_slider').slick({
+$('.recommended_2').slick({
     dots: false,
     focusOnSelect: false,
     infinite: true,
