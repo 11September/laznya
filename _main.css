@@ -301,6 +301,25 @@ header{
 	padding: 10px 100px 15px;
 }
 
+header .right .dropdown, 
+header .right .dropdown button{
+	background: transparent !important;
+	font-size: 8px;
+}
+
+header .right .dropdown .dropdown-menu{
+	width: auto;
+	height: auto;
+	background: linear-gradient(to top, #792c08, #a43a00);
+	color: #fff !important;
+	font-size: 18px;
+}
+
+header .right .dropdown .dropdown-menu *{
+	color: #fff !important;
+	font-size: 18px;
+}
+
 .header img{
 	height: 100%;
 	width: auto;
@@ -366,8 +385,6 @@ header select{
     border: none;
     outline: none;
 }
-
-
 
 .select_sity{
 	width: auto;
@@ -1515,19 +1532,21 @@ header .row{
 
 header select option{
 	background: #913404 !important;
-	color: #fff  !important;
+	color: #fff !important;
+	font-size: 16px !important;
 }
 
 header option:not(:checked) {
     background-color: #913404 !important;
     color:#fff !important;
+    font-size: 16px !important;
 }
 
 
 header option:checked{ 
     background-color: #ff7000 !important;
-
     color:#fff !important;
+    font-size: 16px !important;
 }
 
 #call_me_modal .modal-dialog{

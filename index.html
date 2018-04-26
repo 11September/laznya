@@ -9123,11 +9123,14 @@
             <form class="col-xl-3 col-lg-3 col-md-2 right">
                 <i class="fas fa-search svg_mini"></i>
                 <i class="far fa-user svg_mini personal_area"></i>
-                <select class="transparent_select select_personal">
-                    <option selected></option>
-                    <option>Выбор 2</option>
-                    <option>Выбор 3</option>
-                </select>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">▼</button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Выбор 1</a>
+                    <a class="dropdown-item" href="#">Выбор 2</a>
+                    <a class="dropdown-item" href="#">Выбор 3</a>
+                  </div>
+                </div>
             </div>
         </div>
         <div class="row row_menu_mobile">
