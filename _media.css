@@ -182,6 +182,16 @@
 		padding: 40px 100px 120px 110px;
 	}
 
+	.margin-r-100{
+		margin-right: 0;
+	}
+
+	.opisanie{
+		padding: 0 30px;
+	}
+
+
+
 	.submit-btn{
 		width: 25%;
 	}
@@ -460,7 +470,7 @@
 
 	.call_me_modal{
 		flex-direction: column;
-		align-items: start;
+		align-items: center;
 	}
 
 	.title_action_border {
@@ -1146,6 +1156,7 @@
 @media (max-width : 480px) {
 	.recommended_slider{
 		width: 100%;
+
 	}
 
 	.recommended_slider .draggable{
