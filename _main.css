@@ -151,6 +151,14 @@ body textarea:required:valid {
 	width: 90%;
 }
 
+.fa-angle-double-right
+{
+	visibility: hidden;
+}
+
+.fa-angle-double-right:hover{
+	visibility: visible;
+}
 .radio-btn{
 	display: flex;
 	margin-top: 25px;

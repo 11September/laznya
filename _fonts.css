@@ -21,6 +21,11 @@
 	src: url('fonts/roboto-medium.ttf');
 }
 
+@font-face {
+	font-family: "Roboto-light";
+	src: url('fonts/Roboto-light.ttf');
+}
+
 /*@font-face {
 	font-family: 'MyriadPro-Regular';
 	src: url('fonts/MyriadPro/MyriadPro-Regular.otf') format("otf");

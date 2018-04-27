@@ -1664,11 +1664,18 @@
 	/* header end */
 }
 
+@media (max-width: 350px){
+	.bloc-gre-2{
+		padding-left: 0;
+	}
+}
 @media (min-width: 380px){
 	.bloc-gre-2 {
 		padding-left: 35px;
 	}
 }
+
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 	.header_delimiter{
