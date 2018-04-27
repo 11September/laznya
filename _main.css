@@ -154,7 +154,9 @@ body textarea:required:valid {
 	width: 90%;
 }
 
-
+.shares{
+	padding-left: 495px!important;
+}
 .radio-btn{
 	display: flex;
 	margin-top: 25px;
@@ -458,12 +460,14 @@ header select{
 }
 
 .h2-shares{
-	padding-left: 430px;
+	padding-left: 0px;
 	padding-top: 40px;
 	padding-bottom: 30px;
 	font-family: 'Roboto Condensed';
 }
-
+.news{
+	padding-left: 480px;
+}
 
 
 /* shares*/
@@ -1138,7 +1142,9 @@ li {
 }
 /* analitics*/
 
-
+h2{
+	font-family: "RobotoRegular";
+}
 /*news*/
 .news-h2{
 	color:#923403;
@@ -1147,8 +1153,12 @@ li {
 	padding-top: 50px;
 	padding-bottom: 40px;
 	font-weight: normal;
+	padding-left: 10px;
 }
 
+.reviews{
+	padding-left: 400px;
+}
 .block-news-item{
 	padding-right: 15px;
 	padding-left: 15px;
