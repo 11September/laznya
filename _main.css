@@ -1547,7 +1547,29 @@ header .row{
 }
 /* footer end */
 
+/* header_slider */
+.header_slider{
+	height: 900px;
+}
+
+.main_slider{
+	height: 900px;
+}
+
+.header_slider .fluid_dg_target, .fluid_dg_overlayer {
+    height: 100%;
+}
+
+.header_slider .fluid_dg_bar{
+	display: none;
+}
+/* header_slider end */
+
 /* fix merge */
+#main_slider .fluid_dg_thumbs{
+	display: none !important;
+}
+
 .call_me_button{
 	border: none;
 	background: transparent; !important;

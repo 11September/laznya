@@ -173,6 +173,20 @@
 	.main_galery img{
 	    height: 250px;
 	}
+
+	.header_slider{
+		height: 500px;
+		overflow: hidden;
+	}
+
+	.main_slider{
+		height: 500px;
+		overflow: hidden;
+	}
+
+	.header_slider .fluid_dg_target, .fluid_dg_overlayer {
+	    height: 100%;
+	}
 	/* header end */
 }
 
@@ -1170,7 +1184,14 @@
 @media (max-width : 480px) {
 	.recommended_slider{
 		width: 100%;
+	}
 
+	.header_slider{
+		height: 300px;
+	}
+
+	.main_slider{
+		height: 300px;
 	}
 
 	.recommended_slider .draggable{
