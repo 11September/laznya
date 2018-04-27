@@ -300,15 +300,20 @@ body textarea:required:valid {
 	border-top: none;
 }
 .description-maps{
-	font-family: "Roboto Regular";
+	font-family: "RobotoRegular";
 	padding-bottom: 40px;
 	font-size: 20pt;
 }
 .description-maps-one{
-	font-family: "Roboto Regular";
+	font-family: "RobotoRegular";
 	font-size: 20pt;
 	padding-bottom: 50px;
 }
+
+.markers li{
+	font-size: 22px;
+}
+
 /* header */
 header{
 	background: linear-gradient(to top, #792c08, #a43a00);
