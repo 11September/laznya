@@ -51,7 +51,7 @@
 		font-size: 32pt;
 	}
 	.time-name{
-		font-size: 20pt;
+		font-size: 17pt;
 	}
 
 	.menu_links li {
@@ -509,7 +509,7 @@
 		font-size: 28pt;
 	}
 	.time-name{
-		font-size: 18pt;
+		font-size: 12pt;
 	}
 	.away-p{
 		font-size: 18pt;
@@ -727,11 +727,11 @@
 	}
 	.text-name{
 		font-size: 28pt;
-		width: 75%;
+		width: 80%;
 	}
 	.time-name{
 
-		font-size: 18pt;
+		font-size: 14pt;
 	}
 	.away-p{
 		font-size: 16pt;
@@ -804,7 +804,7 @@
 		font-size: 20pt;
 	}
 	.time-name{
-		font-size: 16pt;
+		font-size: 11pt;
 	}
 	.away-p{
 		font-size: 14pt;
@@ -1158,7 +1158,18 @@
 		width: 100%;
 
 	}
-
+	.block-pt{
+		width: 100%;
+	}
+	.time-name{
+		justify-content: right;
+	}
+	.none-text-2{
+		display: block;
+	}
+	.none-text{
+		display: none
+	}
 	.recommended_slider .draggable{
 		height: 300px !important;
 	}

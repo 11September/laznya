@@ -31,18 +31,19 @@ body textarea:required:valid {
 	font-size: 40pt;
 	padding-left: 40px;
 	font-family: "Roboto Light";
-	width: 100%;
 	display: flex;
+	width: 80%;
 	align-items: center;
 }
 
 .time-name{
 	background: #c0272d;
 	color:white;
-	font-size: 24pt;
+	font-size: 20pt;
 	display: flex;
 	margin-bottom: 0;
 	align-items: center;
+	justify-content: center;
 
 }
 
@@ -83,6 +84,7 @@ body textarea:required:valid {
 	background: #c0272d;
 	margin-left: 15px;
 	text-align: center;
+	width: 20%;
 }
 .maps{
 	background: #f6f6f6;
@@ -98,7 +100,9 @@ body textarea:required:valid {
 #map iframe{
 	width: 100%;
 	height: 500px;
+	border:2px solid grey;
 }
+
 
 .btn-get-back{
 	width: 100%;
@@ -142,6 +146,9 @@ body textarea:required:valid {
 	display: flex;
 
 
+}
+.re-feed{
+	width: 90%;
 }
 
 .radio-btn{
@@ -459,7 +466,9 @@ h1{
 	position: relative;
     margin-top: -25px;
 }
-
+.none-text-2 {
+	display: none;
+}
 .text_eye{
 	color: #ff7000;
     font-size: 25px;
@@ -468,6 +477,14 @@ h1{
     width: 45px;
     margin-top: -20px;
     text-align: center;
+}
+.data{
+	color:darkgrey;
+}
+
+.new-block-feed{
+	display: flex;
+	justify-content: flex-end;
 }
 /* title_info end */
 
@@ -953,7 +970,7 @@ header .row{
 
 
 .img-item{
-	border: 1px solid grey;
+	border: 2px solid grey;
 	width: 100%;
 	height: 225px;
 	border-bottom-color: #f97500;
@@ -992,6 +1009,14 @@ header .row{
 
 /* recomented*/
 
+ul {
+	list-style-image: url(img/markers.png);
+
+}
+li {
+	padding-left: 25px;
+	color#564a46;
+}
 /* review*/
 
 .reviews{
