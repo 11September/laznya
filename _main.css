@@ -739,12 +739,16 @@ h1{
 	padding: 10px 0 10px 5px !important;
 	margin-left: 30px;
 	margin-bottom: 5px;
-	width: 355px;
-	margin-top: 10px;
+	width: 400px;
+	margin-bottom: 
+}
+
+.call_me_modal{
+	padding: 15px 0;
 }
 
 .telefon_panel_button{
-	width: 355px;
+	width: 400px;
 	text-align: center;
 	background: linear-gradient(to top, #792c08, #a43a00);
 	font-size: 23px;
@@ -753,7 +757,8 @@ h1{
 	padding: 15px 0 !important;
 	text-transform: uppercase;
 	font-weight: 500;
-	margin-bottom: 15px;
+	margin-top: 5px;
+    margin-bottom: 6px;
 }
 
 .telefon_panel span{
@@ -1572,6 +1577,139 @@ header option:checked{
     font-size: 16px !important;
 }
 
+#ask_time_modal .modal-dialog{
+	max-width: 80%;
+	padding-top: 2%;
+}
+
+#ask_time_modal .modal-content{
+	background: url("img/main_info_modal_bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 40px 0 220px 110px;
+}
+
+#ask_time_modal .modal-header{
+	display: block;
+	border: none;
+}
+
+#ask_time_modal .modal-body{
+	border: none;
+}
+
+#ask_time_modal .modal-footer{
+	border: none;
+}
+
+#ask_time_modal h3{
+	font-size: 35px;
+	color: #564a46;
+	text-transform: uppercase;
+}
+
+#ask_time_modal h5{
+	font-size: 20px;
+	color: #564a46;
+	margin-bottom: 60px;
+}
+
+#ask_time_modal .call_me_done{
+	text-align: center;
+	background: linear-gradient(to top, #792c08, #a43a00);
+	font-size: 23px;
+	border-radius: 10px;
+	padding: 15px 50px !important;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 15px;
+	color: #fff;
+	margin-top: 30px;
+}
+
+#ask_time_modal .modal-header button{
+	top: -2%;
+    position: absolute;
+    left: 98%;
+    background: linear-gradient(to top, #792c08, #a43a00);
+    border-radius: 50px;
+    padding: 12px 20px;
+    opacity: 1 !important;
+    color: #fff;
+    font-size: 30px;
+}
+
+#ask_time_modal .modal-content{
+	text-align: left !important;
+}
+
+#ask_time_modal .modal-title{
+	text-align: left !important;
+}
+
+#ask_time_modal .modal-body span{
+	color: #746c69;
+	font-size: 20px;
+}
+
+#ask_time_modal .modal-body input{
+	margin-top: 10px  !important;
+	background-color: #f9f9f9;
+    border: 1px solid #e6e6e6  !important;
+    width: 400px;
+    font-size: 20px  !important;
+    color: #564a46  !important;
+    height: 44px  !important;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1) inset !important;
+}
+
+#ask_time_modal .call_me_done{
+	text-align: center;
+	background: linear-gradient(to top, #792c08, #a43a00);
+	font-size: 23px;
+	border-radius: 10px;
+	padding: 15px 50px !important;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 15px;
+	color: #fff;
+	margin-top: 40px;
+}
+
+#ask_time_modal .modal-header button{
+	top: -2%;
+    position: absolute;
+    left: 98%;
+    background: linear-gradient(to top, #792c08, #a43a00);
+    border-radius: 50px;
+    padding: 12px 20px;
+    opacity: 1 !important;
+    color: #fff;
+    font-size: 30px;
+}
+
+#ask_time_modal .modal-body .date_1,
+#ask_time_modal .modal-body .date_2,
+#ask_time_modal .modal-body .date_3{
+	margin-right: 7px;
+}
+
+#ask_time_modal .modal-body .date_1{
+	width: 80px !important;
+}
+
+#ask_time_modal .modal-body .date_2{
+	width: 185px !important;
+}
+
+#ask_time_modal .modal-body .date_3{
+	width: 110px !important;
+}
+
+.ask_time_modal_row{
+	padding-left: 15px !important;
+}
+
 #call_me_modal .modal-dialog{
 	max-width: 80%;
 	padding-top: 2%;
@@ -1582,6 +1720,10 @@ header option:checked{
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 40px 0 220px 110px;
+}
+
+.row_two{
+	padding-top: 30px !important;
 }
 
 #call_me_modal .modal-header{

@@ -9324,6 +9324,66 @@
                                         </div>
                                     </div>
 
+                                    <div class="call_me ask_time">
+                                        <div class="telefon_panel_button">
+                                            <a href="#">
+                                                <button type="button" data-toggle="modal" data-target="#ask_time_modal" class="call_me_button">Запросить свободное время</button>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                     <!-- Modal ask_time_modal -->
+                                    <div class="modal fade" id="ask_time_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                      <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h3 class="modal-title" id="exampleModalLabel">запрос свободного времени </h3>
+                                            <h5>
+                                                Для получения информации введите данные
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <form class="" action="">
+                                                <div class="row ask_time_modal_row">
+                                                    <div class="col-xl-6 ">
+                                                        <span>Имя</span>
+                                                        <br>
+                                                        <input type="text" name="name">
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <span>Номер телефона</span>
+                                                        <br>
+                                                        <input type="text" name="phone">
+                                                    </div>
+                                                    <div class="col-xl-6 row_two">
+                                                        <span>Дата</span>
+                                                        <br>
+                                                        <input class="date_1" type="text" name="date_1">
+                                                        <input class="date_2" type="text" name="date_2">
+                                                        <input class="date_3" type="text" name="date_3">
+                                                    </div>
+                                                    <div class="col-xl-6 row_two">
+                                                        <span>Длительность</span>
+                                                        <br>
+                                                        <input type="text" name="time">
+                                                    </div>
+                                                    <div class="col-xl-6 zero_space">
+                                                        
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <button type="button" class="call_me_done" data-toggle="modal" data-target="#call_me_done" data-dismiss="modal" aria-label="Close" >Отправить</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- Modal ask_time_modal end -->
+
                                     <div class="call_me">
                                         <div class="telefon_panel_button">
                                             <a href="#">
@@ -9348,10 +9408,8 @@
                                             <form class="" action="">
                                                 <span>Номер телефона</span>
                                                 <br>
-                                                <!-- <label for="check2">Ipsum</label> -->
                                                 <input type="text" name="name">
-                                                <Br>
-                                                <!-- <input type="checkbox" id="check2"> -->
+                                                <br>
                                                 <button type="button" class="call_me_done" data-toggle="modal" data-target="#call_me_done" data-dismiss="modal" aria-label="Close" >перезвоните мне</button>
                                             </form>
                                           </div>
