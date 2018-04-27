@@ -30,8 +30,9 @@ body textarea:required:valid {
 	color:white;
 	font-size: 40pt;
 	padding-left: 40px;
-	font-family: "Roboto Light";
+	font-weight: 300;
 	display: flex;
+	font-family: 'Roboto';
 	width: 80%;
 	align-items: center;
 }

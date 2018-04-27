@@ -21,10 +21,7 @@
 	src: url('fonts/roboto-medium.ttf');
 }
 
-@font-face {
-	font-family: "Roboto-light";
-	src: url('fonts/Roboto-light.ttf');
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /*@font-face {
 	font-family: 'MyriadPro-Regular';
