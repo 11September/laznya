@@ -94,5 +94,18 @@ jQuery(document).ready(function(){
         	hover: false, 
         	opacityOnGrid: false, 
         	imagePath: ''});
-    });
+    });  
+})
+
+jQuery(document).ready(function(){
+    jQuery(function(){          
+        jQuery('#main_slider').fluid_dg({
+            height: '900px', 
+            loader: 'bar', 
+            pagination: false, 
+            thumbnails: false, 
+            hover: false, 
+            opacityOnGrid: false, 
+            imagePath: ''});
+    });  
 })

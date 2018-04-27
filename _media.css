@@ -173,6 +173,20 @@
 	.main_galery img{
 	    height: 250px;
 	}
+
+	.header_slider{
+		height: 500px;
+		overflow: hidden;
+	}
+
+	.main_slider{
+		height: 500px;
+		overflow: hidden;
+	}
+
+	.header_slider .fluid_dg_target, .fluid_dg_overlayer {
+	    height: 100%;
+	}
 	/* header end */
 }
 
@@ -300,9 +314,10 @@
 	}
 
 	.svg_mini {
-	    height: 30px;
-	    font-size: 24px;
-	    top: 3px;
+	    height: 26px;
+	    position: relative;
+	    font-size: 22px;
+	    top: 0px;
 	}
 
 	header select {
@@ -437,7 +452,7 @@
 
 	.main_title_eye{
 		font-size: 15px;
-		margin-top: -5px;
+		/*margin-top: -5px;*/
 		text-align: right;
 	}
 
@@ -873,6 +888,19 @@
 		text-align: center;
 	}
 
+	#ask_time_modal .modal-content {
+	    padding: 40px 0 220px 50px;
+	}
+
+	#ask_time_modal .modal-dialog {
+	    max-width: 90%;
+	}
+
+	#ask_time_modal .modal-header button {
+	    top: -1%;
+	    left: 96%;
+	}
+
 	.footer-wrapper-languages {
 	    display: flex;
 	    justify-content: center;
@@ -1156,7 +1184,14 @@
 @media (max-width : 480px) {
 	.recommended_slider{
 		width: 100%;
+	}
 
+	.header_slider{
+		height: 300px;
+	}
+
+	.main_slider{
+		height: 300px;
 	}
 	.block-pt{
 		width: 100%;
@@ -1209,6 +1244,49 @@
 		z-index: 2;
 		width: 35px;
     	height: 35px;
+	}
+
+	#ask_time_modal .modal-content {
+	    padding: 30px 0 50px 30px;
+	}
+
+	#ask_time_modal .modal-header button {
+	    top: 0;
+	    left: 93%;
+	}
+
+	.ask_time_modal_row div{
+		padding: 0 15px 0 0;
+	}
+
+	#ask_time_modal h3 {
+	    font-size: 28px;
+	}
+
+	#ask_time_modal h5 {
+	    font-size: 18px;
+	    margin-bottom: 35px;
+	    margin-top: 10px;
+	}
+
+	.ask_time_modal_row{
+		padding: 0 15px !important;
+	}
+
+	#ask_time_modal .modal-body .date_1 {
+	    width: 100%  !important;
+	}
+
+	#ask_time_modal .modal-body .date_2 {
+	    width: 100%  !important;
+	}
+
+	#ask_time_modal .modal-body .date_3 {
+	    width: 100%  !important;
+	}
+
+	#ask_time_modal .modal-body input {
+	    width: 100% !important;
 	}
 }
 
@@ -1578,6 +1656,10 @@
 	    display: flex;
 	    margin: 0;
 	    text-align: center;
+	}
+
+	.marker_sity{
+		display: none;
 	}
 	/* header end */
 }
