@@ -75,7 +75,7 @@ body textarea:required:valid {
 .away-p{
 	padding-top: 20px;
 	padding: 20px 50px 40px;
-	font-family: "Roboto Regular";
+	font-family: "RobotoRegular";
 }
 .bg-row{
 	background: white;
@@ -152,9 +152,7 @@ body textarea:required:valid {
 	width: 90%;
 }
 
-.shares{
-	padding-left: 495px!important;
-}
+
 .radio-btn{
 	display: flex;
 	margin-top: 25px;
@@ -237,7 +235,7 @@ body textarea:required:valid {
 	color:black;
 	font-size: 35pt;
 	font-weight: 300;
-	font-family: "Roboto Regular";
+	font-family: "RobotoRegular";
 }
 .modal-pe{
 	text-align: center;
@@ -272,7 +270,7 @@ body textarea:required:valid {
 
 .modal-body p{
 	color:#938e8c;
-	font-family: "Roboto Regular";
+	font-family: "RobotoRegular";
 	padding-left: 50px;
 	padding-right: 50px;
 	text-align: left;
@@ -405,7 +403,7 @@ header h3{
 }
 
 .left-padding{
-	padding-left: 430px;
+	padding-left: 25%;
 }
 
 .span-left{
@@ -454,7 +452,7 @@ header select{
 .discription-always{
 	font-size: 24pt;
 	background: white;
-	font-family: "Roboto Regular";
+	font-family: "RobotoRegular";
 }
 
 .h2-shares{
@@ -463,10 +461,6 @@ header select{
 	padding-bottom: 30px;
 	font-family: 'Roboto Condensed';
 }
-.news{
-	padding-left: 480px;
-}
-
 
 /* shares*/
 /* title_info */
@@ -483,7 +477,7 @@ header select{
 
 h1{
 	font-size: 30px;
-	font-family: "Roboto Regular";
+	font-family: "RobotoRegular";
 	letter-spacing: 5px;
 	font-weight: 300;
 	margin-bottom: 0;
@@ -527,10 +521,7 @@ h1{
 	background: #f6f6f6;
 }
 
-.div_menu{
-	padding-right: 0 !important;
-	padding-left: 0 !important;
-}
+
 
 .menu_panel{
 	padding: 50px 0 310px 100px;
@@ -1002,7 +993,7 @@ header .row{
 .rec-h2{
 	padding-top: 35px;
 	color:#923403;
-	font-family: "Roboto Regular";
+	font-family: "RobotoRegular";
 	text-align: center;
 	margin-bottom: 50px;
 }
@@ -1096,7 +1087,7 @@ li {
 	margin-bottom: 50px;
 	display: flex;
 	font-size: 24px;
-	font-family: "Roboto Regular";
+	font-family: "RobotoRegular";
 }
 
 .special-info{
@@ -1108,7 +1099,7 @@ li {
 
 .info-p-2{
 	display: flex;
-	font-family: "Roboto Regular";
+	font-family: "RobotoRegular";
 	font-size: 24px;
 
 }
@@ -1151,17 +1142,20 @@ h2{
 	padding-top: 50px;
 	padding-bottom: 40px;
 	font-weight: normal;
-	padding-left: 10px;
+	padding-left: 0px;
 }
 
-.reviews{
-	padding-left: 400px;
-}
+
 .block-news-item{
 	padding-right: 15px;
 	padding-left: 15px;
 }
 
+.row-flex{
+	display: flex;
+	flex-wrap: wrap;
+
+}
 .more-news{
 	padding: 15px 0px;
 	width: 100%;
