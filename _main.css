@@ -320,6 +320,10 @@ header .right .dropdown .dropdown-menu *{
 	font-size: 18px;
 }
 
+.search_svg{
+	margin-right: 15px;
+}
+
 .header img{
 	height: 100%;
 	width: auto;
@@ -336,6 +340,20 @@ header .right .dropdown .dropdown-menu *{
 	align-items: center;
 	justify-content: flex-end;
 }
+
+.eye_litle_img{
+	margin-left: 15px;
+}
+
+.prise_svg{
+	top: 0 !important;
+}
+
+.hall_svg{
+	height: 34px !important;
+	top: 0 !important;
+	margin-right: -5px;
+} 
 
 header h3{
 	color: #fff;
@@ -365,6 +383,11 @@ header h3{
 .marker_sity{
 	margin-right: 10px;
 }
+
+.adress_svg{
+	height: 50px;
+}
+
 .left-padding{
 	padding-left: 430px;
 }

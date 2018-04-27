@@ -300,9 +300,10 @@
 	}
 
 	.svg_mini {
-	    height: 30px;
-	    font-size: 24px;
-	    top: 3px;
+	    height: 26px;
+	    position: relative;
+	    font-size: 22px;
+	    top: 0px;
 	}
 
 	header select {
@@ -437,7 +438,7 @@
 
 	.main_title_eye{
 		font-size: 15px;
-		margin-top: -5px;
+		/*margin-top: -5px;*/
 		text-align: right;
 	}
 
@@ -1567,6 +1568,10 @@
 	    display: flex;
 	    margin: 0;
 	    text-align: center;
+	}
+
+	.marker_sity{
+		display: none;
 	}
 	/* header end */
 }
