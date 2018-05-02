@@ -189,7 +189,7 @@ body textarea:required:valid {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #8e3304;
+	background: linear-gradient(to top, #792c08, #a43a00);
 	color: white;
 	border-radius: 2px;
 	border:none;
@@ -1107,10 +1107,11 @@ li {
 .lc{
 	font-family: 'Roboto-Medium';
 	font-size: 24px;
-	background: #993602;
+	background: linear-gradient(to top, #792c08, #a43a00);
 	color:white;
 	padding: 20px 30px;
 	border-radius: 8px;
+
 }
 .info-p{
 	font-size: 24px;

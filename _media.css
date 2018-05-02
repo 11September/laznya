@@ -39,6 +39,10 @@
 
 @media only screen and (max-width : 1600px) {
 	/* header */
+
+	.time-name {
+		font-size: 14pt;
+	}
 	.main_links_color{
 		border: none;
 	}
@@ -762,6 +766,10 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+
+	.time-name {
+		font-size: 10pt;
+	}
 	.bloc-gre-2 {
 		padding-left: 50px;
 	}
@@ -1182,6 +1190,42 @@
 }
 
 @media (max-width : 480px) {
+
+	.service-p{
+		padding-left: 20px;
+	}
+	.description-maps-one{
+		padding-left: 20px;
+	}
+
+
+	.maps-h2{
+		padding-left: 20px!important;
+	}
+	.betWine-under{
+		padding-left: 20px;
+	}
+	.devine{
+		padding-left: 20px;
+	}
+	.div_menu{
+		padding: 0;
+	}
+	.maps-h2{
+		text-align: left;
+	}
+	.opisanie{
+		padding: 0 0;
+	}
+	.wrapper-family{
+		display: none;
+	}
+	.h3-div{
+		display: none;
+	}
+	.about-under{
+		display: none;
+	}
 	.recommended_slider{
 		width: 100%;
 	}
@@ -1295,6 +1339,7 @@
 	/* slick-slider */
 	.rec-h2 {
 	    text-align: left;
+		padding-left: 20px;
 	}
 	/* slick-slider  */
 	.block-data{
@@ -1308,17 +1353,80 @@
 		font-size: 18px;
 	}
 	.submit-btn{
-		width: 100%;
+		width: 95%;
 		border-radius: 10px;
 		font-size: 23px;
+		padding: 10px 0px;
 	}
-	.lc{
-		width: 100%;
-		text-align: center;
-		align-items: center;
+	.input-spn-btn{
+		padding-left: 20px;
+	}
+	.review-p{
+		justify-content: normal;
+		padding-left: 20px;
+		font-weight: bold;
 	}
 	.area-class textarea{
-		width: 100%;
+		width: 95%;
+	}
+
+	.away-p{
+		padding-left: 20px;
+	}
+	.description-maps{
+		padding-left: 20px;
+	}
+	.obrare {
+		justify-content: normal;
+		padding-left: 20px;
+	}
+	.lc{
+		width: 95%;
+		text-align: center;
+		align-items: center;
+		font-size: 21px;
+		padding: 10px 30px;
+
+	}
+	.daa-1{
+		padding-left: 75px!important;
+	}
+	.daa-2{
+		padding-left: 50px!important;
+	}
+	.daa-3{
+		padding-left: 45px!important;
+	}
+	.daa-4{
+		padding-left: 45px!important;
+	}
+	.daa-5{
+		padding-left: 20px!important;
+	}
+	.daa-6{
+		padding-left: 20px!important;
+	}
+	.data-je{
+		font-weight: bold;
+	}
+	.data-p{
+		font-weight: bold;
+	}
+	.block-data{
+		justify-content: normal;
+		text-align: left;
+		padding-left: 20px;
+	}
+	.info-p, .info-p-2{
+		justify-content: normal;
+		text-align: left;
+		padding-left: 20px;
+		color:dimgrey;
+		font-size: 21px;
+	}
+
+	.area-class textarea{
+		width: 90%;
 		height: 150px;
 		border-radius: 10px;
 	}
@@ -1335,8 +1443,13 @@
 	.description-maps-one{
 		font-size: 14pt;
 		text-align: left;
-		padding-left: 50px;
-		padding-right:25px;
+		padding-right: 20px;
+		padding-left: 20px;
+
+	}
+	.h2-price-qun{
+		text-align: left;
+		padding-left: 20px;
 	}
 	.maps-h2{
 		font-size: 28pt;
@@ -1359,29 +1472,35 @@
 	{
 		font-size: 14pt;
 		text-align: left;
-		padding-left:50px;
-		padding-right: 25px;
+		padding-left:20px;
+		padding-right: 20px;
+
 	}
 	.left-padding{
-		padding-left: 15px!important;
-		padding-right: 15px!important;
+		padding-left: 0!important;
+		padding-right: 0!important;
 	}
 	.h2-family-fon h2{
 		font-size:15pt;
 	}
 	.betWine-under{
-		padding-left: 0;
+
 		text-align: center;
+	}
+	.h2-shares{
+		padding-left: 20px;
+		text-align: left;
 	}
 	.data-new{
 		padding-left: 0;
 	}
 	.text-name{
 		width: 100%;
+		padding-left: 20px;
 	}
 	.time-name{
 		width: 100%;
-		padding-left: 40px;
+		padding-left: 20px;
 	}
 	.recover-ser{
 		display: block;
@@ -1407,7 +1526,7 @@
 	.betWine-under{
 		margin-bottom: 0;
 		text-align: left;
-		padding-left: 30px;
+
 		font-weight: bold;
 	}
 	.block-pt{
@@ -1421,7 +1540,7 @@
 		align-items: center;
 	}
 	.devine {
-		padding: 50px 46px 44px 30px;
+		padding-left: 20px;
 		text-align: left;
 	}
 	.service-p{
