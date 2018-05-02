@@ -1164,7 +1164,7 @@ h2{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
+    background: linear-gradient(to top, #792c08, #a43a00);
 	color:white;
 }
 

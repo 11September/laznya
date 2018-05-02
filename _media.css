@@ -1104,7 +1104,16 @@
 		font-size: 14pt;
 	}
 	.submit-btn {
-		width: 50%;
+		width: 90%;
+	}
+	.area-class textarea{
+		width: 90%;
+	}
+	.bloc-gre-2{
+		padding-left: 75px!important;
+	}
+	.new-block-feed{
+		justify-content: normal;
 	}
 	.lc{
 		font-size: 16px;
@@ -1458,6 +1467,16 @@
 	}
 	.data-je{
 		font-weight: bold;
+	}
+
+	.block-gre-1{
+		width: 15%;
+	}
+	.name{
+		font-weight: bold;
+	}
+	.new-block-feed{
+		justify-content: normal;
 	}
 	.data-p{
 		font-weight: bold;
@@ -1846,9 +1865,7 @@
 }
 
 @media (max-width: 350px){
-	.bloc-gre-2{
-		padding-left: 0;
-	}
+
 }
 @media (min-width: 380px){
 	.bloc-gre-2 {
