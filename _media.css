@@ -43,6 +43,10 @@
 		border: none;
 	}
 
+	.main_row_img {
+	    left: -5px;
+	}
+
 	.about_room .main_title_info{
 		padding-left: 40px;
 	}
@@ -133,6 +137,13 @@
 	/* header end */
 }
 
+@media only screen and (max-width : 1500px) {
+	.main_row_text {
+	    font-size: 18px;
+	    padding-left: 5px !important;
+	}
+}
+
 @media only screen and (max-width : 1400px) {
 	/* header */
 	.recommended-item-title{
@@ -187,11 +198,25 @@
 	.header_slider .fluid_dg_target, .fluid_dg_overlayer {
 	    height: 100%;
 	}
+
+	.main_row_text {
+	    font-size: 16px;
+	    padding-left: 10px !important;
+	}
 	/* header end */
 }
 
 @media only screen and (max-width : 1200px) {
 	/* fluid_slider */
+	.prise_svg{
+		height: 50px !important;
+		left: 0;
+	}
+
+	.adress_svg {
+	    height: 50px !important;
+	}
+
 	#call_me_modal .modal-content{
 		padding: 40px 100px 120px 110px;
 	}
@@ -517,6 +542,11 @@
 	.about_room {
 	    background: #f6f6f6;
 	    padding: 30px 0 45px 0;
+	}
+
+	.main_row_text {
+	    font-size: 20px;
+	    padding-left: 0px !important;
 	}
 	/* header end */
 
@@ -1688,6 +1718,10 @@
 
 	.telefon_panel_button {
 	    padding: 10px 0 !important;
+	}
+
+	.call_me_modal .dropdown-p {
+	    font-size: 22px;
 	}
 	/* header end */
 }
