@@ -217,6 +217,10 @@
 		left: 0;
 	}
 
+	.div_menu-my{
+		width: 100%;
+		margin: 0;
+	}
 	.adress_svg {
 	    height: 50px !important;
 	}
@@ -1255,7 +1259,8 @@
 	.devine{
 		padding-left: 20px;
 	}
-	.div_menu{
+
+	.div_menu-my{
 		padding: 0;
 	}
 	.maps-h2{

@@ -91,6 +91,11 @@ body textarea:required:valid {
 	background: #f6f6f6;
 	width: 100%;
 }
+.div_menu-my{
+    width: 100%;
+
+}
+
 #map {
 	padding-bottom: 50px;
 }
