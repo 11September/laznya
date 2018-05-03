@@ -7,12 +7,20 @@
 	    padding: 10px 70px 15px;
 	}
 
+	.hall_svg {
+		height: 30px !important;
+	}
+
+	.img_main_info span{
+		font-size: 18px;
+	}
+
 	.title_info {
 	    padding: 10px 100px 10px;
 	}
 
 	.menu_panel {
-    	padding: 50px 0 310px 70px;
+		padding: 50px 0 310px 100px;
 	}
 
 	.main_right {
@@ -43,6 +51,14 @@
 	.shares, .news{
 		padding-left: 20px;
 	}
+
+	.img_main_info {
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: column;
+		align-items: center;
+	}
+
 	.discription-always{
 		font-size: 18pt;
 	}
@@ -138,7 +154,7 @@
 	}
 
 	.menu_panel {
-	    padding: 50px 0 310px 45px;
+		padding: 50px 0 310px 100px;
 	}
 
 	.i_dollar {
@@ -164,8 +180,17 @@
 	.recommended-item-title{
 		font-size: 21px;
 	}
+
+	header {
+		padding: 10px 20px 15px;
+	}
+
+	.title_info {
+		padding: 10px 70px 10px 50px;
+	}
+
 	.menu_panel {
-	    padding: 35px 0 150px 25px;
+		padding: 35px 0 150px 50px;
 	}
 	.left-padding{
 		padding-left: 250px!important;
@@ -320,6 +345,8 @@
 		display: flex;
 	}
 
+
+
 	.fluid_dg_thumbs_cont > div {
 	    overflow-x: scroll;
 	}
@@ -429,6 +456,7 @@
 
 	.menu-panel a{
 		color: #fff;
+		font-size: 30px;
 	}
 
 	.menu-list{
@@ -653,6 +681,13 @@
 		width: 40%;
 	}
 
+	.fluid_dg_wrap img{
+		height: 500px!important;
+		width: 100%!important;
+		margin-left: 0!important;
+		margin-right: 0!important;
+	}
+
 	.footer-bottom {
 	    height: auto;
 	    padding-top: 5px;
@@ -788,8 +823,8 @@
 	}
 
 	.main_info{
-		padding-left: 50px;
-		padding-right: 50px;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	.h2-price-qun{
@@ -827,6 +862,14 @@
 	.time-name {
 		font-size: 10pt;
 	}
+
+
+
+	#link_reviews .row{
+		margin-left: 0;
+		margin-right: 0;
+	}
+
 	.bloc-gre-2 {
 		padding-left: 50px;
 	}
@@ -1109,6 +1152,11 @@
 
 @media only screen and (max-width : 576px) {
 
+	.dropdown-menu.show {
+		left: 11px!important;
+		width: 100%;
+	}
+
 	.recommended-item-title{
 		text-align: center;
 	}
@@ -1227,7 +1275,8 @@
 
 	.main_links_color {
 	    border-bottom: 1px dashed #ff7000;
-	    font-size: 18px;
+	    font-size: 19px;
+		line-height: 20px;
 	}
 
 	.main_row .center{
@@ -1249,6 +1298,7 @@
 	.main_categories_item a {
 	    padding: 2px 10px;
 	    margin-right: 5px;
+		margin-bottom: 10px;
 	    font-size: 18px;
 	}
 
@@ -1309,6 +1359,104 @@
 @media (max-width : 480px) {
 	.info-p p:first-child, .info-p-2 p:first-child{
 		width:auto;
+	}
+
+	.dropdown-menu.show {
+		left: 43px!important;
+		width: 100%;
+	}
+
+	.menu-panel a {
+		font-size: 24px;
+	}
+
+	.eye_litle_img {
+		margin-right: 5px;
+	}
+
+	.main_content_item {
+		margin-top: 0;
+		padding-top: 10px;
+		border: none;
+	}
+
+	.main_row_text{
+		padding-top: 5px!important;
+		padding-bottom: 10px!important;
+	}
+
+	.call_me_modal {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.telefon_panel_button {
+		padding: 5px 0px !important;
+	}
+
+	.prise_svg{
+		position: absolute;
+	}
+
+	.telefon_panel_button a {
+		font-size: 22px;
+	}
+
+	.main_row_text {
+		padding-left: 35px !important;
+		line-height: 22px;
+	}
+
+	.main_left{
+		order: 2;
+	}
+
+	.main_right{
+		order: 1;
+	}
+
+	.main_title_eye {
+		font-size: 16px;
+		display: flex;
+		align-items: center;
+	}
+
+	.title_info_mobile {
+		padding: 10px 25px 5px 15px;
+	}
+
+	.text_eye_mobile{
+		font-size: 20px;
+		margin-top: 0px;
+		display: inline-block;
+	}
+
+	.svg_mini {
+		height: 20px;
+	}
+
+	.fluid_dg_wrap img{
+		height: 300px!important;
+		width: 100%!important;
+		margin-left: 0!important;
+		margin-right: 0!important;
+	}
+
+	.row_menu_mobile > div{
+		justify-content: flex-start;
+	}
+
+	.header_delimiter {
+		padding-right: 10px!important;
+		padding-left: 15px;
+	}
+
+	.mobile-btn{
+		margin-top: 5px;
+	}
+
+	.row_menu_mobile .auto_link{
+		margin-left: 10px;
 	}
 
 	.h2-family-fon{
@@ -1466,7 +1614,11 @@
 	}
 
 	.menu_mini_title a, .menu_mini_title h3 {
-	    font-size: 20px;
+	    font-size: 18px;
+	}
+
+	.menu_mini_title {
+		padding: 8px 0 8px 15px;
 	}
 
 	#ask_time_modal .modal-header button {
@@ -1517,7 +1669,30 @@
 	}
 
 	.call_me_modal .dropdown-p {
-	    font-size: 24px;
+	    font-size: 26px;
+	}
+
+	.main_left img{
+		display: none;
+	}
+
+	.img_girl{
+		margin-bottom: -105px;
+	}
+
+	.svg_mini {
+		margin-bottom: -75px;
+		margin-left: 5px;
+		height: 30px;
+	}
+
+	.adress_svg{
+		margin-left: 0;
+	}
+
+	.img-categories{
+		height: 30px;
+		margin-bottom: -80px;
 	}
 
 	.telefon_panel{
@@ -1873,12 +2048,15 @@
 
 	.main_links_item {
 	    align-items: normal;
-	    flex-direction: column;
+	    flex-direction: row;
+		width: 92%;
+		margin-left: auto;
 	}
 
 	.main_links_info{
 		position: relative;
 	    text-align: right;
+		width: 50%;
 	}
 
 	.main_title_info {
@@ -1889,7 +2067,7 @@
 
 	.main_title {
 	    font-size: 18px;
-	    width: 33%;
+		width: 35%;
 	}
 
 	.telefon_panel {
@@ -1913,6 +2091,11 @@
 
 	.title_action_border .main_title_info{
 		width: 100%;
+		text-align: left;
+	}
+
+	.title_action_border{
+		margin-top: 8px;
 	}
 
 	.about_room .main_row_text {
@@ -1932,10 +2115,6 @@
 	    text-align: center;
 	}
 
-	.main_left img{
-		display: none;
-	}
-
 	.halls_links {
 	    padding: 0;
 	}
@@ -1943,6 +2122,19 @@
 	.test_plagin{
 		height: 300px;
 		margin-bottom: 50px;
+	}
+
+	.img_main_info {
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: row;
+		align-items: center;
+		margin-top: 10px;
+	}
+
+	.img_main_info span {
+		font-size: 18px;
+		padding-left: 8px;
 	}
 
 	.fluid_dg_bar{
@@ -1992,6 +2184,24 @@
 	.main_categories_item {
 	    align-items: center;
 	}
+
+	.call_me_modal {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.dropdown-menu.show {
+		left: 15px!important;
+	}
+
+	.dropdown_button {
+		font-size: 16px !important;
+	}
+
+	.select_sity {
+		left: 20px;
+	}
+
 	.div_categories_item {
 	    padding-bottom: 10px;
 	    flex-direction: column;

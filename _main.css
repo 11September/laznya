@@ -82,6 +82,10 @@
     width: 100%;
 }
 
+.div_menu{
+	padding: 0;
+}
+
 #map {
 	padding-bottom: 50px;
 }
@@ -438,10 +442,14 @@ header select{
 
 .title_info{
 	background: #564a46;
-	padding: 10px 130px 10px;
+	padding: 10px 100px 10px 130px;
 	color: #fff;
 	text-transform: uppercase;
 }
+.dropdown-menu.show{
+	left: 61px!important;
+}
+
 
 .title_info a{
 	color: #fff;
@@ -450,10 +458,19 @@ header select{
 h1{
 	font-size: 27px;
 	font-family: "RobotoRegular";
-	letter-spacing: 5px;
+	letter-spacing: 8.5px;
 	font-weight: 300;
 	margin-bottom: 0;
 	display: inline-block;
+}
+
+.img_main_info{
+	display: flex;
+	justify-content: space-between;
+}
+
+.img_main_info span{
+	font-size: 20px;
 }
 
 .img_eye{
@@ -492,10 +509,10 @@ h1{
 }
 
 .menu_panel{
-	padding: 50px 0 310px 100px;
+	padding: 50px 0 310px 130px;
 	background: #fff;
 	box-shadow: 0 0 15px 0 rgba( 0, 0, 0, 0.15);
-	width: calc(100% - 70px);
+	width: calc(100% - 20px);
 }
 
 .menu_links li{
@@ -509,7 +526,7 @@ h1{
 }
 
 .main_bg{
-	padding: 10px 100px 35px 30px;
+	padding: 10px 50px 35px 30px;
 }
 
 .main_info .main_bg{
@@ -931,6 +948,10 @@ header .row{
 .main_categories_item a {
     display: inline-block;
     margin-bottom: 5px;
+}
+
+.marker-sity{
+	width: 25px;
 }
 
 .fluid_dg_target, .fluid_dg_overlayer{
@@ -1563,7 +1584,6 @@ h2{
 /* header_slider */
 .header_slider{
 	height: 900px;
-	display: none;
 }
 
 .main_slider{
@@ -1610,6 +1630,12 @@ header option:checked{
     background-color: #ff7000 !important;
     color:#fff !important;
     font-size: 16px !important;
+}
+
+.fluid_dg_wrap img{
+	width: 100%;
+	margin-left: 0!important;
+	margin-right: 0!important;
 }
 
 #ask_time_modal .modal-dialog{
