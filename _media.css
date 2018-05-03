@@ -39,8 +39,16 @@
 
 @media only screen and (max-width : 1600px) {
 	/* header */
+
+	.time-name {
+		font-size: 14pt;
+	}
 	.main_links_color{
 		border: none;
+	}
+
+	.main_row_img {
+	    left: -5px;
 	}
 
 	.about_room .main_title_info{
@@ -134,6 +142,13 @@
 	/* header end */
 }
 
+@media only screen and (max-width : 1500px) {
+	.main_row_text {
+	    font-size: 18px;
+	    padding-left: 5px !important;
+	}
+}
+
 @media only screen and (max-width : 1400px) {
 	/* header */
 	.recommended-item-title{
@@ -188,11 +203,29 @@
 	.header_slider .fluid_dg_target, .fluid_dg_overlayer {
 	    height: 100%;
 	}
+
+	.main_row_text {
+	    font-size: 16px;
+	    padding-left: 10px !important;
+	}
 	/* header end */
 }
 
 @media only screen and (max-width : 1200px) {
 	/* fluid_slider */
+	.prise_svg{
+		height: 50px !important;
+		left: 0;
+	}
+
+	.div_menu-my{
+		width: 100%;
+		margin: 0;
+	}
+	.adress_svg {
+	    height: 50px !important;
+	}
+
 	#call_me_modal .modal-content{
 		padding: 40px 100px 120px 110px;
 	}
@@ -281,6 +314,14 @@
 	/* header */
 	header {
 	    padding: 5px 20px 5px;
+	}
+
+	.telefon_panel{
+		margin-left: 0;
+	}
+
+	.telefon_panel_button{
+		margin-left: 0;
 	}
 
 	.main_row_text{
@@ -510,6 +551,11 @@
 	.about_room {
 	    background: #f6f6f6;
 	    padding: 30px 0 45px 0;
+	}
+
+	.main_row_text {
+	    font-size: 20px;
+	    padding-left: 0px !important;
 	}
 	/* header end */
 
@@ -763,6 +809,10 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+
+	.time-name {
+		font-size: 10pt;
+	}
 	.bloc-gre-2 {
 		padding-left: 50px;
 	}
@@ -883,6 +933,18 @@
 	/* header */
 	header {
 	    padding: 5px 20px 5px;
+	}
+
+	.svg_mini {
+	    left: -5px;
+	}
+
+	.prise_svg {
+	    left: -10px;
+	}
+
+	.hall_svg{
+		left: 0;
 	}
 
 	footer .row{
@@ -1059,7 +1121,16 @@
 		font-size: 14pt;
 	}
 	.submit-btn {
-		width: 50%;
+		width: 90%;
+	}
+	.area-class textarea{
+		width: 90%;
+	}
+	.bloc-gre-2{
+		padding-left: 75px!important;
+	}
+	.new-block-feed{
+		justify-content: normal;
 	}
 	.lc{
 		font-size: 16px;
@@ -1171,8 +1242,47 @@
 	    font-size: 20px;
 	}
 
+	.main_row .center {
+	    float: left;
+	    text-align: left;
+	    display: inline-block;
+	    width: auto;
+	}
+
+	.main_title {
+	    padding-left: 0;
+	}
+	.qunce	{
+	padding-left: 0!important;
+	padding-right: 0!important;
+	}
+	.main_row_text {
+	    padding-left: 45px !important;
+	}
+
 	.telefon_panel span {
 	    font-size: 22px;
+	}
+
+	.svg_mini {
+	    margin-bottom: -55px;
+	}
+
+	.hall_svg ,.marker_sity,
+	.eye_litle_img {
+	    margin-bottom: 0;
+	}
+
+	.i_dollar{
+		position: relative;
+		margin-bottom: -72px;
+		display: flex !important;
+    	left: 15px;
+	}
+
+	.svg_number_places_for_sleep,
+	.img_girl{
+		margin-bottom: -72px;
 	}
 
 	h2 {
@@ -1183,6 +1293,88 @@
 }
 
 @media (max-width : 480px) {
+	.info-p p:first-child, .info-p-2 p:first-child{
+		width:auto;
+	}
+
+	.h2-family-fon{
+		height: auto;
+	}
+	.btn-get-back-none{
+		display: none;
+	}
+	.norml-bn{
+		border: none;
+		color:#AFADAE;
+		background:   #EEEEEE;
+	}
+	.show-more{
+		PADDING: 15px 20px;
+		border: 1.5px solid #DFDFDF;
+		color:#A2A0A1;
+		font-weight: 500;
+		border-radius: 5px;
+
+	}
+	.btn-get-back{
+		text-align: left!important;
+		padding: 0 0 0 30px!important;
+		margin: 20px 0 50px 0;
+	}
+	.show-more i{
+		color:#A2A0A1;
+		margin-left: 10px;
+	}
+	.more-news{
+		font-size: 21px;
+	}
+	.news-h2{
+		padding-left: 20px;
+	}
+	.devine{
+		padding:20px!important;
+		color:#5E544F;
+	}
+	.betWine-under{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.service-p{
+		padding-left: 20px;
+	}
+	.description-maps-one{
+		padding-left: 20px;
+	}
+
+
+	.maps-h2{
+		padding-left: 20px!important;
+	}
+	.betWine-under{
+		padding-left: 20px;
+	}
+	.devine{
+		padding-left: 20px;
+	}
+
+	.div_menu-my{
+		padding: 0;
+	}
+	.maps-h2{
+		text-align: left;
+	}
+	.opisanie{
+		padding: 0 0;
+	}
+	.wrapper-family{
+		display: none;
+	}
+	.h3-div{
+		display: none;
+	}
+	.about-under{
+		display: none;
+	}
 	.recommended_slider{
 		width: 100%;
 	}
@@ -1248,12 +1440,32 @@
 	}
 
 	#ask_time_modal .modal-content {
-	    padding: 30px 0 50px 30px;
+	    padding: 30px 15px 50px 30px;
+	}
+
+	#ask_time_modal .call_me_done {
+		width: 100%;
+	}
+
+	.main_title_eye {
+	    text-align: left;
+	}
+
+	.menu_mini_title a, .menu_mini_title h3 {
+	    font-size: 20px;
 	}
 
 	#ask_time_modal .modal-header button {
 	    top: 0;
 	    left: 93%;
+	}
+
+	.footer-content {
+	    padding: 25px 0 30px 0;
+	}
+
+	.footer-wrapper-headings{
+		display: none;
 	}
 
 	.ask_time_modal_row div{
@@ -1289,6 +1501,43 @@
 	#ask_time_modal .modal-body input {
 	    width: 100% !important;
 	}
+
+	.call_me_modal .dropdown-p {
+	    font-size: 24px;
+	}
+
+	.telefon_panel{
+		padding-left: 0 !important;
+	}
+
+	.telefon_panel button{
+		padding: 0 !important;
+	}
+
+	.dropdown_hiden{
+		display: none;
+	}
+
+	.about_room .main_title_info {
+	    width: 100%;
+	    text-align: left;
+	    padding-left: 10px;
+	}
+
+	.about_room .main_title {
+	    padding-left: 10px;
+	}
+
+	.main_content_item .main_title ,
+	.main_content_item .main_title_info{
+	    padding-left: 0;
+	}
+
+	.dropdown_button{
+		display: block;
+		font-size: 20px !important;
+		border-bottom: 2px dashed #fff;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1296,6 +1545,7 @@
 	/* slick-slider */
 	.rec-h2 {
 	    text-align: left;
+		padding-left: 20px;
 	}
 	/* slick-slider  */
 	.block-data{
@@ -1309,17 +1559,96 @@
 		font-size: 18px;
 	}
 	.submit-btn{
-		width: 100%;
+		width: 95%;
 		border-radius: 10px;
 		font-size: 23px;
+		padding: 10px 0px;
 	}
-	.lc{
-		width: 100%;
-		text-align: center;
-		align-items: center;
+	.input-spn-btn{
+		padding-left: 20px;
+	}
+	.review-p{
+		justify-content: normal;
+		padding-left: 20px;
+		font-weight: bold;
 	}
 	.area-class textarea{
-		width: 100%;
+		width: 95%;
+	}
+
+	.away-p{
+		padding-left: 20px;
+	}
+	.description-maps{
+		padding-left: 20px;
+	}
+	.obrare {
+		justify-content: normal;
+		padding-left: 20px;
+	}
+	.lc{
+		width: 95%;
+		text-align: center;
+		align-items: center;
+		font-size: 21px;
+		padding: 10px 30px;
+
+	}
+	.daa-1{
+		padding-left: 75px!important;
+		padding-right: 20px;
+	}
+	.daa-2{
+		padding-left: 50px!important;
+		padding-right: 20px;
+	}
+	.daa-3{
+		padding-left: 45px!important;
+		padding-right: 20px;
+	}
+	.daa-4{
+		padding-left: 45px!important;
+		padding-right: 20px;
+	}
+	.daa-5{
+		padding-left: 20px!important;
+		padding-right: 20px;
+	}
+	.daa-6{
+		padding-left: 20px!important;
+		padding-right: 20px;
+	}
+	.data-je{
+		font-weight: bold;
+	}
+
+	.block-gre-1{
+		width: 15%;
+	}
+	.name{
+		font-weight: bold;
+	}
+	.new-block-feed{
+		justify-content: normal;
+	}
+	.data-p{
+		font-weight: bold;
+	}
+	.block-data{
+		justify-content: normal;
+		text-align: left;
+		padding-left: 20px;
+	}
+	.info-p, .info-p-2{
+		justify-content: normal;
+		text-align: left;
+		padding-left: 20px;
+		color:dimgrey;
+		font-size: 21px;
+	}
+
+	.area-class textarea{
+		width: 90%;
 		height: 150px;
 		border-radius: 10px;
 	}
@@ -1336,8 +1665,13 @@
 	.description-maps-one{
 		font-size: 14pt;
 		text-align: left;
-		padding-left: 50px;
-		padding-right:25px;
+		padding-right: 20px;
+		padding-left: 20px;
+
+	}
+	.h2-price-qun{
+		text-align: left;
+		padding-left: 20px;
 	}
 	.maps-h2{
 		font-size: 28pt;
@@ -1360,29 +1694,38 @@
 	{
 		font-size: 14pt;
 		text-align: left;
-		padding-left:50px;
-		padding-right: 25px;
+		padding-left:20px;
+		padding-right: 20px;
+
+	}
+	.po-bnt{
+		display: block;
 	}
 	.left-padding{
-		padding-left: 15px!important;
-		padding-right: 15px!important;
+		padding-left: 15px !important;
+		padding-right: 15px !important;
 	}
 	.h2-family-fon h2{
 		font-size:15pt;
 	}
 	.betWine-under{
-		padding-left: 0;
+
 		text-align: center;
+	}
+	.h2-shares{
+		padding-left: 20px;
+		text-align: left;
 	}
 	.data-new{
 		padding-left: 0;
 	}
 	.text-name{
 		width: 100%;
+		padding-left: 20px;
 	}
 	.time-name{
 		width: 100%;
-		padding-left: 40px;
+		padding-left: 20px;
 	}
 	.recover-ser{
 		display: block;
@@ -1408,7 +1751,7 @@
 	.betWine-under{
 		margin-bottom: 0;
 		text-align: left;
-		padding-left: 30px;
+
 		font-weight: bold;
 	}
 	.block-pt{
@@ -1422,7 +1765,7 @@
 		align-items: center;
 	}
 	.devine {
-		padding: 50px 46px 44px 30px;
+		padding-left: 20px;
 		text-align: left;
 	}
 	.service-p{
@@ -1662,13 +2005,23 @@
 	.marker_sity{
 		display: none;
 	}
+
+	.telefon_panel_button a {
+	    font-size: 15px;
+	}
+
+	.telefon_panel_button {
+	    padding: 10px 0 !important;
+	}
+
+	.call_me_modal .dropdown-p {
+	    font-size: 22px;
+	}
 	/* header end */
 }
 
 @media (max-width: 350px){
-	.bloc-gre-2{
-		padding-left: 0;
-	}
+
 }
 @media (min-width: 380px){
 	.bloc-gre-2 {
