@@ -40,15 +40,23 @@
 @media only screen and (max-width : 1600px) {
 	/* header */
 
+	.shares, .news{
+		padding-left: 20px;
+	}
+	.discription-always{
+		font-size: 18pt;
+	}
+	.cost-p {
+		padding-right: 75px;
+	}
+	.news-h2{
+		padding-left: 20px;
+	}
 	.time-name {
 		font-size: 14pt;
 	}
 	.main_links_color{
 		border: none;
-	}
-
-	.main_row_img {
-	    left: -5px;
 	}
 
 	.about_room .main_title_info{
@@ -97,10 +105,10 @@
 	}
 
 	.main_title {
-	    font-size: 20px;
-	    width: 28%;
-	    display: inline-block;
-	    padding-left: 25px;
+		font-size: 20px;
+		width: 30%;
+		display: inline-block;
+		padding-left: 10px;
 	}
 
 	.main_title.big_title{
@@ -108,9 +116,10 @@
 	}
 
 	.main_title_info {
-	    font-size: 20px;
-	    width: 70%;
-	    display: inline-block;
+		font-size: 20px;
+		width: 65%;
+		display: inline-block;
+		padding-left: 10px;
 	}
 
 	.main_links_color {
@@ -149,8 +158,9 @@
 	}
 }
 
+
+
 @media only screen and (max-width : 1400px) {
-	/* header */
 	.recommended-item-title{
 		font-size: 21px;
 	}
@@ -206,11 +216,15 @@
 
 	.main_row_text {
 	    font-size: 16px;
-	    padding-left: 10px !important;
 	}
-	/* header end */
 }
 
+
+@media only screen and (max-width: 1445px){
+	.time-name {
+		font-size: 15pt;
+	}
+}
 @media only screen and (max-width : 1200px) {
 	/* fluid_slider */
 	.prise_svg{
