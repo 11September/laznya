@@ -612,8 +612,16 @@ h1{
 	font-size: 22px;
 }
 
+.main_links_color:hover{
+	color: #ff7000;
+}
+
 .main_links_info{
 	font-size: 18px;
+	color: #858383;
+}
+
+.main_links_info:hover{
 	color: #858383;
 }
 
