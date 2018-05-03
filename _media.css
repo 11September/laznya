@@ -47,10 +47,6 @@
 		border: none;
 	}
 
-	.main_row_img {
-	    left: -5px;
-	}
-
 	.about_room .main_title_info{
 		padding-left: 40px;
 	}
@@ -96,10 +92,10 @@
 	}
 
 	.main_title {
-	    font-size: 20px;
-	    width: 28%;
-	    display: inline-block;
-	    padding-left: 25px;
+		font-size: 20px;
+		width: 30%;
+		display: inline-block;
+		padding-left: 10px;
 	}
 
 	.main_title.big_title{
@@ -107,9 +103,10 @@
 	}
 
 	.main_title_info {
-	    font-size: 20px;
-	    width: 70%;
-	    display: inline-block;
+		font-size: 20px;
+		width: 65%;
+		display: inline-block;
+		padding-left: 10px;
 	}
 
 	.main_links_color {
@@ -149,7 +146,6 @@
 }
 
 @media only screen and (max-width : 1400px) {
-	/* header */
 	.recommended-item-title{
 		font-size: 21px;
 	}
@@ -205,9 +201,7 @@
 
 	.main_row_text {
 	    font-size: 16px;
-	    padding-left: 10px !important;
 	}
-	/* header end */
 }
 
 @media only screen and (max-width : 1200px) {
