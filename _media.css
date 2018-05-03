@@ -934,6 +934,18 @@
 	    padding: 5px 20px 5px;
 	}
 
+	.svg_mini {
+	    left: -5px;
+	}
+
+	.prise_svg {
+	    left: -10px;
+	}
+
+	.hall_svg{
+		left: 0;
+	}
+
 	footer .row{
 		text-align: center;
 	}
@@ -1229,8 +1241,44 @@
 	    font-size: 20px;
 	}
 
+	.main_row .center {
+	    float: left;
+	    text-align: left;
+	    display: inline-block;
+	    width: auto;
+	}
+
+	.main_title {
+	    padding-left: 0;
+	}
+
+	.main_row_text {
+	    padding-left: 45px !important;
+	}
+
 	.telefon_panel span {
 	    font-size: 22px;
+	}
+
+	.svg_mini {
+	    margin-bottom: -55px;
+	}
+
+	.hall_svg ,.marker_sity,
+	.eye_litle_img {
+	    margin-bottom: 0;
+	}
+
+	.i_dollar{
+		position: relative;
+		margin-bottom: -72px;
+		display: flex !important;
+    	left: 15px;
+	}
+
+	.svg_number_places_for_sleep,
+	.img_girl{
+		margin-bottom: -72px;
 	}
 
 	h2 {
@@ -1385,12 +1433,32 @@
 	}
 
 	#ask_time_modal .modal-content {
-	    padding: 30px 0 50px 30px;
+	    padding: 30px 15px 50px 30px;
+	}
+
+	#ask_time_modal .call_me_done {
+		width: 100%;
+	}
+
+	.main_title_eye {
+	    text-align: left;
+	}
+
+	.menu_mini_title a, .menu_mini_title h3 {
+	    font-size: 20px;
 	}
 
 	#ask_time_modal .modal-header button {
 	    top: 0;
 	    left: 93%;
+	}
+
+	.footer-content {
+	    padding: 25px 0 30px 0;
+	}
+
+	.footer-wrapper-headings{
+		display: none;
 	}
 
 	.ask_time_modal_row div{
@@ -1437,6 +1505,31 @@
 
 	.telefon_panel button{
 		padding: 0 !important;
+	}
+
+	.dropdown_hiden{
+		display: none;
+	}
+
+	.about_room .main_title_info {
+	    width: 100%;
+	    text-align: left;
+	    padding-left: 10px;
+	}
+
+	.about_room .main_title {
+	    padding-left: 10px;
+	}
+
+	.main_content_item .main_title ,
+	.main_content_item .main_title_info{
+	    padding-left: 0;
+	}
+
+	.dropdown_button{
+		display: block;
+		font-size: 20px !important;
+		border-bottom: 2px dashed #fff;
 	}
 }
 

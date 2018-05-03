@@ -295,6 +295,10 @@ body textarea:required:valid {
 .modal-header{
 	border-bottom: none;
 }
+
+.dropdown_button{
+	display: none;
+}
 .modal-footer{
 	border-top: none;
 }
