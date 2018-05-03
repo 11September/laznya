@@ -1292,6 +1292,9 @@
 }
 
 @media (max-width : 480px) {
+	.info-p p:first-child, .info-p-2 p:first-child{
+		width:auto;
+	}
 
 	.h2-family-fon{
 		height: auto;
@@ -1592,21 +1595,27 @@
 	}
 	.daa-1{
 		padding-left: 75px!important;
+		padding-right: 20px;
 	}
 	.daa-2{
 		padding-left: 50px!important;
+		padding-right: 20px;
 	}
 	.daa-3{
 		padding-left: 45px!important;
+		padding-right: 20px;
 	}
 	.daa-4{
 		padding-left: 45px!important;
+		padding-right: 20px;
 	}
 	.daa-5{
 		padding-left: 20px!important;
+		padding-right: 20px;
 	}
 	.daa-6{
 		padding-left: 20px!important;
+		padding-right: 20px;
 	}
 	.data-je{
 		font-weight: bold;
@@ -1692,8 +1701,8 @@
 		display: block;
 	}
 	.left-padding{
-		padding-left: 0!important;
-		padding-right: 0!important;
+		padding-left: 15px !important;
+		padding-right: 15px !important;
 	}
 	.h2-family-fon h2{
 		font-size:15pt;

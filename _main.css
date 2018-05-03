@@ -301,11 +301,13 @@ header .right .dropdown .dropdown-menu{
 	background: linear-gradient(to top, #792c08, #a43a00);
 	color: #fff !important;
 	font-size: 18px;
+	margin-top: 20px;
 }
 
 header .right .dropdown .dropdown-menu *{
 	color: #fff !important;
 	font-size: 18px;
+	background-color: transparent;
 }
 
 .search_svg{
@@ -1032,6 +1034,12 @@ li {
 
 .info-p{
 	display: flex;
+	font-size: 24px;
+	font-family: "RobotoRegular";
+}
+
+.info-p p:first-child, .info-p-2 p:first-child{
+	width:420px;
 }
 
 .info-p-2{
@@ -1047,11 +1055,6 @@ li {
 	color:white;
 	padding: 20px 30px;
 	border-radius: 8px;
-}
-
-.info-p{
-	font-size: 24px;
-	font-family: "RobotoRegular";
 }
 
 .btn-back{
@@ -1598,7 +1601,8 @@ header option:checked{
 	background: url("img/main_info_modal_bg.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 40px 0 220px 110px;
+	/*padding: 40px 0 220px 110px;*/
+	padding: 40px 0 110px 0;
 }
 
 #ask_time_modal .modal-header{
@@ -1652,11 +1656,11 @@ header option:checked{
 }
 
 #ask_time_modal .modal-content{
-	text-align: left !important;
+	/*text-align: left !important;*/
 }
 
 #ask_time_modal .modal-title{
-	text-align: left !important;
+	/*text-align: left !important;*/
 }
 
 #ask_time_modal .modal-body span{
@@ -1731,7 +1735,7 @@ header option:checked{
 	background: url("img/main_info_modal_bg.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 40px 0 220px 110px;
+	padding: 40px 0 100px 0;
 }
 
 .row_two{
