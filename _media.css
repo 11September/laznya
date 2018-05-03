@@ -40,6 +40,15 @@
 @media only screen and (max-width : 1600px) {
 	/* header */
 
+	.discription-always{
+		font-size: 18pt;
+	}
+	.cost-p {
+		padding-right: 75px;
+	}
+	.news-h2{
+		padding-left: 20px;
+	}
 	.time-name {
 		font-size: 14pt;
 	}
