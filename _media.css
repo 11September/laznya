@@ -1363,6 +1363,14 @@
 	    left: 93%;
 	}
 
+	.footer-content {
+	    padding: 25px 0 30px 0;
+	}
+
+	.footer-wrapper-headings{
+		display: none;
+	}
+
 	.ask_time_modal_row div{
 		padding: 0 15px 0 0;
 	}
