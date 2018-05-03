@@ -832,6 +832,9 @@
 	.time-name {
 		font-size: 10pt;
 	}
+	.h2-family-fon{
+		align-items: center;
+	}
 	.bloc-gre-2 {
 		padding-left: 50px;
 	}
@@ -849,7 +852,10 @@
 		font-size: 20pt;
 	}
 	.submit-btn{
-		width: 35%;
+		width: 50%;
+	}
+	.bloc-gre-2 {
+		padding-left: 50px;
 	}
 	.lc{
 		font-size: 20px;
@@ -1148,11 +1154,25 @@
 	.bloc-gre-2{
 		padding-left: 75px!important;
 	}
-	.new-block-feed{
-		justify-content: normal;
+	.new-block-feed {
+		justify-content: space-evenly;
+		padding-left: 50px;
 	}
 	.lc{
 		font-size: 16px;
+	}
+	.lc{
+		padding: 20px 80px;
+	}
+	.block-data{
+		margin-bottom: 20px;
+	}
+	.text-date-news {
+		font-size: 16pt;
+	}
+	.enjyr{
+		padding-left: 0!important;
+		padding-right: 0!important;
 	}
 	.btn-get-back{
 		text-align: center;
@@ -1183,7 +1203,7 @@
 		font-size: 26pt;
 	}
 	.time-name{
-		font-size: 13pt;
+		font-size: 11pt;
 	}
 	.devine {
 		padding: 50px 46px 44px 50px;
@@ -1720,12 +1740,16 @@
 	.po-bnt{
 		display: block;
 	}
-	.left-padding{
-		padding-left: 15px !important;
-		padding-right: 15px !important;
-	}
+
 	.h2-family-fon h2{
 		font-size:15pt;
+	}
+	.shares, .news{
+		padding-left: 0;
+	}
+	.maps-ber{
+		padding-right: 20px!important;
+		padding-left: 20px!important;
 	}
 	.betWine-under{
 
