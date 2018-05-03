@@ -40,6 +40,9 @@
 @media only screen and (max-width : 1600px) {
 	/* header */
 
+	.shares, .news{
+		padding-left: 20px;
+	}
 	.discription-always{
 		font-size: 18pt;
 	}
@@ -157,6 +160,8 @@
 	}
 }
 
+
+
 @media only screen and (max-width : 1400px) {
 	/* header */
 	.recommended-item-title{
@@ -219,6 +224,12 @@
 	/* header end */
 }
 
+
+@media only screen and (max-width: 1445px){
+	.time-name {
+		font-size: 15pt;
+	}
+}
 @media only screen and (max-width : 1200px) {
 	/* fluid_slider */
 	.prise_svg{
