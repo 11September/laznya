@@ -166,10 +166,7 @@
 	.menu_panel {
 	    padding: 35px 0 150px 25px;
 	}
-	.left-padding{
-		padding-left: 250px!important;
-	}
-
+	
 	.menu_links li {
 	    padding-bottom: 20px;
 	}
@@ -1165,8 +1162,8 @@
 		font-size: 16pt;
 	}
 	.enjyr{
-		padding-left: 0!important;
-		padding-right: 0!important;
+		padding-left: 0px!important;
+		padding-right: 0px!important;
 	}
 	.btn-get-back{
 		text-align: center;
