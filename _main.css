@@ -289,6 +289,11 @@ header{
 	padding: 10px 100px 15px;
 }
 
+button:hover, button:visited,
+button:active, button:focus{
+	outline: none !important;
+}
+
 header .right .dropdown, 
 header .right .dropdown button{
 	background: transparent !important;
