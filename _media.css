@@ -40,15 +40,23 @@
 @media only screen and (max-width : 1600px) {
 	/* header */
 
+	.shares, .news{
+		padding-left: 20px;
+	}
+	.discription-always{
+		font-size: 18pt;
+	}
+	.cost-p {
+		padding-right: 75px;
+	}
+	.news-h2{
+		padding-left: 20px;
+	}
 	.time-name {
 		font-size: 14pt;
 	}
 	.main_links_color{
 		border: none;
-	}
-
-	.main_row_img {
-	    left: -5px;
 	}
 
 	.about_room .main_title_info{
@@ -96,10 +104,10 @@
 	}
 
 	.main_title {
-	    font-size: 20px;
-	    width: 28%;
-	    display: inline-block;
-	    padding-left: 25px;
+		font-size: 20px;
+		width: 30%;
+		display: inline-block;
+		padding-left: 10px;
 	}
 
 	.main_title.big_title{
@@ -107,9 +115,10 @@
 	}
 
 	.main_title_info {
-	    font-size: 20px;
-	    width: 70%;
-	    display: inline-block;
+		font-size: 20px;
+		width: 65%;
+		display: inline-block;
+		padding-left: 10px;
 	}
 
 	.main_links_color {
@@ -148,8 +157,9 @@
 	}
 }
 
+
+
 @media only screen and (max-width : 1400px) {
-	/* header */
 	.recommended-item-title{
 		font-size: 21px;
 	}
@@ -205,11 +215,15 @@
 
 	.main_row_text {
 	    font-size: 16px;
-	    padding-left: 10px !important;
 	}
-	/* header end */
 }
 
+
+@media only screen and (max-width: 1445px){
+	.time-name {
+		font-size: 15pt;
+	}
+}
 @media only screen and (max-width : 1200px) {
 	/* fluid_slider */
 	.prise_svg{
@@ -812,6 +826,9 @@
 	.time-name {
 		font-size: 10pt;
 	}
+	.h2-family-fon{
+		align-items: center;
+	}
 	.bloc-gre-2 {
 		padding-left: 50px;
 	}
@@ -829,7 +846,10 @@
 		font-size: 20pt;
 	}
 	.submit-btn{
-		width: 35%;
+		width: 50%;
+	}
+	.bloc-gre-2 {
+		padding-left: 50px;
 	}
 	.lc{
 		font-size: 20px;
@@ -1128,11 +1148,25 @@
 	.bloc-gre-2{
 		padding-left: 75px!important;
 	}
-	.new-block-feed{
-		justify-content: normal;
+	.new-block-feed {
+		justify-content: space-evenly;
+		padding-left: 50px;
 	}
 	.lc{
 		font-size: 16px;
+	}
+	.lc{
+		padding: 20px 80px;
+	}
+	.block-data{
+		margin-bottom: 20px;
+	}
+	.text-date-news {
+		font-size: 16pt;
+	}
+	.enjyr{
+		padding-left: 0!important;
+		padding-right: 0!important;
 	}
 	.btn-get-back{
 		text-align: center;
@@ -1163,7 +1197,7 @@
 		font-size: 26pt;
 	}
 	.time-name{
-		font-size: 13pt;
+		font-size: 11pt;
 	}
 	.devine {
 		padding: 50px 46px 44px 50px;
@@ -1700,12 +1734,16 @@
 	.po-bnt{
 		display: block;
 	}
-	.left-padding{
-		padding-left: 15px !important;
-		padding-right: 15px !important;
-	}
+
 	.h2-family-fon h2{
 		font-size:15pt;
+	}
+	.shares, .news{
+		padding-left: 0;
+	}
+	.maps-ber{
+		padding-right: 20px!important;
+		padding-left: 20px!important;
 	}
 	.betWine-under{
 
