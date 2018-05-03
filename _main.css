@@ -67,6 +67,9 @@ body textarea:required:valid {
 	padding-bottom: 25px;
 }
 
+.po-bnt{
+	display: none;
+}
 
 .block-share-3{
 	padding-bottom: 20px;

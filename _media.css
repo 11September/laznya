@@ -1251,7 +1251,10 @@
 	.main_title {
 	    padding-left: 0;
 	}
-
+	.qunce	{
+	padding-left: 0!important;
+	padding-right: 0!important;
+	}
 	.main_row_text {
 	    padding-left: 45px !important;
 	}
@@ -1684,6 +1687,9 @@
 		padding-left:20px;
 		padding-right: 20px;
 
+	}
+	.po-bnt{
+		display: block;
 	}
 	.left-padding{
 		padding-left: 0!important;
