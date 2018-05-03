@@ -161,6 +161,7 @@
 }
 .submit-btn{
 	padding: 15px 0;
+	font-size: 24px;
 	width: 18%;
 	display: flex;
 	justify-content: center;
