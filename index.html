@@ -9092,8 +9092,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
     <link rel="manifest" href="img/favicon/site.webmanifest">
     <link rel='stylesheet' id='fluid_dg-css' href='libs/fluid_dg/fluid_dg.css' type='text/css' media='all'>
-    <link rel="stylesheet" href="libs/slick-slide/slick.css">
-    <link rel="stylesheet" href="libs/slick-slide/slick-theme.css">
     <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="stylesheet" href="_header.css">
     <link rel="stylesheet" href="_main.css">
@@ -10855,46 +10853,30 @@
     loadCSS("_header.css");              //Header Styles (compress & paste to header after release)
     loadCSS("_main.css");                //User Styles: Main
     loadCSS("_media.css");               //User Styles: Media
-    loadCSS("libs/fancybox-master/dist/jquery.fancybox.min.css");               //User Styles: Media
+    loadCSS("libs/fancybox-master/dist/jquery.fancybox.min.css");
+    loadCSS("libs/slick-slide/slick.css");
+    loadCSS("libs/slick-slide/slick-theme.css");
+    loadCSS("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
 </script>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
-      integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js'></script>
-<script src="js/bootstrap.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
-        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
-        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-        crossorigin="anonymous"></script>
 
 <!-- Load CSS compiled without Bootstrap & Header styles (after release) -->
 <script>var ms = document.createElement("link");
 ms.rel = "stylesheet";
 // ms.href="compiled.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
 </script>
-
-
-<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js'></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="js/slick.min.js"></script>
-<script type="text/javascript" src="js/test.js"></script>
 <!-- Load Scripts -->
 <script>var scr = {
     "scripts": [
+        {"src": "libs/bootstrap-4.1.0/js/jquery-3.3.1.slim.min.js", "async": false},
+        {"src": "libs/bootstrap-4.1.0/js/bootstrap.min.js", "async": false},
         {"src": "libs/modernizr/modernizr.js", "async": false},
-        {"src": "libs/jquery/jquery-2.2.4.min.js", "async": false},
         {"src": "libs/fluid_dg/jquery.min.js", "async": false},
         {"src": "libs/fluid_dg/fluid_dg.min.js", "async": false},
         {"src": "libs/fluid_dg/jquery.easing.1.3.js", "async": false},
         {"src": "libs/fluid_dg/jquery.mobile.customized.min.js", "async": false},
-        {"src": "js/common.js", "async": false},
-        {"src": "libs/fancybox-master/dist/jquery.fancybox.min.js", "async": false},
-        {"src": "js/bootstrap.js", "async": false},
+//        {"src": "libs/fancybox-master/dist/jquery.fancybox.min.js", "async": false},
+        {"src": "js/slick.min.js", "async": false},
+        {"src": "js/common.js", "async": false}
     ]
 };
 !function (t, n, r) {
@@ -10916,6 +10898,5 @@ ms.rel = "stylesheet";
     }
 }(window, document, scr);
 </script>
-
 </body>
 </html>
