@@ -1612,6 +1612,10 @@
 	.info-p p:first-child, .info-p-2 p:first-child{
 		width:auto;
 	}
+	.main_info-480{
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
 
 	.hall-name{
 		background: #554a46;
@@ -2374,7 +2378,7 @@
 	}
 	.h2-price-qun{
 		text-align: left;
-		padding-left: 0;
+		padding-left: 20px;
 	}
 
 	.hall_svg{
