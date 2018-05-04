@@ -1522,7 +1522,7 @@ h2{
 	height: 60px;
 	font-family: 'Roboto Condensed';
 	justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .jye{
@@ -1626,6 +1626,7 @@ h2{
 .flex-item{
 	padding-bottom: 20px;
 	margin-bottom: 0;
+    font-family: 'Roboto;
 }
 
 .betWine-under{
@@ -1633,7 +1634,7 @@ h2{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-size: 24pt;
-	font-family: 'Roboto-Medium';
+	font-family: 'Roboto';
 	color:#564a46;
 	padding-left: 150px;
 	font-weight: normal;
