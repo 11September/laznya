@@ -9211,7 +9211,7 @@
 
 <section class="main_info ">
     <div class="container-fluid  ">
-        <div class="row">
+        <div class="row info-row">
             <div class="col-xl-3 col-lg-12 col-md-12 div_menu div_menu_left">
                 <div class="menu_panel">
                     <div class="menu_links">
@@ -9368,32 +9368,32 @@
                                                 <div class="modal-body">
                                                     <form class="" action="">
                                                         <div class="row ask_time_modal_row">
-                                                            <div class="col-xl-6 ">
+                                                            <div class="col-xl-6 ask-item">
                                                                 <span>Имя</span>
                                                                 <br>
                                                                 <input type="text" name="name">
                                                             </div>
-                                                            <div class="col-xl-6">
+                                                            <div class="col-xl-6 ask-item">
                                                                 <span>Номер телефона</span>
                                                                 <br>
                                                                 <input type="text" name="phone">
                                                             </div>
-                                                            <div class="col-xl-6 row_two">
+                                                            <div class="col-xl-6 ask-item row_two">
                                                                 <span>Дата</span>
                                                                 <br>
                                                                 <input class="date_1" type="text" name="date_1">
                                                                 <input class="date_2" type="text" name="date_2">
                                                                 <input class="date_3" type="text" name="date_3">
                                                             </div>
-                                                            <div class="col-xl-6 row_two">
+                                                            <div class="col-xl-6 ask-item row_two">
                                                                 <span>Длительность</span>
                                                                 <br>
                                                                 <input type="text" name="time">
                                                             </div>
-                                                            <div class="col-xl-6 zero_space">
+                                                            <div class="col-xl-6 ask-item zero_space">
 
                                                             </div>
-                                                            <div class="col-xl-6">
+                                                            <div class="col-xl-6 ask-item">
                                                                 <button type="button" class="call_me_done"
                                                                         data-toggle="modal" data-target="#call_me_done"
                                                                         data-dismiss="modal" aria-label="Close">
@@ -9550,7 +9550,7 @@
 
                                 <div class="row main_row">
                                     <div class="col-xl-1 col-lg-1 col-sm-1 center">
-                                        <img class="svg_mini" src="img\main_svg\site.svg">
+                                        <img class="svg_mini site-ico" src="img\main_svg\site.svg">
                                     </div>
                                     <div class="col-xl-11 col-lg-11 col-sm-11 main_row_text main_row_text_2">
                                         <span class="main_title big_title">Вебсайт:</span>
@@ -9688,6 +9688,9 @@
 
                 <div class="points-banya margin-r-100">
                     <div class="wrapper-family">
+
+
+
                         <div class="h2-family-fon special-fat">
                             <h2>Банька “СЕМЕЙНАЯ” до 6 гостей</h2>
                         </div>
@@ -9715,7 +9718,9 @@
 
                 <div class="prices-family margin-r-100 " id="link_price">
                     <h2 class="h2-price-qun">Прайс</h2>
+                    <div class="evy">
                     <div class="h2-family-fon">
+
                         <p class="service-p">Услуга</p>
                         <p class="cost-p">Стоимость</p>
                     </div>
@@ -9774,6 +9779,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </div>
@@ -9999,7 +10005,7 @@
 
 <section class="about_room" id="link_room_1">
     <div class="container-fluid left-padding enjyr">
-        <h2>Зал №1 “Пляж”</h2>
+        <h2 class="hall-name">Зал №1 “Пляж”</h2>
         <div class="">
             <div class="row-flex">
                 <div class="col-md-12 div_menu">
@@ -10197,7 +10203,7 @@
                 </div>
             </div>
 
-            <h2 class="maps-h2">Описание </h2>
+            <h2 class="maps-h2 two-h2">Описание </h2>
 
             <p class="description-maps-one"> В отдельном симпатичном домике на территории отеля расположилась баня.
                 Русская баня на дровах. Внутри есть бассейн с
@@ -10272,7 +10278,7 @@
 
 <section class="about_room" id="link_room_2">
     <div class="container-fluid left-padding enjyr">
-        <h2>Зал №2 “Виктория”</h2>
+        <h2 class="hall-name">Зал №2 “Виктория”</h2>
         <div class="">
             <div class="row-flex">
                 <div class="col-md-12 div_menu">
@@ -10632,15 +10638,25 @@
 
                     <form class="feed" action="index.html" method="post">
                         <p class="review-p">Чтобы оставить отзыв, выберите его тип</p>
-                        <div class="input-spn-btn">
-                            <input class="radio-btn" type="radio" id="like">
-                            <span class="class-like">Похвала </span>
+
+                        <div>
+                            <label class="input-spn-btn">
+                                <input class="radio" type="radio" name="radio-test">
+                                <span class="radio-custom"></span>
+                                <span class="label class-like">Похвала</span>
+                            </label>
                         </div>
 
-                        <div class="input-spn-btn">
-                            <input class="radio-btn" type="radio" id="dislike">
-                            <span class="report">Жалоба </span>
+
+
+                        <div>
+                            <label class="input-spn-btn">
+                                <input class="radio radio-2" type="radio" name="radio-test">
+                                <span class="radio-custom spu3"></span>
+                                <span class="label report">Жалоба</span>
+                            </label>
                         </div>
+
 
                         <div class="area-class">
                             <textarea name="comment" cols="40" rows="3"></textarea>

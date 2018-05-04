@@ -267,6 +267,10 @@
 		left: 0;
 	}
 
+	.main_info .main_bg {
+		margin-left: 0px;
+	}
+
 	.maps {
 		padding-left: 0;
 		padding-right: 0;
@@ -378,7 +382,7 @@
 	}
 
 	.padding-regt {
-		padding-right: 15px;
+		padding-right: 15px!important;
 	}
 
 	.div_menu-my{
@@ -398,7 +402,7 @@
 	}
 
 	.opisanie{
-		padding: 0 30px;
+		padding: 0 0;
 	}
 
 
@@ -731,6 +735,7 @@
 	.about_room {
 	    background: #f6f6f6;
 	    padding: 30px 0 45px 0;
+		padding-right: 15px;
 	}
 
 	.main_row_text {
@@ -761,6 +766,11 @@
 
 	.h2-family-fon h2{
 		font-size: 21pt;
+	}
+
+	.two-h2{
+		margin-top: 20px;
+		padding-bottom: 20px;
 	}
 	.radio-all{
 		font-size: 20pt;
@@ -1233,6 +1243,7 @@
 
 	#ask_time_modal .modal-dialog {
 	    max-width: 90%;
+		margin: 0 auto;
 	}
 
 	#ask_time_modal .modal-header button {
@@ -1595,23 +1606,28 @@
 	    text-align: center;
 	}
 
-	.about_room h2{
-		font-size: 24px;
-		text-align: left;
-		background: #554a46;
-		color: white;
-		padding-left: 25px;
-		padding-top: 5px;
-		padding-bottom: 5px;
-		margin-bottom: 0;
-		margin-top: 70px;
-	}
 	/* header */
 }
 
 @media (max-width : 480px) {
 	.info-p p:first-child, .info-p-2 p:first-child{
 		width:auto;
+	}
+
+	.hall-name{
+		background: #554a46;
+		color: white;
+		font-size: 22px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		text-align: left;
+		padding-left: 15px;
+		margin-bottom: 0;
+		margin-top: 70px;
+	}
+
+	#ask_time_modal .modal-title {
+		 text-align: left !important;
 	}
 
 	.block-data {
@@ -2042,6 +2058,7 @@
 	    font-size: 18px;
 	    margin-bottom: 35px;
 	    margin-top: 10px;
+		text-align: left;
 	}
 
 	.ask_time_modal_row{
@@ -2077,18 +2094,27 @@
 	}
 
 	.svg_mini {
-		margin-bottom: -75px;
+		margin-bottom: -110px;
 		margin-left: 5px;
 		height: 30px;
 	}
 
+	.hall_svg{
+
+	}
+
 	.adress_svg{
 		margin-left: 0;
+		margin-bottom: -75px;
+	}
+
+	.site-ico{
+		margin-bottom: -90px;
 	}
 
 	.img-categories{
 		height: 30px;
-		margin-bottom: -80px;
+		margin-bottom: -110px;
 	}
 
 	.telefon_panel{
@@ -2137,6 +2163,7 @@
 	    text-align: left;
 		padding-left: 20px;
 	}
+
 
 	.callback {
 		width: 100%;
@@ -2297,8 +2324,13 @@
 	}
 	.h2-price-qun{
 		text-align: left;
-		padding-left: 20px;
+		padding-left: 0;
 	}
+
+	.hall_svg{
+		margin-bottom: 0;
+	}
+
 	.maps-h2{
 		font-size: 28pt;
 	}
@@ -2344,6 +2376,9 @@
 
 		text-align: center;
 	}
+
+
+
 	.h2-shares{
 		padding-left: 20px;
 		text-align: left;
@@ -2497,8 +2532,9 @@
 	.main_links_item {
 	    align-items: normal;
 	    flex-direction: row;
-		width: 92%;
+		width: 90%;
 		margin-left: auto;
+		margin-right: 15px;
 	}
 
 	.main_links_info{
@@ -2631,11 +2667,6 @@
 	/* header */
 	.main_categories_item {
 	    align-items: center;
-	}
-
-	.call_me_modal {
-		padding-left: 0;
-		padding-right: 0;
 	}
 
 	.dropdown-menu.show {
