@@ -423,12 +423,14 @@ textarea:focus{
 	text-align: center;
 	font-family: 'Roboto Condensed';
 	color:#923403;
+	font-size: 22px;
 }
-.modal-title{
+#call_me_modal .modal-title{
 	width: 100%;
-	text-align: center;
 	font-family: 'Roboto Condensed';
-	margin-top: 25px;
+	margin-top: 0;
+	margin-bottom: 10px;
+	text-align: left;
 }
 .rec-1  {
 	width: 65%;
@@ -473,7 +475,19 @@ textarea:focus{
 	text-align: center;
 	padding-left: 15px;
 	padding-right: 15px;
+	background: #f6f6f6;
 }
+
+#exampleModalLong .modal-header{
+	display: block;
+}
+
+.modal-header .close{
+	position: absolute;
+	top: 26px;
+	right: 45px;
+}
+
 .modal-header{
 	border-bottom: none;
 }
@@ -929,6 +943,18 @@ h1{
 	margin: 0 !important;
 	border-bottom: 1px solid #e6e6e6;
 	letter-spacing: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.modal.show .modal-dialog{
+	margin: 0 auto;
+}
+
+#exampleModalLong .modal-header h3{
+	text-align: center;
+	width: 100%;
+	font-size: 40px;
 }
 
 .main_row div{
@@ -1983,6 +2009,7 @@ header option:checked{
 	font-size: 35px;
 	color: #564a46;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 #ask_time_modal h5{
@@ -2043,14 +2070,15 @@ header option:checked{
 #ask_time_modal .call_me_done{
 	text-align: center;
 	background: linear-gradient(to top, #792c08, #a43a00);
-	font-size: 23px;
+	font-size: 22px;
 	border-radius: 10px;
-	padding: 15px 50px !important;
+	padding: 8px 70px !important;
 	text-transform: uppercase;
 	font-weight: 500;
 	margin-bottom: 15px;
 	color: #fff;
 	margin-top: 40px;
+	border: sienna;
 }
 
 #ask_time_modal .modal-header button{
@@ -2090,6 +2118,7 @@ header option:checked{
 #call_me_modal .modal-dialog{
 	max-width: 80%;
 	padding-top: 2%;
+	margin: 0 auto;
 }
 
 #call_me_modal .modal-content{
@@ -2097,6 +2126,8 @@ header option:checked{
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 40px 0 100px 0;
+	text-align: left;
+	padding-left: 100px;
 }
 
 .row_two{
@@ -2120,11 +2151,13 @@ header option:checked{
 	font-size: 35px;
 	color: #564a46;
 	text-transform: uppercase;
+	text-align: left;
 }
 
 #call_me_modal h5{
 	font-size: 20px;
 	color: #564a46;
+	padding-bottom: 60px;
 }
 
 .form-check-input {
@@ -2184,9 +2217,9 @@ header option:checked{
 #call_me_modal .call_me_done{
 	text-align: center;
 	background: linear-gradient(to top, #792c08, #a43a00);
-	font-size: 23px;
+	font-size: 19px;
 	border-radius: 10px;
-	padding: 15px 50px !important;
+	padding: 10px 50px !important;
 	text-transform: uppercase;
 	font-weight: 500;
 	margin-bottom: 15px;
