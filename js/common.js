@@ -98,6 +98,45 @@ jQuery(document).ready(function(){
 
 jQuery(document).ready(function(){
     jQuery(function(){          
+        jQuery('#fluid_dg_wrap_11').fluid_dg({
+            height: '200px', 
+            loader: 'bar', 
+            pagination: true,
+            thumbnails: false, 
+            hover: false,
+            opacityOnGrid: false, 
+            imagePath: ''});
+    });  
+})
+
+jQuery(document).ready(function(){
+    jQuery(function(){          
+        jQuery('#fluid_dg_wrap_12').fluid_dg({
+            height: '200px', 
+            loader: 'bar', 
+            pagination: true,
+            thumbnails: false, 
+            hover: false,
+            opacityOnGrid: false, 
+            imagePath: ''});
+    });  
+})
+
+jQuery(document).ready(function(){
+    jQuery(function(){          
+        jQuery('#fluid_dg_wrap_13').fluid_dg({
+            height: '200px', 
+            loader: 'bar', 
+            pagination: true,
+            thumbnails: false, 
+            hover: false,
+            opacityOnGrid: false, 
+            imagePath: ''});
+    });  
+})
+
+jQuery(document).ready(function(){
+    jQuery(function(){          
         jQuery('#main_slider').fluid_dg({
             height: '900px', 
             loader: 'bar', 
@@ -108,3 +147,39 @@ jQuery(document).ready(function(){
             imagePath: ''});
     });  
 })
+
+// $('.recommended_1').slick({
+//      dots: false,
+//      arrows: true,
+//      prevArrow: "<img class='slick-prev' src='img/slick_slider_left.png'>",
+//      nextArrow: "<img class='slick-next' src='img/slick_slider_right.png'>",
+//      focusOnSelect: false,
+//      infinite: false,
+//      rows: 1,
+//      slidesToShow: 1,
+//      initialSlide: 0,
+//  });
+
+// $('.recommended_2').slick({
+//      dots: false,
+//      arrows: true,
+//      prevArrow: "<img class='slick-prev' src='img/slick_slider_left.png'>",
+//      nextArrow: "<img class='slick-next' src='img/slick_slider_right.png'>",
+//      focusOnSelect: false,
+//      infinite: false,
+//      rows: 1,
+//      slidesToShow: 1,
+//      initialSlide: 0,
+//  });
+
+// $('.recommended_3').slick({
+//      dots: false,
+//      arrows: true,
+//      prevArrow: "<img class='slick-prev' src='img/slick_slider_left.png'>",
+//      nextArrow: "<img class='slick-next' src='img/slick_slider_right.png'>",
+//      focusOnSelect: false,
+//      infinite: false,
+//      rows: 1,
+//      slidesToShow: 1,
+//      initialSlide: 0,
+//  });
