@@ -205,6 +205,10 @@
     border-radius: 4px;
 }
 
+.evy{
+    background: white;
+    margin-bottom: 20px;
+}
 .radio:checked + .spu3::before{
     content: "";
     display: block;
@@ -1518,8 +1522,12 @@ h2{
 	height: 60px;
 	font-family: 'Roboto Condensed';
 	justify-content: space-between;
+    margin-bottom: 20px;
 }
 
+.jye{
+    padding-bottom: 75px;
+}
 .bloc-gre-2{
 	padding-top: 15px;
 }
@@ -1530,7 +1538,7 @@ h2{
 }
 
 .cost-p{
-	padding-right: 150px;
+	padding-right: 75px;
 }
 
 .flex-item-number2{
