@@ -48,8 +48,22 @@
 @media only screen and (max-width : 1600px) {
 	/* header */
 
+	.bloc-gre-2 {
+		padding-left: 20px!important;
+	}
+
+
+
 	.shares, .news{
 		padding-left: 20px;
+	}
+
+	.block-pt {
+		padding: 5px;
+	}
+
+	.time-name:not(.display-tek) {
+		font-size: 20px;
 	}
 
 	.img_main_info {
@@ -65,9 +79,6 @@
 	.cost-p {
 		padding-right: 75px;
 	}
-	.news-h2{
-		padding-left: 20px;
-	}
 	.time-name {
 		font-size: 14pt;
 	}
@@ -80,7 +91,7 @@
 	}
 
 	.text-name{
-		font-size: 32pt;
+		font-size: 32px;
 	}
 	.time-name{
 		font-size: 14pt;
@@ -181,6 +192,8 @@
 		font-size: 21px;
 	}
 
+
+
 	header {
 		padding: 10px 20px 15px;
 	}
@@ -191,9 +204,6 @@
 
 	.menu_panel {
 		padding: 35px 0 150px 50px;
-	}
-	.left-padding{
-		padding-left: 250px!important;
 	}
 
 	.menu_links li {
@@ -255,6 +265,36 @@
 	.prise_svg{
 		height: 50px !important;
 		left: 0;
+	}
+
+	.maps {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.news {
+		padding-left: 0!important;
+	}
+
+	.rec-h2 {
+		padding-left: 0;
+	}
+
+	.recommended {
+		padding-left: 0;
+	}
+
+	.shares, .news {
+		padding-left: 0;
+	}
+
+	.left-padding {
+		padding-left: 15px!important;
+		padding-right: 0!important;
+	}
+
+	.padding-regt {
+		padding-right: 15px;
 	}
 
 	.div_menu-my{
@@ -371,7 +411,7 @@
 
 	.test_plagin{
 		height: 500px;
-		margin-bottom: 200px;
+		margin-bottom: 70px;
 	}
 
 	.main_galery{
@@ -506,7 +546,6 @@
 
 	.main_info .main_bg{
 		width: 100%;
-   		margin-left: 0;
 	}
 
 	.menu_mini_title h3{
@@ -603,12 +642,6 @@
 
 	/* left-padding */
 
-	.left-padding{
-		padding-left: 250px!important;
-		padding-right: 75px;
-
-	}
-
 	.text-name{
 		font-size: 28pt;
 	}
@@ -661,7 +694,7 @@
 		font-size: 23pt;
 	}
 	.h2-shares{
-		padding-left: 240px;
+		padding-left: 0;
 	}
 	/*  left-padding */
 }
@@ -669,7 +702,9 @@
 
 @media (min-width: 1000px){
 	.submit-btn{
-		width: 30%;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 20px;
 	}
 }
 /* Medium Devices, Desktops */
@@ -677,15 +712,47 @@
 	.bloc-gre-2{
 		padding-left: 35px;
 	}
+
+	.bloc-gre-2 {
+		padding-left: 40px!important;
+	}
+
+	.time-name:not(.display-tek) {
+		font-size: 16px;
+	}
+
+
+	.opisanie{
+		margin-top: 50px;
+	}
+
+	.fluid_dg_wrap .fluid_dg_pag .fluid_dg_pag_ul{
+		text-align: center;
+	}
+
+	.fluid_dg_target, .fluid_dg_overlayer{
+		height: 100%;
+	}
+
 	.submit-btn{
 		width: 40%;
 	}
 
+	.fluid_dg_thumbs_cont, .fluid_dg_bar{
+		display: none !important;
+	}
+
+	.test_plagin {
+		height: 500px;
+		margin-bottom: 0;
+	}
+
 	.fluid_dg_wrap img{
-		height: 500px!important;
+		height: 100%!important;
 		width: 100%!important;
 		margin-left: 0!important;
 		margin-right: 0!important;
+		margin-top: 0!important;
 	}
 
 	.footer-bottom {
@@ -716,8 +783,8 @@
 		padding-right: 0;
 	}
 	.left-padding{
-		padding-right: 50px!important;
-		padding-left: 50px!important;
+		padding-right: 15px!important;
+		padding-left: 15px!important;
 	}
 
 	.recommended-item-title{
@@ -729,12 +796,12 @@
 
 	.description-maps-one{
 		font-size: 16pt;
-		text-align: center;
+		text-align: left;
 	}
 
 	.description-maps{
 		font-size: 16pt;
-		text-align: center;
+		text-align: left;
 	}
 
 	.maps-h2{
@@ -842,7 +909,7 @@
 	}
 	.time-name{
 
-		font-size: 14pt;
+		font-size: 13pt;
 	}
 	.away-p{
 		font-size: 16pt;
@@ -859,22 +926,48 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
+	.area-class textarea {
+		width: 100%;
+	}
+
+	.footer-wrapper-headings hr{
+		display: none;
+	}
+
 	.time-name {
 		font-size: 10pt;
 	}
 
+	.bloc-gre-2 {
+		padding-left: 60px!important;
+	}
 
+	#map iframe {
+		height: 350px;
+	}
+
+	.news {
+		padding-left: 0!important;
+	}
+
+	.more-news{
+		margin-bottom: 50px;
+	}
 
 	#link_reviews .row{
 		margin-left: 0;
 		margin-right: 0;
 	}
 
+	.h2-family-fon{
+		align-items: center;
+	}
+
 	.bloc-gre-2 {
 		padding-left: 50px;
 	}
 	.img-item{
-		height: 150px;
+		height: auto;
 	}
 	.recommended-item-title{
 		font-size: 15px;
@@ -887,7 +980,10 @@
 		font-size: 20pt;
 	}
 	.submit-btn{
-		width: 35%;
+		width: 50%;
+	}
+	.bloc-gre-2 {
+		padding-left: 50px;
 	}
 	.lc{
 		font-size: 20px;
@@ -927,7 +1023,7 @@
 		font-size: 20pt;
 	}
 	.time-name{
-		font-size: 11pt;
+		font-size: 10pt;
 	}
 	.away-p{
 		font-size: 14pt;
@@ -1030,10 +1126,6 @@
 	    justify-content: center;
 	}
 
-	.footer-wrapper-headings hr {
-	    display: none;
-	}
-
 	.footer-bottom {
 	    height: auto;
 	}
@@ -1044,6 +1136,10 @@
 
 	#call_me_modal h3 {
 	    font-size: 25px;
+	}
+
+	.footer-languages-text {
+		margin-left: 0;
 	}
 
 	#call_me_modal h5 {
@@ -1134,11 +1230,6 @@
 	    width: 69%;
 	}
 
-	.test_plagin{
-		height: 300px;
-		margin-bottom: 200px;
-	}
-
 	.fluid_dg_bar{
 		height: 10px !important;
 		top: 330px !important;
@@ -1155,6 +1246,18 @@
 	.dropdown-menu.show {
 		left: 11px!important;
 		width: 100%;
+	}
+
+	.main_row div {
+		margin-bottom: 10px;
+	}
+
+	.time-name {
+		font-size: 12px;
+	}
+
+	.time-name:not(.display-tek) {
+		font-size: 14px;
 	}
 
 	.recommended-item-title{
@@ -1191,11 +1294,25 @@
 	.bloc-gre-2{
 		padding-left: 75px!important;
 	}
-	.new-block-feed{
-		justify-content: normal;
+	.new-block-feed {
+		justify-content: space-evenly;
+		padding-left: 50px;
 	}
 	.lc{
 		font-size: 16px;
+	}
+	.lc{
+		padding: 20px 80px;
+	}
+	.block-data{
+		margin-bottom: 20px;
+	}
+	.text-date-news {
+		font-size: 16pt;
+	}
+	.enjyr{
+		padding-left: 15px!important;
+		padding-right: 15x!important;
 	}
 	.btn-get-back{
 		text-align: center;
@@ -1225,9 +1342,6 @@
 	.h2-price-qun {
 		font-size: 26pt;
 	}
-	.time-name{
-		font-size: 13pt;
-	}
 	.devine {
 		padding: 50px 46px 44px 50px;
 	}
@@ -1247,30 +1361,26 @@
 		padding-top: 30px;
 		padding-bottom: 20px
 	}
-	.description-maps-one{
-		font-size: 16pt;
-		text-align: center;
-	}
 
 	.description-maps{
-		text-align: center;
+		text-align: left;
 	}
 	.h2-family-fon h2{
-		font-size: 20pt;
+		font-size: 20px;
 	}
 	.radio-all{
-		font-size: 16pt;
+		font-size: 16px;
 	}
 	.h3-div h3{
-		font-size: 16pt;
+		font-size: 16px;
 	}
 
 	.aunder-p-1{
-		font-size: 18pt;
+		font-size: 18px;
 	}
 
 	.aunder-p-2{
-		font-size: 18pt;
+		font-size: 18px;
 	}
 
 	.main_links_color {
@@ -1353,12 +1463,106 @@
 	    font-size: 30px;
 	    text-align: center;
 	}
+
+	.about_room h2{
+		font-size: 24px;
+		text-align: left;
+		background: #554a46;
+		color: white;
+		padding-left: 25px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-bottom: 0;
+	}
 	/* header */
 }
 
 @media (max-width : 480px) {
 	.info-p p:first-child, .info-p-2 p:first-child{
 		width:auto;
+	}
+
+	.block-data {
+		margin-top: 30px;
+	}
+
+	.feedback p{
+		margin-bottom: 0;
+	}
+
+	.name {
+		padding-left: 0px;
+		padding-top: 5px;
+	}
+
+	.bloc-gre-2 {
+		padding-left: 65px!important;
+	}
+
+	.new-block-feed {
+		padding-left: 30px;
+	}
+
+	.feedback .name {
+		font-size: 20px;
+	}
+
+	.obrare {
+		padding-left: 0!important;
+	}
+
+	.typic-thumbs {
+		margin-top: 0px;
+	}
+
+	.content-rev{
+		margin-bottom: 5px;
+		font-size: 24px;
+	}
+
+	#map iframe {
+		height: 300px;
+	}
+
+	.maps-ber {
+		padding-right: 0!important;
+		padding-left: 0!important;
+	}
+
+	.recommended-item-price {
+		font-size: 16px;
+	}
+
+	.news .col-md-4{
+		padding: 0;
+	}
+
+	.shares .enjyr{
+		padding: 0!important;
+	}
+
+	.description-maps-one {
+		padding-bottom: 40px;
+	}
+
+	.h2-price-qun {
+		padding-bottom: 20px;
+	}
+
+	.points-banya {
+		border: none;
+	}
+
+	.h2-price-qun {
+		padding-top: 0;
+	}
+
+	.description-maps-one {
+		line-height: 22px;
+	}
+
+	.test_plagin {
+		margin-bottom: 0!important;
 	}
 
 	.dropdown-menu.show {
@@ -1376,8 +1580,35 @@
 
 	.main_content_item {
 		margin-top: 0;
-		padding-top: 10px;
+		padding-top: 0;
 		border: none;
+	}
+
+	.main_content_item {
+		padding: 0 0 15px 0;
+	}
+
+	.about_room .main_row {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.about_room .main_row_text {
+		flex-direction: row!important;
+	}
+
+	.about_room .main_row_text_iniq{
+		flex-direction: column!important;
+		align-items: flex-start!important;
+		padding-left: 40px!important;
+	}
+
+	.svg_number_places_for_sleep{
+		margin-left: -8px;
+	}
+
+	.main_content_item .main_title, .main_content_item .main_title_info {
+		padding-left: 10px!important;
 	}
 
 	.main_row_text{
@@ -1480,8 +1711,25 @@
 	}
 	.btn-get-back{
 		text-align: left!important;
-		padding: 0 0 0 30px!important;
+		padding: 0 0 0 0!important;
 		margin: 20px 0 50px 0;
+	}
+	.show-more {
+		PADDING: 8px 10px;
+		border-radius: 0 !important;
+	}
+
+	.description-maps {
+		padding-bottom: 0px;
+	}
+
+	.maps-h2 {
+		padding-left: 0!important;
+	}
+
+	.description-maps,.description-maps-one {
+		padding-left: 0!important;
+		padding-right: 0!important;
 	}
 	.show-more i{
 		color:#A2A0A1;
@@ -1491,7 +1739,18 @@
 		font-size: 21px;
 	}
 	.news-h2{
-		padding-left: 20px;
+		padding-left: 0;
+	}
+
+	.more-news {
+		margin-top: 0;
+		margin-bottom: 15px;
+	}
+	.padding-spe {
+		padding-bottom: 30px;
+	}
+	.look-more-news {
+		padding-top: 10px;
 	}
 	.devine{
 		padding:20px!important;
@@ -1508,10 +1767,6 @@
 		padding-left: 20px;
 	}
 
-
-	.maps-h2{
-		padding-left: 20px!important;
-	}
 	.betWine-under{
 		padding-left: 20px;
 	}
@@ -1630,9 +1885,6 @@
 	    padding: 25px 0 30px 0;
 	}
 
-	.footer-wrapper-headings{
-		display: none;
-	}
 
 	.ask_time_modal_row div{
 		padding: 0 15px 0 0;
@@ -1640,6 +1892,18 @@
 
 	#ask_time_modal h3 {
 	    font-size: 28px;
+	}
+
+	.footer-wrapper-headings {
+		margin-bottom: 0px;
+	}
+
+	.empty-head{
+		display: none;
+	}
+
+	.footer-wrapper-headings hr {
+		margin-bottom: 20px;
 	}
 
 	#ask_time_modal h5 {
@@ -1672,8 +1936,8 @@
 	    font-size: 26px;
 	}
 
-	.main_left img{
-		display: none;
+	.about_room .main_left{
+		order: 1;
 	}
 
 	.img_girl{
@@ -1736,6 +2000,33 @@
 	    text-align: left;
 		padding-left: 20px;
 	}
+
+	.callback {
+		width: 100%;
+	}
+
+	.footer-logo{
+		text-align: left;
+	}
+
+	footer .row {
+		text-align: left;
+	}
+
+	.footer-wrapper-languages {
+		justify-content: flex-start;
+	}
+
+	.footer-wrapper-social {
+		justify-content: flex-start;
+	}
+
+	.main_row_text_2 .main_title{
+		padding-left: 0!important;
+	}
+	.about_room .left-padding {
+		padding: 0!important;
+	}
 	/* slick-slider  */
 	.block-data{
 		margin-bottom: 0;
@@ -1748,10 +2039,18 @@
 		font-size: 18px;
 	}
 	.submit-btn{
-		width: 95%;
+		width: 100%;
 		border-radius: 10px;
 		font-size: 23px;
 		padding: 10px 0px;
+	}
+
+	.review-p {
+		padding-left: 0!important;
+	}
+
+	.input-spn-btn {
+		padding-left: 0!important;
 	}
 	.input-spn-btn{
 		padding-left: 20px;
@@ -1837,7 +2136,7 @@
 	}
 
 	.area-class textarea{
-		width: 90%;
+		width: 100%;
 		height: 150px;
 		border-radius: 10px;
 	}
@@ -1856,6 +2155,7 @@
 		text-align: left;
 		padding-right: 20px;
 		padding-left: 20px;
+		margin-bottom: 0!important;
 
 	}
 	.h2-price-qun{
@@ -1885,17 +2185,23 @@
 		text-align: left;
 		padding-left:20px;
 		padding-right: 20px;
+		line-height: 22px;
 
 	}
 	.po-bnt{
 		display: block;
 	}
-	.left-padding{
-		padding-left: 15px !important;
-		padding-right: 15px !important;
-	}
+
 	.h2-family-fon h2{
 		font-size:15pt;
+	}
+	.shares, .news{
+		padding-left: 0;
+	}
+
+	.maps-h2,.description-maps-one,.description-maps,.btn-get-back{
+		padding-left: 15px!important;
+		padding-right: 15px!important;
 	}
 	.betWine-under{
 
@@ -1914,7 +2220,7 @@
 	}
 	.time-name{
 		width: 100%;
-		padding-left: 20px;
+		padding-left: 15px;
 	}
 	.recover-ser{
 		display: block;
@@ -1923,13 +2229,18 @@
 		display: none;
 	}
 	.away-p{
-		padding: 20px 30px 40px;
+		padding: 20px 20px 20px;
+		margin-bottom: 0;
+	}
+	.block-share {
+		padding-bottom: 15px;
 	}
 	.news-h2{
 		text-align: left;
 	}
 	.block-flex{
 		display: flex;
+		padding-right: 15px;
 	}
 	.date-under-news{
 		margin-bottom: 0;
@@ -2249,7 +2560,7 @@
 }
 @media (min-width: 380px){
 	.bloc-gre-2 {
-		padding-left: 35px;
+		padding-left: 0;
 	}
 }
 

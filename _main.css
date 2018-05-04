@@ -18,7 +18,7 @@
 .text-name{
 	background: #c0272d;
 	color:white;
-	font-size: 40pt;
+	font-size: 45px;
 	padding-left: 40px;
 	font-weight: 300;
 	display: flex;
@@ -30,11 +30,15 @@
 .time-name{
 	background: #c0272d;
 	color:white;
-	font-size: 20pt;
+	font-size: 20px;
 	display: flex;
 	margin-bottom: 0;
 	align-items: center;
 	justify-content: center;
+}
+
+.time-name:not(.display-tek){
+	font-size: 22px;
 }
 
 .share-item{
@@ -59,17 +63,23 @@
 
 .away-p{
 	padding-top: 20px;
-	font-size: 22px;
-	padding: 20px 50px 40px;
+	font-size: 24px;
+	padding: 30px 50px 40px;
 	font-family: "RobotoRegular";
+	line-height: 32px;
+	color: #564a46;
 }
 .bg-row{
 	background: white;
 }
 
+.share-item{
+	background: white;
+}
+
 .block-pt{
 	background: #c0272d;
-	margin-left: 15px;
+	margin-left: 8px;
 	text-align: center;
 	width: 20%;
 	padding-top: 5px;
@@ -92,10 +102,11 @@
 
 .area-class textarea{
 	width: 50%;
+	border: 1px solid gray;
 }
 #map iframe{
 	width: 100%;
-	height: 500px;
+	height: 750px;
 	border:2px solid grey;
 }
 
@@ -110,6 +121,11 @@
 	font-family: 'Roboto Condensed';
 	padding-bottom: 30px;
 	font-weight: 400;
+	margin-bottom: 0!important;
+}
+
+.fluid_dg_bar_cont{
+	display: none!important;
 }
 
 .area-class{
@@ -124,6 +140,7 @@
 }
 .shares{
 	background: #edeceb;
+	padding-left: 20px;
 }
 .padding-regt{
 	padding-right: 100px;
@@ -140,14 +157,15 @@
 }
 .radio-btn{
 	display: flex;
-	margin-top: 25px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .report{
 	color:red;
 	display: flex;
 	padding-left: 25px;
+	font-size: 19px;
 }
 
 .input-spn-btn {
@@ -155,9 +173,14 @@
 	align-items: center;
 }
 .class-like{
-	color:green;
+	color: #1fb66d;
 	display: flex;
 	padding-left: 25px;
+	font-size: 19px;
+}
+
+textarea:focus{
+	outline-color: #1fb66d;
 }
 
 .ares-class textarea{
@@ -168,7 +191,6 @@
 .submit-btn{
 	padding: 15px 0;
 	font-size: 24px;
-	width: 18%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -179,7 +201,7 @@
 }
 .review-p{
 	font-family: 'Roboto Condensed';
-	font-size: 24pt;
+	font-size: 24px;
 }
 .obrare{
 	display: flex;
@@ -194,15 +216,20 @@
 }
 .special-color{
 	color:green;
-	font-size: 40px;
+	font-size: 30px;
 }
 .content-rev{
 	align-items: center;
 	display: flex;
+	font-family: 'Roboto';
+	margin-left: 5px;
+	font-size: 20px;
+	color: #a29692;
+
 }
 .special-color-2{
 	color:red;
-	font-size: 40px;
+	font-size: 30px;
 }
 .fa-thumbs-up{
 	display: flex;
@@ -210,10 +237,23 @@
 
 .two-reviews-h2{
 	color:black;
-	font-size: 35pt;
+	font-size: 35px;
 	font-weight: 300;
 	font-family: "RobotoRegular";
 }
+
+.feedback .name{
+	font-size: 24px;
+}
+
+.feedback .message{
+	font-size: 20px;
+}
+
+.feedback .data{
+	font-size: 18px;
+}
+
 .modal-pe{
 	text-align: center;
 	font-family: 'Roboto Condensed';
@@ -252,6 +292,11 @@
 	padding-right: 50px;
 	text-align: left;
 }
+
+.typic-thumbs{
+	margin-top: 5px;
+}
+
 .close:focus, .close:hover{
 	opacity: 1!important;
 }
@@ -277,16 +322,22 @@
 .description-maps{
 	font-family: "RobotoRegular";
 	padding-bottom: 40px;
-	font-size: 20pt;
+	font-size: 24px;
 }
 .description-maps-one{
 	font-family: "RobotoRegular";
-	font-size: 20pt;
+	font-size: 24px;
+	line-height: 35px;
 	padding-bottom: 50px;
+	margin-bottom: 0!important;
+}
+
+#map{
+	padding-left: 0!important;
 }
 
 .markers li{
-	font-size: 22px;
+	font-size: 24px;
 }
 
 /* header */
@@ -294,6 +345,11 @@ header{
 	background: linear-gradient(to top, #792c08, #a43a00);
 	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
 	padding: 10px 100px 15px;
+}
+
+button:hover, button:visited,
+button:active, button:focus{
+	outline: none !important;
 }
 
 header .right .dropdown, 
@@ -435,7 +491,7 @@ header select{
 
 .h2-shares{
 	padding-left: 0;
-	padding-top: 40px;
+	padding-top: 50px;
 	padding-bottom: 30px;
 	font-family: 'Roboto Condensed';
 }
@@ -497,6 +553,14 @@ h1{
 }
 .data{
 	color:darkgrey;
+}
+
+.special-color,.special-color-2,.radio-btn{
+	cursor: pointer;
+}
+
+.empty-head{
+	margin-bottom: 65px!important;
 }
 
 .new-block-feed{
@@ -899,7 +963,7 @@ header .row{
 .main_galery{
 	margin-top: 30px;
 	margin-bottom: 30px;
-	padding: 10px 0 10px 0;
+	padding: 20px 0 10px 0;
 	border-top: 1px solid #dadada;
 	border-bottom: 1px solid #dadada;
 }
@@ -938,7 +1002,8 @@ header .row{
 
 .about_room{
 	background: #f6f6f6;
-	padding: 45px 100px 65px 0;
+	padding: 45px 100px 0px 0;
+	padding-left: 50px;
 }
 
 .div_main_categories{
@@ -971,8 +1036,22 @@ header .row{
 	display: none;
 }
 
+.grey_color{
+	background: #f6f6f6;
+	border: 1px solid #dadada;
+	color: #564a46;
+	padding: 0!important;
+	padding: 2px 10px!important;
+	width: auto!important;
+}
+
+.maps{
+	padding-left: 15px;
+}
+
 .recommended{
 	background: #edeceb;
+	padding-left: 50px;
 }
 
 .rec-h2{
@@ -981,7 +1060,10 @@ header .row{
 	font-family: "RobotoRegular";
 	text-align: center;
 	margin-bottom: 50px;
+	padding-left: 25%;
 }
+
+
 
 .img-item{
 	border: 2px solid grey;
@@ -997,7 +1079,7 @@ header .row{
 }
 .recommended-item-price{
 	font-family: 'Roboto-Medium';
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 500;
 	color:#ff7000;
 	padding-bottom: 50px;
@@ -1013,7 +1095,7 @@ header .row{
 	font-size: 22px;
 	margin-bottom: 0;
 	font-family: 'Roboto-Medium';
-	font-weight: 600;
+	font-weight: 400;
 	color:#564a46;
 	padding-top: 5px;
 }
@@ -1057,8 +1139,8 @@ li {
 }
 
 .block-data {
-	margin-top: 25px;
-	margin-bottom: 50px;
+	padding-top: 50px;
+	margin-bottom: 40px;
 	display: flex;
 	font-size: 24px;
 	font-family: "RobotoRegular";
@@ -1072,6 +1154,7 @@ li {
 	display: flex;
 	font-size: 24px;
 	font-family: "RobotoRegular";
+	color: #564a46;
 }
 
 .info-p p:first-child, .info-p-2 p:first-child{
@@ -1082,16 +1165,23 @@ li {
 	display: flex;
 	font-family: "RobotoRegular";
 	font-size: 24px;
+	color: #564a46;
+}
+
+.analytics .block-data{
+	color: #564a46;
 }
 
 .lc{
 	font-family: 'Roboto-Medium';
-	font-size: 24px;
+	font-size: 19px;
 	background: linear-gradient(to top, #792c08, #a43a00);
 	color:white;
-	padding: 20px 30px;
+	padding: 15px 30px;
 	border-radius: 8px;
 }
+
+
 
 .lc:hover{
 	color:white;
@@ -1118,9 +1208,9 @@ h2{
 .news-h2{
 	color:#923403;
 	font-family: 'Roboto Condensed';
-	font-size: 40pt;
+	font-size: 44px;
 	padding-top: 50px;
-	padding-bottom: 40px;
+	padding-bottom: 10px;
 	font-weight: normal;
 	padding-left: 0;
 }
@@ -1128,6 +1218,13 @@ h2{
 .block-news-item{
 	padding-right: 15px;
 	padding-left: 15px;
+	padding-bottom: 15px;
+	color: #746c69;
+	margin-bottom: 0;
+}
+
+.more-news{
+	border-radius: 0;
 }
 
 .row-flex{
@@ -1152,11 +1249,16 @@ h2{
 .block-flex{
 	display: flex;
 	justify-content: space-evenly;
+	padding-top: 5px;
+}
+
+.news-item hr {
+	margin-top: 5px;
 }
 
 .date-under-news{
 	color:#923403;
-	font-size: 16pt;
+	font-size: 18px;
 	padding-left: 15px;
 	font-family: "RobotoRegular";
 }
@@ -1195,7 +1297,7 @@ h2{
 
 .text-date-news{
 	font-family: 'Roboto-Medium';
-	font-size: 16pt;
+	font-size: 20px;
 	color:#564a46;
 	margin-bottom: 0;
 }
@@ -1206,6 +1308,7 @@ h2{
 
 .news{
 	background: #f6f6f6;
+	padding-left: 50px!important;
 }
 /* news*/
 
@@ -1261,8 +1364,8 @@ h2{
 
 .h3-div{
 	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	color: #564a46;
 }
 
@@ -1278,17 +1381,23 @@ h2{
 }
 
 .aunder-p-1{
-	font-size: 22pt;
+	font-size: 24px;
 	font-family: 'Roboto Condensed';
 	padding: 50px 50px 0 50px;
 	margin: 0;
+	color: #564a46;
+}
+
+.h3-div h3{
+	font-size: 24px;
 }
 
 .aunder-p-2{
 	padding: 0 50px 50px 50px;
 	margin: 0;
 	font-family: 'Roboto Condensed';
-	font-size: 22pt;
+	font-size: 24px;
+	color: #564a46;
 }
 
 .devine{
@@ -1413,7 +1522,7 @@ h2{
 }
 
 .radio-all{
-	padding: 50px;
+	padding: 40px;
 	color: #564a46;
 	font-family: 'Roboto Condensed';
 	font-size: 24pt;
@@ -1447,9 +1556,14 @@ h2{
 	margin-bottom: 40px;
 }
 
+.footer-languages-button.no-active{
+	border: 2px solid #2c23232e;
+	border-bottom-color: #ffffff4a;
+}
+
 .callback{
 	display: inline-block;
-	padding: 15px;
+	padding: 10px 15px;
 	color: #ffffff;
 	font-size: 19px;
 	border-radius: 5px;
@@ -1543,7 +1657,7 @@ h2{
 }
 
 .footer-heading{
-	font-size: 24px;
+	font-size: 21px;
 	margin-bottom: 8px;
 }
 
@@ -1553,6 +1667,27 @@ h2{
 	text-align: left;
 	margin: 0;
 	background-color: rgba(255,145,0,1);
+}
+
+.menu-foot{
+	margin-top: 30px;
+}
+
+.footer-heading{
+	position: relative;
+}
+
+/*.footer-heading:before{*/
+	/*content: '';*/
+	/*position: absolute;*/
+	/*width: 50px;*/
+	/*background: #ff7d01;*/
+	/*height: 3px;*/
+	/*bottom: -10px;;*/
+/*}*/
+
+button{
+	cursor: pointer;
 }
 
 .footer-bottom{
@@ -1578,6 +1713,8 @@ h2{
 	align-items: center;
 	height:100%;
 	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 /* footer end */
 
@@ -1630,6 +1767,15 @@ header option:checked{
     background-color: #ff7000 !important;
     color:#fff !important;
     font-size: 16px !important;
+}
+
+.btn-back{
+	cursor: pointer;
+}
+
+.reviews  .row{
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .fluid_dg_wrap img{
@@ -1877,6 +2023,10 @@ header option:checked{
 	margin-bottom: 15px;
 	color: #fff;
 	margin-top: 30px;
+}
+
+.points-banya{
+	border: 2px solid #eae6e6;
 }
 
 #call_me_modal .modal-header button{

@@ -62,8 +62,8 @@ jQuery(document).ready(function(){
         jQuery('#fluid_dg_wrap_4').fluid_dg({
         	height: 'auto', 
         	loader: 'bar', 
-        	pagination: false, 
-        	thumbnails: true, 
+        	pagination: true,
+        	thumbnails: true,
         	hover: false, 
         	opacityOnGrid: false, 
         	imagePath: ''});
@@ -75,7 +75,7 @@ jQuery(document).ready(function(){
         jQuery('#fluid_dg_wrap_3').fluid_dg({
         	height: 'auto', 
         	loader: 'bar', 
-        	pagination: false, 
+        	pagination: true,
         	thumbnails: true, 
         	hover: false, 
         	opacityOnGrid: false, 
@@ -88,9 +88,9 @@ jQuery(document).ready(function(){
         jQuery('#fluid_dg_wrap_2').fluid_dg({
         	height: 'auto', 
         	loader: 'bar', 
-        	pagination: false, 
+        	pagination: true,
         	thumbnails: true, 
-        	hover: false, 
+        	hover: false,
         	opacityOnGrid: false, 
         	imagePath: ''});
     });  
@@ -101,7 +101,7 @@ jQuery(document).ready(function(){
         jQuery('#main_slider').fluid_dg({
             height: '900px', 
             loader: 'bar', 
-            pagination: false, 
+            pagination: false,
             thumbnails: false, 
             hover: false, 
             opacityOnGrid: false, 
