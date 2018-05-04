@@ -466,6 +466,11 @@ textarea:focus{
 .close{
 	opacity: 1!important;
 }
+.info-row{
+	margin-left: 0;
+	margin-right: 0;
+}
+
 .modal-content{
 	width: 100%;
 	text-align: center;
