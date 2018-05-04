@@ -267,6 +267,10 @@
 		left: 0;
 	}
 
+	.main_info .main_bg {
+		margin-left: 0px;
+	}
+
 	.maps {
 		padding-left: 0;
 		padding-right: 0;
@@ -1110,6 +1114,7 @@
 
 	#ask_time_modal .modal-dialog {
 	    max-width: 90%;
+		margin: 0 auto;
 	}
 
 	#ask_time_modal .modal-header button {
@@ -1480,6 +1485,10 @@
 @media (max-width : 480px) {
 	.info-p p:first-child, .info-p-2 p:first-child{
 		width:auto;
+	}
+
+	#ask_time_modal .modal-title {
+		 text-align: left !important;
 	}
 
 	.block-data {
@@ -1910,6 +1919,7 @@
 	    font-size: 18px;
 	    margin-bottom: 35px;
 	    margin-top: 10px;
+		text-align: left;
 	}
 
 	.ask_time_modal_row{
@@ -1945,18 +1955,27 @@
 	}
 
 	.svg_mini {
-		margin-bottom: -75px;
+		margin-bottom: -110px;
 		margin-left: 5px;
 		height: 30px;
 	}
 
+	.hall_svg{
+
+	}
+
 	.adress_svg{
 		margin-left: 0;
+		margin-bottom: -75px;
+	}
+
+	.site-ico{
+		margin-bottom: -90px;
 	}
 
 	.img-categories{
 		height: 30px;
-		margin-bottom: -80px;
+		margin-bottom: -110px;
 	}
 
 	.telefon_panel{
@@ -2000,6 +2019,7 @@
 	    text-align: left;
 		padding-left: 20px;
 	}
+
 
 	.callback {
 		width: 100%;
@@ -2160,8 +2180,13 @@
 	}
 	.h2-price-qun{
 		text-align: left;
-		padding-left: 20px;
+		padding-left: 0;
 	}
+
+	.hall_svg{
+		margin-bottom: 0;
+	}
+
 	.maps-h2{
 		font-size: 28pt;
 	}
@@ -2200,8 +2225,8 @@
 	}
 
 	.maps-h2,.description-maps-one,.description-maps,.btn-get-back{
-		padding-left: 15px!important;
-		padding-right: 15px!important;
+		padding-left: 0px!important;
+		padding-right: 0px!important;
 	}
 	.betWine-under{
 
@@ -2494,11 +2519,6 @@
 	/* header */
 	.main_categories_item {
 	    align-items: center;
-	}
-
-	.call_me_modal {
-		padding-left: 0;
-		padding-right: 0;
 	}
 
 	.dropdown-menu.show {
