@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="HTML,CSS,XML,JavaScript">
     <meta name="author" content="Redbox">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
 
 
     <!-- Bootstrap v4.1.0 -->
@@ -9107,7 +9108,7 @@
                     <img src="img/header_logo.png">
                     <h3>Все бани и сауны Украины</h3>
                 </a>
-                <span class="header_delimiter">|</span>
+                <spans class="header_delimiter">|</spans>
                 <img class="svg_mini marker_sity" src="img\main_svg\header\sity.svg">
                 <select class="transparent_select select_sity">
                     <option selected>Киев</option>
@@ -9142,7 +9143,7 @@
             </a>
             <span class="header_delimiter">|</span>
             <div class="div_select_sity">
-                <img class="svg_mini marker_sity" src="img\main_svg\header\sity.svg">
+                <img class=" marker-sity marker_sity" src="img\main_svg\header\sity.svg">
                 <select class="transparent_select select_sity">
                     <option selected>Киев</option>
                     <option>Город 2</option>
@@ -9207,10 +9208,9 @@
     </div>
 </section>
 
-
 <section class="main_info ">
-    <div class="container-fluid  ">
-        <div class="row">
+    <div class="container-fluid main_info-480">
+        <div class="row info-row">
             <div class="col-xl-3 col-lg-12 col-md-12 div_menu div_menu_left">
                 <div class="menu_panel">
                     <div class="menu_links">
@@ -9270,7 +9270,7 @@
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12 main_title_eye grey">
                                 <span class="">Подпищики/наблюдатели</span>
-                                <img class="svg_mini eye_litle_img" src=" img\eye_litle.png">
+                                <img class=" eye_litle_img" src=" img\eye_litle.png">
                                 <span class="text_eye_mobile">100</span>
                             </div>
                         </div>
@@ -9284,7 +9284,7 @@
                                     <div class="row">
                                         <div class="col-xl-2 col-lg-2 col-sm-2 img_main_info">
                                             <img class="svg_mini hall_svg" src="img\main_svg\hall.svg">
-                                            Залы:
+                                            <span>Залы:</span>
                                         </div>
                                         <div class="col-xl-10 col-lg-10 col-sm-10">
                                             <div class="main_links_item">
@@ -9306,7 +9306,7 @@
                             <div class="col-xl-6 main_right" id="main_contacts_link">
 
                                 <div class="row main_row">
-                                    <div class="center col-xl-2 col-lg-2 col-sm-2">
+                                    <div class="center">
                                         <img class="svg_mini main_row_img prise_svg" src="img\main_svg\price.svg">
                                     </div>
                                     <div class="col-xl-10 col-lg-10 col-sm-10 main_row_text">
@@ -9367,32 +9367,32 @@
                                                 <div class="modal-body">
                                                     <form class="" action="">
                                                         <div class="row ask_time_modal_row">
-                                                            <div class="col-xl-6 ">
+                                                            <div class="col-xl-6 ask-item">
                                                                 <span>Имя</span>
                                                                 <br>
                                                                 <input type="text" name="name">
                                                             </div>
-                                                            <div class="col-xl-6">
+                                                            <div class="col-xl-6 ask-item">
                                                                 <span>Номер телефона</span>
                                                                 <br>
                                                                 <input type="text" name="phone">
                                                             </div>
-                                                            <div class="col-xl-6 row_two">
+                                                            <div class="col-xl-6 ask-item row_two">
                                                                 <span>Дата</span>
                                                                 <br>
                                                                 <input class="date_1" type="text" name="date_1">
                                                                 <input class="date_2" type="text" name="date_2">
                                                                 <input class="date_3" type="text" name="date_3">
                                                             </div>
-                                                            <div class="col-xl-6 row_two">
+                                                            <div class="col-xl-6 ask-item row_two">
                                                                 <span>Длительность</span>
                                                                 <br>
                                                                 <input type="text" name="time">
                                                             </div>
-                                                            <div class="col-xl-6 zero_space">
+                                                            <div class="col-xl-6 ask-item zero_space">
 
                                                             </div>
-                                                            <div class="col-xl-6">
+                                                            <div class="col-xl-6 ask-item">
                                                                 <button type="button" class="call_me_done"
                                                                         data-toggle="modal" data-target="#call_me_done"
                                                                         data-dismiss="modal" aria-label="Close">
@@ -9519,7 +9519,7 @@
                                     <div class="col-xl-1 col-lg-1 col-sm-1 center">
                                         <img class="img_girl" src="img\main_svg\paired.svg">
                                     </div>
-                                    <div class="col-xl-11 col-lg-11 col-sm-11 main_row_text main_row_text_2">
+                                    <div class="col-xl-11 col-lg-11 col-sm-11 main_row_text main_row_text_2 main_row_text_iniq">
                                         <span class="main_title">Парные:</span>
                                         <span class="main_title_info grey_color">Руская баня, финская сауна</span>
                                     </div>
@@ -9537,7 +9537,7 @@
 
                                 <div class="row main_row">
                                     <div class="col-xl-1 col-lg-1 col-sm-1 center">
-                                        <img class="img_girl" src="img\main_svg\categories.svg">
+                                        <img class="img_girl img-categories" src="img\main_svg\categories.svg">
                                     </div>
                                     <div class="col-xl-11 col-lg-11 col-sm-11 main_row_text main_row_text_2">
                                         <span class="main_title big_title">Категории:</span>
@@ -9549,7 +9549,7 @@
 
                                 <div class="row main_row">
                                     <div class="col-xl-1 col-lg-1 col-sm-1 center">
-                                        <img class="svg_mini" src="img\main_svg\site.svg">
+                                        <img class="svg_mini site-ico" src="img\main_svg\site.svg">
                                     </div>
                                     <div class="col-xl-11 col-lg-11 col-sm-11 main_row_text main_row_text_2">
                                         <span class="main_title big_title">Вебсайт:</span>
@@ -9685,8 +9685,11 @@
                         лестницы на второй этаж. </p>
                 </div>
 
-                <div class="margin-r-100">
+                <div class="points-banya margin-r-100">
                     <div class="wrapper-family">
+
+
+
                         <div class="h2-family-fon special-fat">
                             <h2>Банька “СЕМЕЙНАЯ” до 6 гостей</h2>
                         </div>
@@ -9714,7 +9717,9 @@
 
                 <div class="prices-family margin-r-100 " id="link_price">
                     <h2 class="h2-price-qun">Прайс</h2>
+                    <div class="evy">
                     <div class="h2-family-fon">
+
                         <p class="service-p">Услуга</p>
                         <p class="cost-p">Стоимость</p>
                     </div>
@@ -9774,6 +9779,7 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
     </div>
 </section>
@@ -9781,7 +9787,7 @@
 <section class="shares" id="link_shares">
 
 
-    <div class="container-fluid  left-padding">
+    <div class="container-fluid  left-padding enjyr">
         <h2 class="h2-shares">Акции</h2>
 
         <div class="row-flex padding-regt">
@@ -9847,7 +9853,7 @@
 </section>
 
 <section class="news  padding-regt" id="link_news">
-    <div class="container-fluid  left-padding padding-spe">
+    <div class="container-fluid  left-padding padding-spe enjyr">
         <h2 class="news-h2"> Новости</h2>
 
         <div class="row">
@@ -9941,26 +9947,20 @@
 
     <div class="container-fluid left-padding">
         <div class="row">
-            <div class="recommended_slider recommended_1">
-                <div class="col-xl-12 recommended-item">
-                    <img class="img-item" src="img/rec-1.png" alt="">
-                    <p class="recommended-item-title">Царь Баня</p>
-                    <p class="recommended-item-price"> от 150грн </p>
+
+            <div class="fluid_dg_wrap fluid_dg_emboss pattern_1 fluid_dg_white_skin"
+                 id="fluid_dg_wrap_11">
+                <div data-thumb="img/rec-1.png" data-src="img/rec-1.png"><a href="#"></a>
                 </div>
-                <div class="col-xl-12 recommended-item">
-                    <img class="img-item" src="img/rec-2.png" alt="">
-                    <p class="recommended-item-title">Шикарная русская баня</p>
-                    <p class="recommended-item-price">от 160грн</p>
+                <div data-thumb="img/rec-2.png" data-src="img/rec-2.png"><a href="#"></a>
                 </div>
-                <div class="col-xl-12 recommended-item">
-                    <img class="img-item" src="img/rec-3.png" alt="">
-                    <p class="recommended-item-title">Баня в Карпатах </p>
-                    <p class="recommended-item-price">от 135грн</p>
+                <div data-thumb="img/main_item_3.png" data-src="img/main_item_3.png"><a href="#"></a>
                 </div>
-                <div class="col-xl-12 recommended-item">
-                    <img class="img-item" src="img/rec-4.png" alt="">
-                    <p class="recommended-item-title"> Русская баня</p>
-                    <p class="recommended-item-price">от 150грн</p>
+                <div data-thumb="img/main_item_4.png" data-src="img/main_item_4.png"><a href="#"></a>
+                </div>
+                <div data-thumb="img/main_item_5.png" data-src="img/main_item_5.png"><a href="#"></a>
+                </div>
+                <div data-thumb="img/main_item_6.png" data-src="img/main_item_6.png"><a href="#"></a>
                 </div>
             </div>
 
@@ -9997,10 +9997,10 @@
 </section>
 
 <section class="about_room" id="link_room_1">
-    <div class="container-fluid left-padding">
+    <div class="container-fluid left-padding enjyr">
+        <h2 class="hall-name">Зал №1 “Пляж”</h2>
         <div class="">
-            <h2>Зал №1 “Пляж”</h2>
-            <div class="row">
+            <div class="row-flex">
                 <div class="col-md-12 div_menu">
                     <div class="main_content_item">
                         <div class="row">
@@ -10032,7 +10032,7 @@
                                     <div class="col-xl-1 col-sm-1 center">
                                         <img class="img_girl" src="img\main_svg\paired.svg">
                                     </div>
-                                    <div class="col-xl-11 col-sm-11 main_row_text main_row_text_2">
+                                    <div class="col-xl-11 col-sm-11 main_row_text main_row_text_2 main_row_text_iniq">
                                         <span class="main_title">Парные:</span>
                                         <span class="main_title_info grey_color">Руская баня</span>
                                     </div>
@@ -10195,6 +10195,15 @@
                     </div>
                 </div>
             </div>
+
+            <h2 class="maps-h2 two-h2">Описание </h2>
+
+            <p class="description-maps-one"> В отдельном симпатичном домике на территории отеля расположилась баня.
+                Русская баня на дровах. Внутри есть бассейн с
+                проточной горной водой, снаружи - бассейн. Веники и полотенца - в обязательном порядке. Домик
+                двухэтажный, разделенный
+                на два пространства: собственно бани и комнаты отдыха (рассчитанные на 10 гостей). Есть внешние лестницы
+                на второй этаж. </p>
         </div>
     </div>
 </section>
@@ -10205,26 +10214,19 @@
     <div class="container-fluid left-padding">
         <div class="row">
 
-            <div class="recommended_slider recommended_2">
-                <div class="col-xl-12 recommended-item">
-                    <img class="img-item" src="img/rec-1.png" alt="">
-                    <p class="recommended-item-title">Царь Баня</p>
-                    <p class="recommended-item-price"> от 150грн </p>
+            <div class="fluid_dg_wrap fluid_dg_emboss pattern_1 fluid_dg_white_skin"
+                 id="fluid_dg_wrap_12">
+                <div data-thumb="img/rec-1.png" data-src="img/rec-1.png"><a href="#"></a>
                 </div>
-                <div class="col-xl-12 recommended-item">
-                    <img class="img-item" src="img/rec-2.png" alt="">
-                    <p class="recommended-item-title">Шикарная русская баня</p>
-                    <p class="recommended-item-price">от 160грн </p>
+                <div data-thumb="img/rec-2.png" data-src="img/rec-2.png"><a href="#"></a>
                 </div>
-                <div class="col-xl-12 recommended-item">
-                    <img class="img-item" src="img/rec-3.png" alt="">
-                    <p class="recommended-item-title">Баня в Карпатах </p>
-                    <p class="recommended-item-price">от 135грн</p>
+                <div data-thumb="img/main_item_3.png" data-src="img/main_item_3.png"><a href="#"></a>
                 </div>
-                <div class="col-xl-12 recommended-item">
-                    <img class="img-item" src="img/rec-4.png" alt="">
-                    <p class="recommended-item-title"> Русская баня</p>
-                    <p class="recommended-item-price">от 150грн </p>
+                <div data-thumb="img/main_item_4.png" data-src="img/main_item_4.png"><a href="#"></a>
+                </div>
+                <div data-thumb="img/main_item_5.png" data-src="img/main_item_5.png"><a href="#"></a>
+                </div>
+                <div data-thumb="img/main_item_6.png" data-src="img/main_item_6.png"><a href="#"></a>
                 </div>
             </div>
 
@@ -10261,10 +10263,10 @@
 </section>
 
 <section class="about_room" id="link_room_2">
-    <div class="container-fluid left-padding">
+    <div class="container-fluid left-padding enjyr">
+        <h2 class="hall-name">Зал №2 “Виктория”</h2>
         <div class="">
-            <h2>Зал №2 “Виктория”</h2>
-            <div class="row">
+            <div class="row-flex">
                 <div class="col-md-12 div_menu">
                     <div class="main_content_item">
                         <div class="row">
@@ -10296,7 +10298,7 @@
                                     <div class="col-xl-1 col-sm-1 center">
                                         <img class="img_girl" src="img\main_svg\paired.svg">
                                     </div>
-                                    <div class="col-xl-11 col-sm-11 main_row_text main_row_text_2">
+                                    <div class="col-xl-11 col-sm-11 main_row_text main_row_text_2 main_row_text_iniq">
                                         <span class="main_title">Парные:</span>
                                         <span class="main_title_info grey_color">Руская баня</span>
                                     </div>
@@ -10313,150 +10315,149 @@
                                 </div>
 
                             </div>
-                            <div class="main_categories">
-                                <div class="main_categories_item">
-                                    <div class="div_main_categories">
-                                        <img class="main_categories_img" src="img\main_svg\table.svg">
-                                        <span class="main_categories_title">Стол:</span>
-                                    </div>
-                                    <div class="div_categories_item">
-                                        <a href="#">На 4-10 персон</a>
-                                    </div>
-                                </div>
-                                <div class="main_categories_item">
-                                    <div class="div_main_categories">
-                                        <img class="main_categories_img" src="img\main_svg\for_cooking.svg">
-                                        <span class="main_categories_title">Для приготовления:</span>
-                                    </div>
-                                    <div class="div_categories_item">
-                                        <a href="#">Мангал</a>
-                                        <a href="#">Кухня в вашем распоряжении</a>
-                                    </div>
-                                </div>
-                                <div class="main_categories_item">
-                                    <div class="div_main_categories">
-                                        <img class="main_categories_img" src="img\main_svg\living_room.svg">
-                                        <span class="main_categories_title">Гостиная:</span>
-                                    </div>
-                                    <div class="div_categories_item">
-                                        <a href="#">Диваны</a>
-                                        <a href="#">Телевизор</a>
-                                    </div>
-                                </div>
-                                <div class="main_categories_item">
-                                    <div class="div_main_categories">
-                                        <img class="main_categories_img" src="img\main_svg\entertainment.svg">
-                                        <span class="main_categories_title">Развлечения:</span>
-                                    </div>
-                                    <div class="div_categories_item">
-                                        <a href="#">Бильярд</a>
-                                        <a href="#">Телевизор</a>
-                                        <a href="#">Интернет</a>
-                                    </div>
-                                </div>
-                                <div class="main_categories_item">
-                                    <div class="div_main_categories">
-                                        <img class="main_categories_img" src="img\main_svg\sockets.svg">
-                                        <span class="main_categories_title">Розетки:</span>
-                                    </div>
-                                    <div class="div_categories_item">
-                                        <a href="#">6-10 розеток</a>
-                                    </div>
-                                </div>
-                                <div class="main_categories_item">
-                                    <div class="div_main_categories">
-                                        <img class="main_categories_img" src="img\main_svg\water_procedures.svg">
-                                        <span class="main_categories_title">Водные процедуры:</span>
-                                    </div>
-                                    <div class="div_categories_item">
-                                        <a href="#">Душ</a>
-                                        <a href="#">Бассейн</a>
-                                    </div>
-                                </div>
-                                <div class="main_categories_item">
-                                    <div class="div_main_categories">
-                                        <img class="main_categories_img" src="img\main_svg\massage_equipment.svg">
-                                        <span class="main_categories_title">Массажное оборудование:</span>
-                                    </div>
-                                    <div class="div_categories_item">
-                                        <a href="#">Массажная комната</a>
-                                        <a href="#">Массажный стол</a>
-                                        <a href="#">Массажные подушки</a>
-                                        <a href="#">Массажные накидки</a>
-                                        <a href="#">Ручные массажеры</a>
-                                    </div>
-                                </div>
-                                <div class="main_categories_item">
-                                    <div class="div_main_categories">
-                                        <img class="main_categories_img" src="img\main_svg\forbidden.svg">
-                                        <span class="main_categories_title">Запрещено:</span>
-                                    </div>
-                                    <div class="div_categories_item">
-                                        <a href="#">Парение вениками</a>
-                                        <a href="#">Расспивание алкоголя</a>
-                                        <a href="#">Приносить еду с собой</a>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="main_categories">
+                        <div class="main_categories_item">
+                            <div class="div_main_categories">
+                                <img class="main_categories_img" src="img\main_svg\table.svg">
+                                <span class="main_categories_title">Стол:</span>
                             </div>
-
-                            <div class="test_plagin">
-                                <div class="fluid_container">
-                                    <div class="main_galery">
-                                        <div class="fluid_dg_wrap fluid_dg_emboss pattern_1 fluid_dg_white_skin"
-                                             id="fluid_dg_wrap_3">
-                                            <div data-thumb="img/main_item.png" class="" data-src="img/main_item.png"><a
-                                                    href="#"></a></div>
-                                            <div data-thumb="img/main_item_2.png" data-src="img/main_item_2.png"><a
-                                                    href="#"></a></div>
-                                            <div data-thumb="img/main_item_3.png" data-src="img/main_item_3.png"><a
-                                                    href="#"></a></div>
-                                            <div data-thumb="img/main_item_4.png" data-src="img/main_item_4.png"><a
-                                                    href="#"></a></div>
-                                            <div data-thumb="img/main_item_5.png" data-src="img/main_item_5.png"><a
-                                                    href="#"></a></div>
-                                            <div data-thumb="img/main_item_6.png" data-src="img/main_item_6.png"><a
-                                                    href="#"></a></div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="div_categories_item">
+                                <a href="#">На 4-10 персон</a>
                             </div>
+                        </div>
+                        <div class="main_categories_item">
+                            <div class="div_main_categories">
+                                <img class="main_categories_img" src="img\main_svg\for_cooking.svg">
+                                <span class="main_categories_title">Для приготовления:</span>
+                            </div>
+                            <div class="div_categories_item">
+                                <a href="#">Мангал</a>
+                                <a href="#">Кухня в вашем распоряжении</a>
+                            </div>
+                        </div>
+                        <div class="main_categories_item">
+                            <div class="div_main_categories">
+                                <img class="main_categories_img" src="img\main_svg\living_room.svg">
+                                <span class="main_categories_title">Гостиная:</span>
+                            </div>
+                            <div class="div_categories_item">
+                                <a href="#">Диваны</a>
+                                <a href="#">Телевизор</a>
+                            </div>
+                        </div>
+                        <div class="main_categories_item">
+                            <div class="div_main_categories">
+                                <img class="main_categories_img" src="img\main_svg\entertainment.svg">
+                                <span class="main_categories_title">Развлечения:</span>
+                            </div>
+                            <div class="div_categories_item">
+                                <a href="#">Бильярд</a>
+                                <a href="#">Телевизор</a>
+                                <a href="#">Интернет</a>
+                            </div>
+                        </div>
+                        <div class="main_categories_item">
+                            <div class="div_main_categories">
+                                <img class="main_categories_img" src="img\main_svg\sockets.svg">
+                                <span class="main_categories_title">Розетки:</span>
+                            </div>
+                            <div class="div_categories_item">
+                                <a href="#">6-10 розеток</a>
+                            </div>
+                        </div>
+                        <div class="main_categories_item">
+                            <div class="div_main_categories">
+                                <img class="main_categories_img" src="img\main_svg\water_procedures.svg">
+                                <span class="main_categories_title">Водные процедуры:</span>
+                            </div>
+                            <div class="div_categories_item">
+                                <a href="#">Душ</a>
+                                <a href="#">Бассейн</a>
+                            </div>
+                        </div>
+                        <div class="main_categories_item">
+                            <div class="div_main_categories">
+                                <img class="main_categories_img" src="img\main_svg\massage_equipment.svg">
+                                <span class="main_categories_title">Массажное оборудование:</span>
+                            </div>
+                            <div class="div_categories_item">
+                                <a href="#">Массажная комната</a>
+                                <a href="#">Массажный стол</a>
+                                <a href="#">Массажные подушки</a>
+                                <a href="#">Массажные накидки</a>
+                                <a href="#">Ручные массажеры</a>
+                            </div>
+                        </div>
+                        <div class="main_categories_item">
+                            <div class="div_main_categories">
+                                <img class="main_categories_img" src="img\main_svg\forbidden.svg">
+                                <span class="main_categories_title">Запрещено:</span>
+                            </div>
+                            <div class="div_categories_item">
+                                <a href="#">Парение вениками</a>
+                                <a href="#">Расспивание алкоголя</a>
+                                <a href="#">Приносить еду с собой</a>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="test_plagin">
+                        <div class="fluid_container">
                             <div class="main_galery">
-                                <div class="row">
-                                    <div class="col-xl-4 main_galery_item">
-                                        <a href="#">
-                                            <img src="img/main_item.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-xl-4 main_galery_item">
-                                        <a href="#">
-                                            <img src="img/main_item_2.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-xl-4 main_galery_item">
-                                        <a href="#">
-                                            <img src="img/main_item_3.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-xl-4 main_galery_item">
-                                        <a href="#">
-                                            <img src="img/main_item_4.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-xl-4 main_galery_item">
-                                        <a href="#">
-                                            <img src="img/main_item_5.png">
-                                        </a>
-                                    </div>
-                                    <div class="col-xl-4 main_galery_item">
-                                        <a href="#">
-                                            <img src="img/main_item_6.png">
-                                        </a>
-                                    </div>
+                                <div class="fluid_dg_wrap fluid_dg_emboss pattern_1 fluid_dg_white_skin"
+                                     id="fluid_dg_wrap_3">
+                                    <div data-thumb="img/main_item.png" class="" data-src="img/main_item.png"><a
+                                            href="#"></a></div>
+                                    <div data-thumb="img/main_item_2.png" data-src="img/main_item_2.png"><a
+                                            href="#"></a></div>
+                                    <div data-thumb="img/main_item_3.png" data-src="img/main_item_3.png"><a
+                                            href="#"></a></div>
+                                    <div data-thumb="img/main_item_4.png" data-src="img/main_item_4.png"><a
+                                            href="#"></a></div>
+                                    <div data-thumb="img/main_item_5.png" data-src="img/main_item_5.png"><a
+                                            href="#"></a></div>
+                                    <div data-thumb="img/main_item_6.png" data-src="img/main_item_6.png"><a
+                                            href="#"></a></div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
+                    <div class="main_galery">
+                        <div class="row">
+                            <div class="col-xl-4 main_galery_item">
+                                <a href="#">
+                                    <img src="img/main_item.png">
+                                </a>
+                            </div>
+                            <div class="col-xl-4 main_galery_item">
+                                <a href="#">
+                                    <img src="img/main_item_2.png">
+                                </a>
+                            </div>
+                            <div class="col-xl-4 main_galery_item">
+                                <a href="#">
+                                    <img src="img/main_item_3.png">
+                                </a>
+                            </div>
+                            <div class="col-xl-4 main_galery_item">
+                                <a href="#">
+                                    <img src="img/main_item_4.png">
+                                </a>
+                            </div>
+                            <div class="col-xl-4 main_galery_item">
+                                <a href="#">
+                                    <img src="img/main_item_5.png">
+                                </a>
+                            </div>
+                            <div class="col-xl-4 main_galery_item">
+                                <a href="#">
+                                    <img src="img/main_item_6.png">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -10465,8 +10466,8 @@
 </section>
 
 <section class="maps" id="link_description_2">
-    <div class="container-fluid left-padding padding-regt">
-        <div class="row">
+    <div class="container-fluid left-padding padding-regt maps-ber">
+        <div class="row-flex">
             <h2 class="maps-h2">Описание </h2>
 
             <p class="description-maps-one"> В отдельном симпатичном домике на территории отеля расположилась баня.
@@ -10504,26 +10505,19 @@
 
     <div class="container-fluid left-padding">
         <div class="row">
-            <div class="recommended_slider recommended_3">
-                <div class="col-xl-12 recommended-item">
-                    <img class="img-item" src="img/rec-1.png" alt="">
-                    <p class="recommended-item-title">Царь Баня</p>
-                    <p class="recommended-item-price"> от 150грн</p>
+            <div class="fluid_dg_wrap fluid_dg_emboss pattern_1 fluid_dg_white_skin"
+                 id="fluid_dg_wrap_13">
+                <div data-thumb="img/rec-1.png" data-src="img/rec-1.png"><a href="#"></a>
                 </div>
-                <div class="col-xl-12 recommended-item">
-                    <img class="img-item" src="img/rec-2.png" alt="">
-                    <p class="recommended-item-title">Шикарная русская баня</p>
-                    <p class="recommended-item-price">от 160грн</p>
+                <div data-thumb="img/rec-2.png" data-src="img/rec-2.png"><a href="#"></a>
                 </div>
-                <div class="col-xl-12 recommended-item">
-                    <img class="img-item" src="img/rec-3.png" alt="">
-                    <p class="recommended-item-title">Баня в Карпатах </p>
-                    <p class="recommended-item-price">от 135грн</p>
+                <div data-thumb="img/main_item_3.png" data-src="img/main_item_3.png"><a href="#"></a>
                 </div>
-                <div class="col-xl-12 recommended-item">
-                    <img class="img-item" src="img/rec-4.png" alt="">
-                    <p class="recommended-item-title"> Русская баня</p>
-                    <p class="recommended-item-price">от 150грн</p>
+                <div data-thumb="img/main_item_4.png" data-src="img/main_item_4.png"><a href="#"></a>
+                </div>
+                <div data-thumb="img/main_item_5.png" data-src="img/main_item_5.png"><a href="#"></a>
+                </div>
+                <div data-thumb="img/main_item_6.png" data-src="img/main_item_6.png"><a href="#"></a>
                 </div>
             </div>
 
@@ -10580,10 +10574,10 @@
                     <hr>
 
                     <div class="feedback">
-                        <div class="block-gre-1 col-lg-1 col-md-1 col-xs-1 col-sm-1">
+                        <div class="block-gre-1 col-lg-1 col-md-1 col-1 col-sm-1">
                             <img src="img/ghost.png" alt="logo-img">
                         </div>
-                        <div class="bloc-gre-2 col-lg-11 col-md-11 col-xs-11 col-sm-11">
+                        <div class="bloc-gre-2 col-lg-11 col-md-11 col-11 col-sm-11">
                             <p class="name">Anna 111</p>
                             <p class="message">Очень понравилось</p>
                             <p class="data">2 часа назад</p>
@@ -10593,11 +10587,11 @@
                     <hr>
 
                     <div class="feedback">
-                        <div class="block-gre-1 col-lg-1 col-md-1 col-xs-1 col-sm-1">
+                        <div class="block-gre-1 col-lg-1 col-md-1 col-sm-1 col-1 ">
                             <img src="img/ghost.png" alt="logo-img">
                         </div>
 
-                        <div class="bloc-gre-2 col-lg-11 col-md-11 col-xs-11 col-sm-11">
+                        <div class="bloc-gre-2 col-lg-11 col-md-11 col-sm-11 col-11 ">
                             <p class="name">Saha L</p>
                             <p class="message">Был с друзьями, не очень хорошее заведение. Рекомендую.</p>
                             <p class="data">3 дня назад</p>
@@ -10608,10 +10602,10 @@
 
                     <div class="new-block-feed">
                         <div class="feedback re-feed">
-                            <div class="block-gre-1 col-lg-1 col-md-1 col-xs-1 col-sm-1">
+                            <div class="block-gre-1 col-lg-1 col-md-1 col-1 col-sm-1">
                                 <img src="img/ghost.png" alt="logo-img">
                             </div>
-                            <div class="bloc-gre-2 col-lg-11 col-md-11 col-xs-11 col-sm-11">
+                            <div class="bloc-gre-2 col-lg-11 col-md-11 col-11 col-sm-11">
                                 <p class="name">Администрация бани / сауны</p>
                                 <p class="message"><b>Saha L,</b>Нам очень жаль.</p>
                                 <p class="data">3 дня назад</p>
@@ -10623,15 +10617,25 @@
 
                     <form class="feed" action="index.html" method="post">
                         <p class="review-p">Чтобы оставить отзыв, выберите его тип</p>
-                        <div class="input-spn-btn">
-                            <input class="radio-btn" type="radio" id="like">
-                            <span class="class-like">Похвала </span>
+
+                        <div>
+                            <label class="input-spn-btn">
+                                <input class="radio" type="radio" name="radio-test">
+                                <span class="radio-custom"></span>
+                                <span class="label class-like">Похвала</span>
+                            </label>
                         </div>
 
-                        <div class="input-spn-btn">
-                            <input class="radio-btn" type="radio" id="dislike">
-                            <span class="report">Жалоба </span>
+
+
+                        <div>
+                            <label class="input-spn-btn">
+                                <input class="radio radio-2" type="radio" name="radio-test">
+                                <span class="radio-custom spu3"></span>
+                                <span class="label report">Жалоба</span>
+                            </label>
                         </div>
+
 
                         <div class="area-class">
                             <textarea name="comment" cols="40" rows="3"></textarea>
@@ -10650,8 +10654,8 @@
 </section>
 
 <section class="analytics" id="link_analytics">
-    <div class="container-fluid left-padding">
-        <div class="row">
+    <div class="container-fluid left-padding enjyr">
+        <div class="flex-row">
 
             <div class="items col-md-12">
                 <div class="block-data">
@@ -10725,7 +10729,7 @@
 
                         <div class="footer-wrapper-languages">
                             <p class="footer-languages-text">Язык</p>
-                            <p class="footer-languages-button"><a class="" href="">рус.</a></p>
+                            <p class="footer-languages-button no-active"><a class="" href="">рус.</a></p>
                             <p class="footer-languages-button active"><a href="">укр.</a></p>
                         </div>
 
@@ -10736,7 +10740,7 @@
                             <p><a href=""><img src="img/footer/rss.png" alt=""></a></p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6 menu-foot">
                         <div class="footer-wrapper-headings">
                             <h5 class="footer-heading">ПОЛЬЗОВАТЕЛЯМ</h5>
                             <hr>
@@ -10748,7 +10752,7 @@
                             <p>Личный кабинет</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6 menu-foot">
                         <div class="footer-wrapper-headings">
                             <h5 class="footer-heading">ДЛЯ БАННОГО БИЗНЕСА</h5>
                             <hr>
@@ -10763,7 +10767,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="footer-wrapper-headings"></div>
+                        <div class="footer-wrapper-headings empty-head"></div>
 
                         <div class="footer-services">
                             <p>Оферта</p>
@@ -10854,8 +10858,6 @@
     loadCSS("_main.css");                //User Styles: Main
     loadCSS("_media.css");               //User Styles: Media
     loadCSS("libs/fancybox-master/dist/jquery.fancybox.min.css");
-    loadCSS("libs/slick-slide/slick.css");
-    loadCSS("libs/slick-slide/slick-theme.css");
     loadCSS("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
 </script>
 
@@ -10876,8 +10878,6 @@ ms.rel = "stylesheet";
         {"src": "libs/fluid_dg/fluid_dg.min.js", "async": false},
         {"src": "libs/fluid_dg/jquery.easing.1.3.js", "async": false},
         {"src": "libs/fluid_dg/jquery.mobile.customized.min.js", "async": false},
-//        {"src": "libs/fancybox-master/dist/jquery.fancybox.min.js", "async": false},
-        {"src": "js/slick.min.js", "async": false},
         {"src": "js/common.js", "async": false}
     ]
 };

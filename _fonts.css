@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i&subset=cyrillic,cyrillic-ext');
+
 @font-face {
 	font-family: "RobotoRegular";
 	src: url("fonts/RobotoRegular/RobotoRegular.eot");
@@ -21,7 +23,6 @@
 	src: url('fonts/roboto-medium.ttf');
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /*@font-face {
 	font-family: 'MyriadPro-Regular';

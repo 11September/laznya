@@ -1,7 +1,6 @@
 $(document).ready(function() {
     $(".mobile-btn").click(function () {
-        $(".menu-list").slideToggle();
-        $(".menu-list").removeClass('hider');
+        $(".menu-list").toggleClass('hider');
     });
 
     $(".menu-list").on("click","a", function (event) {
@@ -63,8 +62,8 @@ jQuery(document).ready(function(){
         jQuery('#fluid_dg_wrap_4').fluid_dg({
         	height: 'auto', 
         	loader: 'bar', 
-        	pagination: false, 
-        	thumbnails: true, 
+        	pagination: true,
+        	thumbnails: true,
         	hover: false, 
         	opacityOnGrid: false, 
         	imagePath: ''});
@@ -76,7 +75,7 @@ jQuery(document).ready(function(){
         jQuery('#fluid_dg_wrap_3').fluid_dg({
         	height: 'auto', 
         	loader: 'bar', 
-        	pagination: false, 
+        	pagination: true,
         	thumbnails: true, 
         	hover: false, 
         	opacityOnGrid: false, 
@@ -89,11 +88,50 @@ jQuery(document).ready(function(){
         jQuery('#fluid_dg_wrap_2').fluid_dg({
         	height: 'auto', 
         	loader: 'bar', 
-        	pagination: false, 
+        	pagination: true,
         	thumbnails: true, 
-        	hover: false, 
+        	hover: false,
         	opacityOnGrid: false, 
         	imagePath: ''});
+    });  
+})
+
+jQuery(document).ready(function(){
+    jQuery(function(){          
+        jQuery('#fluid_dg_wrap_11').fluid_dg({
+            height: '200px', 
+            loader: 'bar', 
+            pagination: true,
+            thumbnails: false, 
+            hover: false,
+            opacityOnGrid: false, 
+            imagePath: ''});
+    });  
+})
+
+jQuery(document).ready(function(){
+    jQuery(function(){          
+        jQuery('#fluid_dg_wrap_12').fluid_dg({
+            height: '200px', 
+            loader: 'bar', 
+            pagination: true,
+            thumbnails: false, 
+            hover: false,
+            opacityOnGrid: false, 
+            imagePath: ''});
+    });  
+})
+
+jQuery(document).ready(function(){
+    jQuery(function(){          
+        jQuery('#fluid_dg_wrap_13').fluid_dg({
+            height: '200px', 
+            loader: 'bar', 
+            pagination: true,
+            thumbnails: false, 
+            hover: false,
+            opacityOnGrid: false, 
+            imagePath: ''});
     });  
 })
 
@@ -102,10 +140,46 @@ jQuery(document).ready(function(){
         jQuery('#main_slider').fluid_dg({
             height: '900px', 
             loader: 'bar', 
-            pagination: false, 
+            pagination: false,
             thumbnails: false, 
             hover: false, 
             opacityOnGrid: false, 
             imagePath: ''});
     });  
 })
+
+// $('.recommended_1').slick({
+//      dots: false,
+//      arrows: true,
+//      prevArrow: "<img class='slick-prev' src='img/slick_slider_left.png'>",
+//      nextArrow: "<img class='slick-next' src='img/slick_slider_right.png'>",
+//      focusOnSelect: false,
+//      infinite: false,
+//      rows: 1,
+//      slidesToShow: 1,
+//      initialSlide: 0,
+//  });
+
+// $('.recommended_2').slick({
+//      dots: false,
+//      arrows: true,
+//      prevArrow: "<img class='slick-prev' src='img/slick_slider_left.png'>",
+//      nextArrow: "<img class='slick-next' src='img/slick_slider_right.png'>",
+//      focusOnSelect: false,
+//      infinite: false,
+//      rows: 1,
+//      slidesToShow: 1,
+//      initialSlide: 0,
+//  });
+
+// $('.recommended_3').slick({
+//      dots: false,
+//      arrows: true,
+//      prevArrow: "<img class='slick-prev' src='img/slick_slider_left.png'>",
+//      nextArrow: "<img class='slick-next' src='img/slick_slider_right.png'>",
+//      focusOnSelect: false,
+//      infinite: false,
+//      rows: 1,
+//      slidesToShow: 1,
+//      initialSlide: 0,
+//  });
